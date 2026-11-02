@@ -1,10 +1,12 @@
 # ReleasePulse
 
+**Live demo:** [benchengai.github.io/demos/releasepulse](https://benchengai.github.io/demos/releasepulse/) (static, no API key; synthetic apps, real pipeline outputs)
+
 Turn app-store reviews and issue tickets into per-release, per-feature
 evidence for prioritisation: which features users complain about or praise,
 whether a release made something worse, how sure that is, and the quotes
 behind every number. The top issues export as candidate requirements for an
-[ElicitSense](../elicitsense) register.
+[ElicitSense](https://github.com/benchengai/elicitsense) register.
 
 Portfolio app 3 of 5 built from the systematic mapping study *Emotions in
 Software Engineering* (57 studies). It targets the map's decision-making ×
