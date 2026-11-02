@@ -61,7 +61,7 @@ def print_summary(a: dict) -> None:
           f"cost {cost}, {llm['wall_s']}s")
 
 
-def web_payload(a: dict, results: dict | None = None) -> dict:
+def web_payload(a: dict, results: dict | None = None, role: str = "evaluation") -> dict:
     """What the static demo needs: everything except per-call logs."""
     keep = ("notice", "app", "generated", "model", "embedding_model", "settings", "releases", "items", "features",
             "flags", "flags_without_dedupe", "raw_flags", "priority", "requirements", "extraction", "llm")
@@ -71,7 +71,8 @@ def web_payload(a: dict, results: dict | None = None) -> dict:
     if out["requirements"]:
         out["requirements"] = {**out["requirements"], "llm": []}
     if results:
-        out["evaluation"] = results
+        out["evaluation"] = {"role": role, "runs_per_model": results["runs_per_model"],
+                             "models": {spec: m["summary"] for spec, m in results["models"].items()}}
     return out
 
 
@@ -91,7 +92,8 @@ def main(argv: list[str] | None = None) -> int:
 
     p = sub.add_parser("run", help="analyse a feedback CSV or a dataset folder")
     p.add_argument("dataset", type=Path, help="folder with feedback.csv (and releases.csv), or a CSV file")
-    p.add_argument("-m", "--model", default=DEFAULT_MODEL, help=f"provider:model (default {DEFAULT_MODEL})")
+    p.add_argument("-m", "--model", default=DEFAULT_MODEL,
+                   help=f"provider:model, or extract>organise to route the steps (default {DEFAULT_MODEL})")
     p.add_argument("-o", "--out", type=Path, help="run folder (default runs/<dataset>/<model>)")
     p.add_argument("--releases", type=Path, help="releases CSV (version, date, notes)")
     p.add_argument("--product", help="one line naming the product, given to the model")
@@ -126,6 +128,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("analysis", type=Path)
     p.add_argument("-o", "--out", type=Path, required=True)
     p.add_argument("--results", type=Path, help="bench results.json to include as the evaluation summary")
+    p.add_argument("--role", default="evaluation", help='what the set is, for the page: "held-out" or "development"')
 
     args = ap.parse_args(argv)
 
@@ -143,7 +146,7 @@ def main(argv: list[str] | None = None) -> int:
         from .pipeline import analyse, load_dataset
 
         ds = load_dataset(args.dataset, args.releases, args.product)
-        out = args.out or RUNS_DIR / ds["name"] / args.model.replace(":", "_")
+        out = args.out or RUNS_DIR / ds["name"] / args.model.replace(":", "_").replace(">", "__")
         a = analyse(ds, args.model, out, threshold=args.threshold or THRESHOLD, cache=EmbeddingCache(EMBEDDING_CACHE),
                     workers=args.workers, word_requirements=not args.no_requirements,
                     normalise_features=not args.no_normalise)
@@ -202,7 +205,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.cmd == "web-export":
         results = _read(args.results) if args.results else None
-        _write(args.out, web_payload(_read(args.analysis), results), indent=None)
+        _write(args.out, web_payload(_read(args.analysis), results, args.role), indent=None)
         return 0
     return 1
 

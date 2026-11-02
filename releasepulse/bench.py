@@ -16,12 +16,12 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from .evaluate import oracle, score
-from .llm import EmbeddingCache
+from .llm import EmbeddingCache, parse_route
 from .pipeline import analyse, load_dataset
 
 
 def slug(spec: str) -> str:
-    return spec.replace(":", "_").replace("/", "_")
+    return spec.replace(":", "_").replace("/", "_").replace(">", "__")
 
 
 def _read(path: Path) -> dict:
@@ -126,7 +126,7 @@ def bench(app_dir: Path, specs: list[str], runs: int, out_root: Path, cache_path
 
     def job(spec_k):
         spec, k = spec_k
-        reuse = extraction_from / slug(spec) / f"run{k}" / "extract" if extraction_from else None
+        reuse = extraction_from / slug(parse_route(spec)[0]) / f"run{k}" / "extract" if extraction_from else None
         row = run_once(dataset, spec, out_root / slug(spec) / f"run{k}", cache, workers, normalise_features, reuse)
         print(f"  {spec} run {k}: {'ok' if row['ok'] else 'FAILED'} "
               f"(${row.get('cost_usd') or 0:.3f}, {row.get('latency_s', 0):.0f}s)", flush=True)
@@ -177,7 +177,8 @@ def render_markdown(results: dict) -> str:
     lines = [
         f"### {results['app']}: {results['runs_per_model']} runs per model",
         "",
-        "Mean across successful runs, range in brackets. Cost and time are per full pipeline run "
+        "Mean across successful runs, range in brackets. `a>b` extracts with a, and merges features and words "
+        "requirements with b. Cost and time are per full pipeline run "
         "(every item extracted, aspects embedded and clustered, "
         + ("clusters merged and named, " if results.get("normalised", False) else "")
         + "requirements worded). Time is the sum of call latencies; wall time is with 4 extraction calls in flight."

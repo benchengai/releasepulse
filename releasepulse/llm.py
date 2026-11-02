@@ -25,7 +25,7 @@ import numpy as np
 
 from .pricing import cost_usd
 
-DEFAULT_MODEL = "openai:gpt-6.1-terra"
+DEFAULT_MODEL = "openai:gpt-6-luna>openai:gpt-6.1-sol"
 EMBEDDING_MODEL = "openai:text-embedding-3-small"
 PROVIDERS = ("openai",)
 
@@ -35,11 +35,19 @@ class LLMError(RuntimeError):
 
 
 def parse_model_spec(spec: str) -> tuple[str, str]:
-    """'openai:gpt-6-luna' -> ('openai', 'gpt-6-luna')."""
+    """'openai:gpt-6-luna' -> ('openai', 'gpt-6-luna'). A routed spec ('a>b') is split
+    with parse_route first."""
     provider, sep, model = spec.partition(":")
     if not sep or provider not in PROVIDERS or not model:
         raise ValueError(f"model spec must be provider:model with provider in {PROVIDERS}: {spec!r}")
     return provider, model
+
+
+def parse_route(spec: str) -> tuple[str, str]:
+    """'a>b' extracts with model a and organises (merges features, words requirements)
+    with model b; a plain spec uses one model for both."""
+    extract_spec, _, organise_spec = spec.partition(">")
+    return extract_spec, organise_spec or extract_spec
 
 
 def load_dotenv(path: Path) -> None:

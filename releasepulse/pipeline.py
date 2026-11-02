@@ -25,7 +25,7 @@ from . import requirements as req
 from .cluster import THRESHOLD, cluster_aspects
 from .extract import extract_items
 from .ingest import prepare
-from .llm import EMBEDDING_MODEL, EmbeddingCache, LLMError
+from .llm import EMBEDDING_MODEL, EmbeddingCache, LLMError, parse_route
 from .prioritise import all_tables
 from .trends import CLASSES, MIN_COUNT, RAW_MIN_INCREASE, RAW_MIN_RATIO, build_counts, detect, detect_raw, \
     quotes_for, series
@@ -73,18 +73,20 @@ def analyse(dataset: dict, spec: str, out: Path, threshold: float = THRESHOLD, c
     """`extract_dir` reads (and fills) extraction batches from another run's folder,
     so later steps can be compared on identical extraction outputs."""
     started = time.perf_counter()
+    extract_spec, organise_spec = parse_route(spec)
     prepared = prepare(dataset["items_csv"], dataset["releases_csv"])
     to_extract = [it for it in prepared["items"] if it["release"] and not it["duplicate_of"]]
-    ex = extract_items(to_extract, spec, extract_dir or out / "extract", dataset["product"], workers)
+    ex = extract_items(to_extract, extract_spec, extract_dir or out / "extract", dataset["product"], workers)
     cl = cluster_aspects(ex["aspects"], threshold, cache)
     calls = ex["calls"] + ([cl["embedding"]] if cl["embedding"] else [])
     if normalise_features and cl["features"]:
-        cl, meta = norm.normalise(cl, ex["aspects"], spec, dataset["product"], _normalise_cache(out))
+        cl, meta = norm.normalise(cl, ex["aspects"], organise_spec, dataset["product"], _normalise_cache(out))
         calls.append({"step": "normalise", **meta})
         _write(out / "normalise_llm.json", {"system": norm.SYSTEM, "prompt": cl["normalisation"]["prompt"],
                                             "grouping": cl["normalisation"]["grouping"], "llm": meta})
     _write(out / "aspects.json", {"aspects": ex["aspects"], "rejected": ex["rejected"], "missing": ex["missing"]})
-    analysis = assemble(dataset, prepared, ex, cl, spec, calls, out if word_requirements else None, export_top)
+    analysis = assemble(dataset, prepared, ex, cl, spec, calls, out if word_requirements else None, export_top,
+                        organise_spec)
     analysis["llm"]["wall_s"] = round(time.perf_counter() - started, 1)
     _write(out / "analysis.json", analysis)
     _write(out / "run.json", {"spec": spec, "ok": len(ex["missing"]) < len(to_extract), "calls": calls,
@@ -117,7 +119,7 @@ def _word(issues: list[dict], tbl: dict, spec: str, dataset: dict, cache_dir: Pa
 
 
 def assemble(dataset: dict, prepared: dict, ex: dict, cl: dict, spec: str, calls: list[dict],
-             word_in: Path | None, export_top: int = req.TOP) -> dict:
+             word_in: Path | None, export_top: int = req.TOP, word_spec: str | None = None) -> dict:
     """Everything after extraction and clustering. `word_in` is the run folder for the
     requirement-wording call; None skips the call and exports nothing."""
     items, releases = prepared["items"], prepared["releases"]
@@ -143,7 +145,7 @@ def assemble(dataset: dict, prepared: dict, ex: dict, cl: dict, spec: str, calls
         tbl = priority["tables"][str(priority["default"])]
         issues = req.top_issues(tbl, export_top)
         try:
-            wording, meta = _word(issues, tbl, spec, dataset, word_in)
+            wording, meta = _word(issues, tbl, word_spec or spec, dataset, word_in)
             if meta:
                 calls.append({"step": "word_requirements", **meta})
             register = req.to_register(issues, wording, tbl, dataset["name"], meta)
