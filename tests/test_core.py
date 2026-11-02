@@ -259,7 +259,7 @@ def test_register_export_has_elicitsense_shape():
     issues = req.top_issues(tbl, 2)
     wording = req.Wording.model_validate({"requirements": [
         {"issue_id": issues[0]["feature"], "statement": "The app shall keep users signed in.",
-         "type": "functional", "rationale": "Many items."}]})
+         "type": "functional"}]})
     reg = req.to_register(issues, wording, tbl, "demo", None)
     assert {"meetings", "active", "open_conflicts", "requirements", "relations", "dropped_links"} <= set(reg)
     (item,) = reg["requirements"]
@@ -268,6 +268,8 @@ def test_register_export_has_elicitsense_shape():
     assert all(ELICITSENSE_EVIDENCE_KEYS <= set(e) for e in item["evidence"]) and item["evidence"]
     assert reg["not_worded"] == [issues[1]["feature"]]
     assert {q["kind"] for q in item["quality"]} == {"missing_acceptance"}
+    c = issues[0]["complaints"]
+    assert item["rationale"].startswith(f"{c['count']} of {c['n']} feedback items in releases 1 to 3")
     assert "Do not describe or judge anyone's emotions" in req.SYSTEM
 
 

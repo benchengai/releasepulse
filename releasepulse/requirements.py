@@ -1,7 +1,7 @@
 """Export the top issues as candidate requirements for ElicitSense's register.
 
-The LLM only words each requirement (statement, type, rationale) from the
-evidence it is shown. Which issues are exported, their evidence, status and
+The LLM only words each requirement (statement and type) from the evidence it
+is shown. Which issues are exported, their evidence, rationale, status and
 uncertainty are decided here: the top rows of the prioritisation table with
 at least THIN complaints, the verified quotes behind them, status "proposed".
 The output has the shape of an ElicitSense register (`requirements` with id,
@@ -31,10 +31,11 @@ is raised and verbatim quotes from users. Write one requirement per issue.
 Rules:
 - statement: one plain-English sentence of the form "The app shall ...", stating what users \
 need, supported by the quotes. Do not invent numbers, limits or causes the quotes do not give.
+- One need per requirement. If the quotes describe several separate needs, write the \
+requirement for the need most of the quotes share.
 - type: "functional" for behaviour the product must have; "non_functional" for performance, \
 reliability, usability and other quality attributes; "constraint" for limits from outside \
 the product.
-- rationale: one sentence summarising the evidence (how many items, which releases).
 - Do not describe or judge anyone's emotions."""
 
 SCHEMA = {
@@ -47,12 +48,11 @@ SCHEMA = {
             "items": {
                 "type": "object",
                 "additionalProperties": False,
-                "required": ["issue_id", "statement", "type", "rationale"],
+                "required": ["issue_id", "statement", "type"],
                 "properties": {
                     "issue_id": {"type": "string"},
                     "statement": {"type": "string"},
                     "type": {"type": "string", "enum": ["functional", "non_functional", "constraint"]},
-                    "rationale": {"type": "string"},
                 },
             },
         },
@@ -64,7 +64,6 @@ class Worded(BaseModel):
     issue_id: str
     statement: str
     type: Literal["functional", "non_functional", "constraint"]
-    rationale: str
 
 
 class Wording(BaseModel):
@@ -103,6 +102,19 @@ def word(issues: list[dict], tbl: dict, spec: str, product: str | None = None) -
     return Wording.model_validate_json(text), meta
 
 
+def rationale(row: dict, tbl: dict) -> str:
+    c = row["complaints"]
+    window = tbl["window"][0] if len(tbl["window"]) == 1 else f"{tbl['window'][0]} to {tbl['window'][-1]}"
+    text = (f"{c['count']} of {c['n']} feedback items in release{'s' if len(tbl['window']) > 1 else ''} {window} "
+            f"complain about {row['name']} ({_pct(c['rate'])}, 95% interval {_pct(c['low'])} to {_pct(c['high'])}); "
+            f"ranked {row['rank']} by the interval's lower bound.")
+    if row["status"] == "regression":
+        text += f" Complaints rose significantly in release {row['since']}."
+    elif row["status"] == "improved":
+        text += f" Complaints fell significantly in release {row['since']}; check whether the fix holds."
+    return text
+
+
 def _uncertainty(row: dict) -> dict:
     c = row["complaints"]
     cues = []
@@ -132,7 +144,7 @@ def to_register(issues: list[dict], wording: Wording | None, tbl: dict, app_id: 
             "id": rid,
             "type": w.type,
             "statement": w.statement,
-            "rationale": w.rationale,
+            "rationale": rationale(r, tbl),
             "acceptance": [],
             "stakeholder": "app users (feedback)",
             "status": "proposed",

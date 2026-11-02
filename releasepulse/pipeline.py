@@ -84,13 +84,15 @@ def analyse(dataset: dict, spec: str, out: Path, threshold: float = THRESHOLD, c
 
 def _word(issues: list[dict], tbl: dict, spec: str, dataset: dict, cache_dir: Path) -> tuple:
     cached = cache_dir / "requirements_llm.json"
-    if cached.exists() and _read(cached)["issues"] == [r["feature"] for r in issues]:
+    key = {"issues": [r["feature"] for r in issues], "prompt": req.render_prompt(issues, tbl, dataset["product"]),
+           "system": req.SYSTEM}
+    if cached.exists() and {k: _read(cached).get(k) for k in key} == key:
         saved = _read(cached)
         return req.Wording.model_validate(saved["wording"]), saved["llm"]
     if not issues:
         return None, None
     wording, meta = req.word(issues, tbl, spec, dataset["product"])
-    _write(cached, {"issues": [r["feature"] for r in issues], "wording": wording.model_dump(), "llm": meta})
+    _write(cached, {**key, "wording": wording.model_dump(), "llm": meta})
     return wording, meta
 
 
