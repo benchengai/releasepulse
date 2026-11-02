@@ -47,12 +47,12 @@ def print_summary(a: dict) -> None:
         print(f"  {f['kind']:<11} {f['release']:>5}  {name:<22} complaints {arrow} "
               f"{_pct(f['previous_rate'])} -> {_pct(f['rate'])}  (difference 95% CI {_pct(f['low'])} to {_pct(f['high'])})")
     tbl = a["priority"]["tables"][str(a["priority"]["default"])]
-    print(f"\nPriority, releases {', '.join(tbl['window'])} ({tbl['volume']} items), ranked by the lower 95% bound "
-          f"of the complaint rate:")
-    print(f"  {'#':>2}  {'feature':<22} {'complaints':>10}  {'rate':>6}  {'95% CI':<15} {'raw rank':>8}  status")
+    print(f"\nPriority, releases {', '.join(tbl['window'])} ({tbl['volume']} items); ranks in one band are not "
+          f"significantly different:")
+    print(f"  {'band':>4} {'#':>2}  {'feature':<22} {'complaints':>10}  {'rate':>6}  {'95% CI':<15} {'raw rank':>8}  status")
     for r in tbl["rows"][:10]:
         c = r["complaints"]
-        print(f"  {r['rank']:>2}  {r['name'][:22]:<22} {c['count']:>4} / {c['n']:<4}  {_pct(c['rate'])}  "
+        print(f"  {r['band']:>4} {r['rank']:>2}  {r['name'][:22]:<22} {c['count']:>4} / {c['n']:<4}  {_pct(c['rate'])}  "
               f"{_pct(c['low'])}-{_pct(c['high'])}  {r['raw_rank']:>8}  {r['status']}"
               + (f" since {r['since']}" if r["since"] else ""))
     llm = a["llm"]
@@ -101,6 +101,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--workers", type=int, default=4)
     p.add_argument("--no-requirements", action="store_true", help="skip wording candidate requirements")
     p.add_argument("--no-normalise", action="store_true", help="keep embedding clusters as features (no LLM merge)")
+    p.add_argument("--extract-dir", type=Path, help="read and write extraction batches here instead of <out>/extract")
 
     p = sub.add_parser("eval", help="score an analysis against planted ground truth")
     p.add_argument("analysis", type=Path)
@@ -149,7 +150,7 @@ def main(argv: list[str] | None = None) -> int:
         out = args.out or RUNS_DIR / ds["name"] / args.model.replace(":", "_").replace(">", "__")
         a = analyse(ds, args.model, out, threshold=args.threshold or THRESHOLD, cache=EmbeddingCache(EMBEDDING_CACHE),
                     workers=args.workers, word_requirements=not args.no_requirements,
-                    normalise_features=not args.no_normalise)
+                    normalise_features=not args.no_normalise, extract_dir=args.extract_dir)
         print_summary(a)
         print(f"wrote {out / 'analysis.json'}")
         return 0

@@ -1,17 +1,26 @@
 """The prioritisation table: one row per feature, every row with its evidence.
 
-Designed against two biases a feedback dashboard invites. Loudness: a raw
-count rewards whoever posts most often and the release that got the most
-reviews, so rows use rates over de-duplicated volume. Recency: the newest
-release has the fewest reviews, so its point estimates swing most, so rows
-are ranked by the lower end of the 95% Wilson interval of the complaint rate
-("at least this share of items complain"), which pulls thin evidence down
-until more feedback arrives. The raw-count rank is shown next to it, never
-used for ordering.
+Designed against two biases a feedback dashboard invites.
 
-A window is the last k releases. The default is the shortest window with at
-least MIN_WINDOW_VOLUME items, so a two-week-old release is read together
-with the one before it.
+Loudness: a raw count rewards whoever posts most often and the release that
+got the most reviews. Rows count de-duplicated items, rates divide by the
+window's de-duplicated volume, and the raw post count (duplicates included)
+is shown beside each row but never used for ordering.
+
+Recency: the newest release has the fewest reviews, so its numbers swing
+most. The default window is the shortest run of latest releases with at least
+MIN_WINDOW_VOLUME items, so a two-week-old release is read together with the
+one before it; the latest release's own rate is shown with its (wide)
+interval; and a rise is called a regression only when it is significant.
+
+Order and bands: within one window every feature shares the same volume, so
+ordering by rate is the same as ordering by de-duplicated count, and a rank
+alone would overstate small differences. Rows are therefore grouped into
+bands: a row starts a new band only when its rate is significantly lower than
+the rate of the first row of the band above (Newcombe's interval for the
+difference excludes zero; the two rates come from the same items, so this
+treats them as independent, an approximation). Ranks inside a band are not
+meaningfully different.
 """
 
 from __future__ import annotations
@@ -45,10 +54,19 @@ def _status(feature: str, flags: list[dict], order: list[str], complaints: int) 
     return {"status": "ongoing", "since": None}
 
 
+def assign_bands(rows: list[dict], n: int) -> None:
+    band, top = 0, None
+    for r in rows:
+        if top is None or newcombe_diff(top["complaints"]["count"], n, r["complaints"]["count"], n)[1] > 0:
+            band, top = band + 1, r
+        r["band"] = band
+
+
 def table(counts: dict, raw_counts: dict, features: list[dict], flags: list[dict], mentions_by_item: dict,
           items_by_id: dict, k: int) -> dict:
     order = counts["releases"]
     window = order[-k:]
+    latest = order[-1]
     before = order[-k - 1] if len(order) > k else None
     n = sum(counts["volume"][v] for v in window)
     names = {f["id"]: f["name"] for f in features}
@@ -70,24 +88,26 @@ def table(counts: dict, raw_counts: dict, features: list[dict], flags: list[dict
             "feature": fid,
             "name": names.get(fid, fid),
             "complaints": complaints,
+            "latest": rate(len(per[latest]["complaints"]), counts["volume"][latest]),
             "praise": rate(len(ids["praise"]), n),
             "requests": len(ids["requests"]),
             "raw_complaint_posts": sum(len(raw.get(v, {}).get("complaints", [])) for v in window),
             "change": change,
             "flags": [f for f in flags if f["feature"] == fid],
             **_status(fid, flags, order, complaints["count"]),
-            "priority": complaints["low"],
             "evidence": quotes_for(fid, newest_first, mentions_by_item, items_by_id, "complaints", EVIDENCE_QUOTES),
             "praise_evidence": quotes_for(fid, ids["praise"], mentions_by_item, items_by_id, "praise", 2),
             "request_evidence": quotes_for(fid, ids["requests"], mentions_by_item, items_by_id, "requests", 2),
         })
-    rows.sort(key=lambda r: (-r["priority"], -r["complaints"]["rate"], r["name"]))
+    rows.sort(key=lambda r: (-r["complaints"]["count"], r["status"] != "regression", -r["latest"]["rate"], r["name"]))
     for i, r in enumerate(rows, start=1):
         r["rank"] = i
+    assign_bands(rows, n)
     by_raw = sorted(rows, key=lambda r: (-r["raw_complaint_posts"], r["name"]))
     for i, r in enumerate(by_raw, start=1):
         r["raw_rank"] = i
-    return {"k": k, "window": window, "baseline": before, "volume": n, "rows": rows}
+    return {"k": k, "window": window, "baseline": before, "volume": n, "latest": latest,
+            "latest_volume": counts["volume"][latest], "rows": rows}
 
 
 def all_tables(counts: dict, raw_counts: dict, features: list[dict], flags: list[dict], mentions_by_item: dict,

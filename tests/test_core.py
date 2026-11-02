@@ -221,23 +221,26 @@ def test_duplicates_count_once_unless_asked():
     assert every["volume"]["2.0"] == 3 and every["features"]["f"]["2.0"]["complaints"] == ["1", "2"]
 
 
-def test_priority_ranks_by_lower_bound_and_shows_raw_rank():
+def test_priority_bands_only_separate_significant_differences():
     items, mentions, releases = _scenario()
     counts = build_counts(mentions, items, releases)
     by_item = {}
     for m in mentions:
         by_item.setdefault(m["item_id"], []).append(m)
     feats = [{"id": f, "name": f} for f in "abc"]
-    tbl = table(counts, counts, feats, detect(counts), by_item, {it["id"]: it for it in items}, k=1)
+    flags = detect(counts)
+    tbl = table(counts, counts, feats, flags, by_item, {it["id"]: it for it in items}, k=1)
     rows = {r["feature"]: r for r in tbl["rows"]}
-    # In release 3, 'b' and 'c' both have 2 of 20; 'a' has 1 of 20 and is flagged improved.
-    assert rows["c"]["complaints"]["rate"] == pytest.approx(0.1)
-    assert rows["c"]["priority"] == pytest.approx(wilson(2, 20)[0])
+    # In release 3: 'b' and 'c' have 2 of 20, 'a' has 1 of 20 and is flagged improved. None differ significantly.
+    assert [r["feature"] for r in tbl["rows"]] == ["b", "c", "a"]
+    assert {r["band"] for r in tbl["rows"]} == {1}
     assert rows["a"]["status"] == "improved" and rows["a"]["since"] == "3"
     assert rows["c"]["status"] == "thin evidence"
     assert all(r["evidence"] for r in tbl["rows"])
-    assert [r["rank"] for r in tbl["rows"]] == [1, 2, 3]
-    assert {r["raw_rank"] for r in tbl["rows"]} == {1, 2, 3}
+    # Over all three releases, 'a' (33 of 170) is significantly above 'b' (17) and 'c' (2).
+    tbl = table(counts, counts, feats, flags, by_item, {it["id"]: it for it in items}, k=3)
+    assert [(r["feature"], r["band"]) for r in tbl["rows"]] == [("a", 1), ("b", 2), ("c", 3)]
+    assert tbl["rows"][0]["latest"]["count"] == 1 and tbl["rows"][0]["latest"]["n"] == 20
 
 
 # --- requirement export -------------------------------------------------------------
@@ -270,6 +273,7 @@ def test_register_export_has_elicitsense_shape():
     assert {q["kind"] for q in item["quality"]} == {"missing_acceptance"}
     c = issues[0]["complaints"]
     assert item["rationale"].startswith(f"{c['count']} of {c['n']} feedback items in releases 1 to 3")
+    assert "band 1" in item["rationale"]
     assert "Do not describe or judge anyone's emotions" in req.SYSTEM
 
 

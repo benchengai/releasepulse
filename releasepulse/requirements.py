@@ -107,7 +107,7 @@ def rationale(row: dict, tbl: dict) -> str:
     window = tbl["window"][0] if len(tbl["window"]) == 1 else f"{tbl['window'][0]} to {tbl['window'][-1]}"
     text = (f"{c['count']} of {c['n']} feedback items in release{'s' if len(tbl['window']) > 1 else ''} {window} "
             f"complain about {row['name']} ({_pct(c['rate'])}, 95% interval {_pct(c['low'])} to {_pct(c['high'])}); "
-            f"ranked {row['rank']} by the interval's lower bound.")
+            f"rank {row['rank']}, band {row['band']} (ranks in one band are not significantly different).")
     if row["status"] == "regression":
         text += f" Complaints rose significantly in release {row['since']}."
     elif row["status"] == "improved":
@@ -157,7 +157,7 @@ def to_register(issues: list[dict], wording: Wording | None, tbl: dict, app_id: 
             "merged_from": [],
             "merged_into": None,
             "superseded_by": None,
-            "releasepulse": {"feature": r["feature"], "feature_name": r["name"], "rank": r["rank"],
+            "releasepulse": {"feature": r["feature"], "feature_name": r["name"], "rank": r["rank"], "band": r["band"],
                              "complaints": r["complaints"], "status": r["status"], "since": r["since"],
                              "window": tbl["window"]},
         })
