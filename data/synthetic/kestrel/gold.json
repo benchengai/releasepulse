@@ -3,6 +3,7 @@
  "app": {
   "id": "kestrel",
   "name": "Kestrel Budget",
+  "product": "Kestrel Budget, a personal budgeting app",
   "description": "Kestrel Budget is a fictional personal budgeting app that connects to bank accounts. Held-out set: not used for tuning."
  },
  "releases": [

@@ -111,6 +111,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--report", type=Path, help="write the markdown table here")
     p.add_argument("--parallel-runs", type=int, default=3)
 
+    p = sub.add_parser("sweep", help="re-cluster a run's aspects at several thresholds and score each (no LLM calls)")
+    p.add_argument("analysis", type=Path)
+    p.add_argument("dataset", type=Path, help="the synthetic dataset folder the run analysed")
+    p.add_argument("--thresholds", type=float, nargs="+", default=[0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7])
+
     p = sub.add_parser("report", help="markdown tables from a bench results.json")
     p.add_argument("results", type=Path)
 
@@ -161,6 +166,27 @@ def main(argv: list[str] | None = None) -> int:
             args.report.parent.mkdir(parents=True, exist_ok=True)
             args.report.write_text(md, encoding="utf-8")
             print(f"wrote {args.report}")
+        return 0
+
+    if args.cmd == "sweep":
+        from .cluster import cluster_aspects
+        from .evaluate import score
+        from .ingest import prepare
+        from .pipeline import assemble, load_dataset
+
+        a = _read(args.analysis)
+        ds = load_dataset(args.dataset)
+        prepared = prepare(ds["items_csv"], ds["releases_csv"])
+        cache = EmbeddingCache(EMBEDDING_CACHE)
+        ex = {"aspects": a["aspects"], "rejected": [], "missing": a["extraction"]["missing_items"]}
+        print("threshold  features  purity  inv.purity  item×feature F1  regressions P/R  improvements P/R")
+        for t in args.thresholds:
+            cl = cluster_aspects(ex["aspects"], t, cache)
+            s = score(assemble(ds, prepared, ex, cl, a["model"], [], None), ds["gold"])
+            c, r, i = s["clusters"], s["regressions"], s["improvements"]
+            print(f"{t:9.2f}  {c['features_predicted']:8d}  {c['purity']:6.3f}  {c['inverse_purity']:10.3f}  "
+                  f"{s['item_features']['f1']:15.3f}  {r['precision']:.2f}/{r['recall']:.2f}        "
+                  f"{i['precision']:.2f}/{i['recall']:.2f}")
         return 0
 
     if args.cmd == "report":

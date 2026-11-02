@@ -1,8 +1,8 @@
 id,date,version,source,rating,text
-TN-0001,2026-03-02,v2.0,app_store,1,Offline edits sometimes vanish when I reconnect. Fix this please!!
+TN-0001,2026-03-02,v2.0,app_store,1,Offline mode won't open notes I haven't viewed recently. Fix this please!!
 TN-0002,2026-03-03,2.0.0,app_store,4,"Solid app, no complaints."
-TN-0003,2026-03-03,2.0.0,play_store,3,"Search is slow once you have a lot of notes. On the plus side, love that it works fully offline. Overall it's fine."
-TN-0004,2026-03-03,2.0.2,play_store,5,Simple and does the job.
+TN-0003,2026-03-03,2.0.2,play_store,5,Does the job.
+TN-0004,2026-03-03,2.0.0,play_store,3,"Search is slow once you have a lot of notes. On the plus side, love that it works fully offline. Overall it's fine."
 TN-0005,2026-03-04,2.0.0,app_store,4,Very useful.
 TN-0006,2026-03-05,,play_store,5,Long time user here. Markdown support is great.
 TN-0007,2026-03-05,2.0,play_store,5,The reminders are reliable and easy to set.
@@ -133,7 +133,7 @@ TN-0131,2026-05-14,2.2.2,issue_tracker,,"Wrong project, moving this ticket to th
 TN-0132,2026-05-14,,play_store,5,I use this every day for work. I wish I could export a whole folder at once.
 TN-0133,2026-05-15,2.2.1,play_store,3,Honest review: The daily reminder fires at random times now.
 TN-0134,2026-05-16,2.2.0,play_store,5,Love it!!
-TN-0135,2026-05-17,,app_store,4,Simple and does the job.
+TN-0135,2026-05-17,,app_store,4,Does the job.
 TN-0136,2026-05-17,2.2.2,issue_tracker,,"Duplicate of an earlier ticket, closing."
 TN-0137,2026-05-17,2.2.0,issue_tracker,,"Full-text search misses note bodies. Searching for a word that only appears in the body of a note returns no results. 2.2.1, Galaxy S24."
 TN-0138,2026-05-17,2.2.0,play_store,5,Love that I can sign in with Apple and skip another password. Works perfectly without signal.
@@ -143,9 +143,9 @@ TN-0141,2026-05-19,2.1,app_store,4,I can edit notes on the plane and nothing get
 TN-0142,2026-05-21,2.2.0,play_store,1,search doesn't find words with accents Hoping for an update soon.
 TN-0143,2026-05-22,2.2.0,play_store,5,Exactly what I needed.
 TN-0144,2026-05-23,v2.2,app_store,1,Disappointed.
-TN-0145,2026-05-23,,play_store,5,Love that it works fully offline.
-TN-0146,2026-05-23,,play_store,2,Not for me.
-TN-0147,2026-05-23,v2.2,play_store,5,Simple and does the job.
+TN-0145,2026-05-23,v2.2,play_store,5,Does the job.
+TN-0146,2026-05-23,,play_store,5,Love that it works fully offline.
+TN-0147,2026-05-23,,play_store,2,Not for me.
 TN-0148,2026-05-23,2.2.2,play_store,3,Sync is so slow that I sometimes type the same note twice. But no wifi in my building's basement and the app still works great.
 TN-0149,2026-05-24,2.2.2,app_store,2,Dark mode still has white flashes when switching notes.
 TN-0150,2026-05-25,v2.2,app_store,5,"Love it, I use it every day."
@@ -188,7 +188,7 @@ TN-0186,2026-06-11,2.2.0,app_store,1,"THE NEW DARK MODE IS BLINDING. White panel
 TN-0187,2026-06-11,v2.2,issue_tracker,,"the new dark mode is blinding!!! white panels everywhere, it's like staring into a lamp at midnight. who tested this??? fix it or i'm leaving."
 TN-0188,2026-06-11,2.2.2,play_store,4,"It works offline, which none of the other apps I tried did properly."
 TN-0189,2026-06-12,2.2.0,play_store,1,"THE NEW DARK MODE IS BLINDING!!! White panels everywhere, it's like staring into a lamp at midnight. Who tested this??? Fix it or I'm leaving. "
-TN-0190,2026-06-13,2.2.1,app_store,3,Downloaded it last month. Offline mode lost a checklist I made on the train. Too expensive compared to the free alternatives. Hoping for an update soon.
+TN-0190,2026-06-13,2.2.1,app_store,3,Downloaded it last month. Without signal half my notebooks won't open. Too expensive compared to the free alternatives. Hoping for an update soon.
 TN-0191,2026-06-13,2.1.0,app_store,2,Waiting for sync every morning is getting old.
 TN-0192,2026-06-13,v2.1,play_store,5,Quick review. Dark mode looks gorgeous on my Galaxy A54. Thanks to the devs!
 TN-0193,2026-06-13,2.2.0,play_store,5,Short version: offline mode is perfect for my commute
@@ -305,7 +305,7 @@ TN-0303,2026-07-15,2.3,play_store,2,Search is slow once you have a lot of notes.
 TN-0304,2026-07-16,2.3,app_store,5,Brilliant little app.
 TN-0305,2026-07-16,2.3.0,issue_tracker,,Question: how do I move my account to a new email address?
 TN-0306,2026-07-16,2.3.0,play_store,5,"Edit after the latest update: It works offline, which none of the other apps I tried did properly."
-TN-0307,2026-07-16,2.3.0,play_store,1,Offline mode lost a checklist I made on the train.
+TN-0307,2026-07-16,2.3.0,play_store,1,Without signal half my notebooks won't open.
 TN-0308,2026-07-17,2.3.0,app_store,1,Recurring reminders only work the first time.
 TN-0309,2026-07-17,2.3.1,app_store,3,Testing testing 123
 TN-0310,2026-07-17,2.3.0,app_store,4,Very useful.
@@ -329,7 +329,7 @@ TN-0327,2026-07-21,v2.3,play_store,4,Watching the football while writing this.
 TN-0328,2026-07-22,2.4.0,app_store,5,"It works offline, which none of the other apps I tried did properly. I like that headings and bold just work. Worth it."
 TN-0329,2026-07-22,v2.4,app_store,5,Love it!!
 TN-0330,2026-07-22,2.4.0,play_store,1,Some text is unreadable in the dark theme.
-TN-0331,2026-07-23,2.4,app_store,5,Simple and does the job.
+TN-0331,2026-07-23,2.4,app_store,5,Does the job.
 TN-0332,2026-07-25,v2.4,app_store,5,"I use this every day for work. The new sync is quick, my laptop and phone are always in step."
 TN-0333,2026-07-25,2.4,app_store,4,"Love it, I use it every day."
 TN-0334,2026-07-25,2.4.2,issue_tracker,,Bug: Feature request: bulk export of a folder to Markdown or PDF. Priority: high.

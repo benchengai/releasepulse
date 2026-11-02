@@ -39,6 +39,9 @@ Rules:
 "search", "dark mode", "price". Name it with a short, generic, lowercase noun phrase of one \
 to three words. Name the feature, not the problem: "login", not "login loop"; "reminders", \
 not "late reminders".
+- Name features at the level a product team would track them, and use the same name each \
+time the feature comes up: the screen or capability ("editor", "notifications"), not a \
+detail of it ("font size", "bullet points", "snooze button").
 - One entry per aspect per item. If an item says several things about the same aspect, \
 combine them into one entry.
 - polarity: "negative" for a complaint, bug or regression; "positive" for praise; "mixed" \

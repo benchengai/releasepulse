@@ -3,6 +3,7 @@
  "app": {
   "id": "tallynote",
   "name": "Tallynote",
+  "product": "Tallynote, a notes and to-do app",
   "description": "Tallynote is a fictional notes and to-do app for phones, tablets and laptops. Development set: prompts and thresholds were tuned on it."
  },
  "releases": [
@@ -324,7 +325,7 @@
      "feature": "offline",
      "polarity": "negative",
      "start": 0,
-     "end": 48
+     "end": 56
     }
    ],
    "noise_kind": null,
@@ -337,6 +338,12 @@
    "duplicate_of": null
   },
   "TN-0003": {
+   "release": "2.0",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "TN-0004": {
    "release": "2.0",
    "mentions": [
     {
@@ -353,12 +360,6 @@
     }
    ],
    "noise_kind": null,
-   "duplicate_of": null
-  },
-  "TN-0004": {
-   "release": "2.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "TN-0005": {
@@ -2109,6 +2110,12 @@
   },
   "TN-0145": {
    "release": "2.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "TN-0146": {
+   "release": "2.2",
    "mentions": [
     {
      "feature": "offline",
@@ -2120,16 +2127,10 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "TN-0146": {
-   "release": "2.2",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
   "TN-0147": {
    "release": "2.2",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "TN-0148": {
@@ -2644,13 +2645,13 @@
      "feature": "offline",
      "polarity": "negative",
      "start": 26,
-     "end": 76
+     "end": 70
     },
     {
      "feature": "pricing",
      "polarity": "negative",
-     "start": 77,
-     "end": 125
+     "start": 71,
+     "end": 119
     }
    ],
    "noise_kind": null,
@@ -4041,7 +4042,7 @@
      "feature": "offline",
      "polarity": "negative",
      "start": 0,
-     "end": 50
+     "end": 44
     }
    ],
    "noise_kind": null,

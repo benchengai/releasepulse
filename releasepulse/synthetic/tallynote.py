@@ -146,8 +146,8 @@ SPEC = {
             "name": "Offline mode",
             "description": "Using the app without a connection.",
             "neg": [
-                "Offline edits sometimes vanish when I reconnect.",
-                "Offline mode lost a checklist I made on the train.",
+                "Offline mode won't open notes I haven't viewed recently.",
+                "Without signal half my notebooks won't open.",
             ],
             "pos": [
                 "Offline mode is a lifesaver on the subway.",
@@ -166,8 +166,8 @@ SPEC = {
                 "Offline editing on my {device} is flawless.",
             ],
             "ticket_neg": [
-                "Offline edits discarded on reconnect. Edits made in airplane mode on {device} are lost when the "
-                "connection returns. Version {version_seen}.",
+                "Notebooks unavailable offline. In airplane mode on {device}, notebooks not opened in the last "
+                "week show an empty list. Version {version_seen}.",
             ],
         },
         "search": {
@@ -365,7 +365,7 @@ SPEC = {
     "noise": {
         "generic_positive": [
             "Great app!", "Love it, I use it every day.", "Five stars, does what it says.",
-            "Best notes app I've tried.", "Simple and does the job.", "Great app!", "Really good.",
+            "Best notes app I've tried.", "Does the job.", "Great app!", "Really good.",
             "Can't live without it now.", "Solid app, no complaints.", "Exactly what I needed.",
             "Very useful.", "Love it!!", "Brilliant little app.", "It's good. Recommended.",
         ],
