@@ -117,9 +117,10 @@ export function ReleaseStrip({ a }: { a: Analysis }) {
               <div className="small num">{r.volume} items{r.duplicates ? ` (+${r.duplicates} duplicates)` : ""}</div>
               <div className="small muted">{r.notes}</div>
               {flags.map((f) => (
-                <div className="chip wrap" key={f.kind + f.feature}>
-                  <StatusIcon kind={f.kind === "regression" ? "regression" : "improved"} />
-                  {nameOf(a, f.feature)} {f.kind === "regression" ? "regressed" : "improved"}
+                <div className="small" key={f.kind + f.feature}
+                     style={{ display: "flex", gap: 6, alignItems: "baseline", marginTop: 4, color: "var(--text-secondary)" }}>
+                  <StatusIcon kind={f.kind === "regression" ? "regression" : "improved"} size={10} />
+                  <span>{nameOf(a, f.feature)} {f.kind === "regression" ? "regressed" : "improved"}</span>
                 </div>
               ))}
             </li>

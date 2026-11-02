@@ -128,8 +128,6 @@ select { border: 1px solid var(--border); background: var(--surface-1); border-r
 .icon { flex: none; width: 16px; height: 16px; margin-top: 3px; }
 
 .chip { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; font-size: 13px; color: var(--text-secondary); }
-.chip.wrap { white-space: normal; align-items: flex-start; }
-.chip.wrap svg { margin-top: 4px; }
 .chip svg { width: 12px; height: 12px; flex: none; }
 
 table { border-collapse: collapse; width: 100%; }
