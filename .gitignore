@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+# Pipeline and bench outputs; the web demo copies what it needs into web/public/data.
+runs/
+.DS_Store
+web/node_modules/
+web/.next/
+web/out/

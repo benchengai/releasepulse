@@ -1,0 +1,24 @@
+[project]
+name = "releasepulse"
+version = "0.1.0"
+description = "App reviews and issue tickets to per-release, per-feature evidence for prioritisation."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2",
+    "openai>=2",
+    "pydantic>=2.7",
+]
+
+[project.scripts]
+releasepulse = "releasepulse.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
