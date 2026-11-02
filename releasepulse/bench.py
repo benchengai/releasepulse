@@ -69,6 +69,7 @@ def run_row(analysis: dict, gold: dict, calls: list[dict]) -> dict:
         "latency_s": llm["latency_s"],
         "wall_s": llm["wall_s"],
         "call_latency_median_s": statistics.median([c["latency_s"] for c in extract_calls]) if extract_calls else None,
+        "extract_cost_usd": sum(c.get("cost_usd") or 0 for c in extract_calls),
         "input_tokens": llm["input_tokens"],
         "output_tokens": llm["output_tokens"],
         "reasoning_tokens": llm["reasoning_tokens"],
@@ -78,10 +79,12 @@ def run_row(analysis: dict, gold: dict, calls: list[dict]) -> dict:
     }
 
 
-def run_once(dataset: dict, spec: str, out: Path, cache: EmbeddingCache, workers: int) -> dict:
+def run_once(dataset: dict, spec: str, out: Path, cache: EmbeddingCache, workers: int,
+             normalise_features: bool = True, extract_dir: Path | None = None) -> dict:
     if (out / "row.json").exists():
         return _read(out / "row.json")
-    analysis = analyse(dataset, spec, out, cache=cache, workers=workers)
+    analysis = analyse(dataset, spec, out, cache=cache, workers=workers, normalise_features=normalise_features,
+                       extract_dir=extract_dir)
     if analysis["extraction"]["aspects"] == 0:
         row = {"ok": False, "error": "no aspects extracted", "cost_usd": analysis["llm"]["cost_usd"],
                "latency_s": analysis["llm"]["latency_s"]}
@@ -111,7 +114,10 @@ def aggregate(rows: list[dict]) -> dict:
 
 
 def bench(app_dir: Path, specs: list[str], runs: int, out_root: Path, cache_path: Path,
-          parallel_runs: int = 3, workers: int = 4) -> dict:
+          parallel_runs: int = 3, workers: int = 4, normalise_features: bool = True,
+          extraction_from: Path | None = None) -> dict:
+    """`extraction_from`: run k of each model reuses the extraction batches of run k in
+    that earlier bench folder, so only the later steps are called again."""
     dataset = load_dataset(app_dir)
     if not dataset["gold"]:
         raise ValueError(f"{app_dir} has no gold.json")
@@ -120,14 +126,16 @@ def bench(app_dir: Path, specs: list[str], runs: int, out_root: Path, cache_path
 
     def job(spec_k):
         spec, k = spec_k
-        row = run_once(dataset, spec, out_root / slug(spec) / f"run{k}", cache, workers)
+        reuse = extraction_from / slug(spec) / f"run{k}" / "extract" if extraction_from else None
+        row = run_once(dataset, spec, out_root / slug(spec) / f"run{k}", cache, workers, normalise_features, reuse)
         print(f"  {spec} run {k}: {'ok' if row['ok'] else 'FAILED'} "
               f"(${row.get('cost_usd') or 0:.3f}, {row.get('latency_s', 0):.0f}s)", flush=True)
         return spec_k, row
 
     with ThreadPoolExecutor(parallel_runs) as pool:
         scored = dict(pool.map(job, jobs))
-    results = {"app": dataset["name"], "runs_per_model": runs, "models": {},
+    results = {"app": dataset["name"], "runs_per_model": runs, "normalised": normalise_features,
+               "extraction_from": str(extraction_from) if extraction_from else None, "models": {},
                "oracle": _oracle_summary(dataset)}
     for spec in specs:
         rows = [scored[(spec, k)] for k in range(1, runs + 1)]
@@ -170,8 +178,11 @@ def render_markdown(results: dict) -> str:
         f"### {results['app']}: {results['runs_per_model']} runs per model",
         "",
         "Mean across successful runs, range in brackets. Cost and time are per full pipeline run "
-        "(every item extracted, aspects embedded and clustered, requirements worded). Time is the sum of "
-        "call latencies; wall time is with 4 extraction calls in flight.",
+        "(every item extracted, aspects embedded and clustered, "
+        + ("clusters merged and named, " if results.get("normalised", False) else "")
+        + "requirements worded). Time is the sum of call latencies; wall time is with 4 extraction calls in flight."
+        + (f" Extraction outputs reused from `{results['extraction_from']}` (cost and time include the original "
+           "extraction calls)." if results.get("extraction_from") else ""),
         "",
         "**Extraction and clustering**",
         "",

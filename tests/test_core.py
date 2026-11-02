@@ -316,3 +316,28 @@ def test_scorer_counts_splits_and_misses():
     s = score(a, gold)
     assert s["mentions"]["splits"] == 1 and s["mentions"]["missed"] == 0
     assert s["mentions"]["strict_precision"] < 1.0 == s["mentions"]["precision"]
+
+
+# --- feature normalisation ----------------------------------------------------------
+
+def test_normalise_applies_grouping_and_records_validator_changes():
+    from releasepulse import normalise as norm
+
+    clusters = [{"id": "F01", "name": "startup", "labels": {"startup": 4}},
+                {"id": "F02", "name": "loading speed", "labels": {"loading speed": 3, "loading": 1}},
+                {"id": "F03", "name": "receipts", "labels": {"receipts": 5}},
+                {"id": "F04", "name": "ads", "labels": {"ads": 2}}]
+    aspects = [{"feature": "F01"}, {"feature": "F02"}, {"feature": "F03"}, {"feature": "F04"}]
+    grouping = norm.Grouping.model_validate({"features": [
+        {"name": "Performance", "cluster_ids": ["F01", "F02"]},
+        {"name": "receipt scanning", "cluster_ids": ["F03", "F01"]}]})
+    out = norm.apply(clusters, grouping, aspects)
+    feats = {f["name"]: f for f in out["features"]}
+    assert feats["performance"]["labels"] == {"startup": 4, "loading speed": 3, "loading": 1}
+    assert feats["performance"]["mentions"] == 8 and feats["performance"]["id"] == "F01"
+    assert out["repeated"] == ["F01"] and out["left_out"] == ["F04"]
+    assert "ads" in feats
+    assert [a["feature"] for a in aspects] == ["F01", "F01", "F02", "F03"]
+    assert [a["cluster"] for a in aspects] == ["F01", "F02", "F03", "F04"]
+    _strict(norm.SCHEMA)
+    assert norm.schema_for(["F01"])["properties"]["features"]["items"]["properties"]["cluster_ids"]["items"]["enum"] == ["F01"]

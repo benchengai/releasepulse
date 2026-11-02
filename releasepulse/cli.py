@@ -98,6 +98,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--threshold", type=float, help="clustering similarity threshold")
     p.add_argument("--workers", type=int, default=4)
     p.add_argument("--no-requirements", action="store_true", help="skip wording candidate requirements")
+    p.add_argument("--no-normalise", action="store_true", help="keep embedding clusters as features (no LLM merge)")
 
     p = sub.add_parser("eval", help="score an analysis against planted ground truth")
     p.add_argument("analysis", type=Path)
@@ -110,6 +111,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("-o", "--out", type=Path, help="default runs/bench/<app>")
     p.add_argument("--report", type=Path, help="write the markdown table here")
     p.add_argument("--parallel-runs", type=int, default=3)
+    p.add_argument("--no-normalise", action="store_true", help="keep embedding clusters as features (no LLM merge)")
+    p.add_argument("--reuse-extraction", type=Path, help="earlier bench folder whose extraction outputs run k reuses")
 
     p = sub.add_parser("sweep", help="re-cluster a run's aspects at several thresholds and score each (no LLM calls)")
     p.add_argument("analysis", type=Path)
@@ -142,7 +145,8 @@ def main(argv: list[str] | None = None) -> int:
         ds = load_dataset(args.dataset, args.releases, args.product)
         out = args.out or RUNS_DIR / ds["name"] / args.model.replace(":", "_")
         a = analyse(ds, args.model, out, threshold=args.threshold or THRESHOLD, cache=EmbeddingCache(EMBEDDING_CACHE),
-                    workers=args.workers, word_requirements=not args.no_requirements)
+                    workers=args.workers, word_requirements=not args.no_requirements,
+                    normalise_features=not args.no_normalise)
         print_summary(a)
         print(f"wrote {out / 'analysis.json'}")
         return 0
@@ -159,7 +163,8 @@ def main(argv: list[str] | None = None) -> int:
         from .bench import bench, render_markdown
 
         out = args.out or RUNS_DIR / "bench" / args.app.name
-        results = bench(args.app, args.models, args.runs, out, EMBEDDING_CACHE, args.parallel_runs)
+        results = bench(args.app, args.models, args.runs, out, EMBEDDING_CACHE, args.parallel_runs,
+                        normalise_features=not args.no_normalise, extraction_from=args.reuse_extraction)
         md = render_markdown(results)
         print(md)
         if args.report:

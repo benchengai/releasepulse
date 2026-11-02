@@ -1,8 +1,9 @@
 """One full analysis: feedback CSV in, analysis.json out.
 
-    ingest -> extract (LLM, verified) -> cluster (embeddings) -> per-release
-    counts -> regression and improvement flags -> prioritisation tables ->
-    candidate requirements (LLM wording only)
+    ingest -> extract (LLM, verified) -> cluster (embeddings) -> merge and
+    name features (LLM, validated) -> per-release counts -> regression and
+    improvement flags -> prioritisation tables -> candidate requirements
+    (LLM wording only)
 
 Every LLM and embedding call is logged with tokens, latency and cost. The
 extraction batches and the wording call are cached in the run folder, so a
@@ -19,6 +20,7 @@ from pathlib import Path
 
 from pydantic import ValidationError
 
+from . import normalise as norm
 from . import requirements as req
 from .cluster import THRESHOLD, cluster_aspects
 from .extract import extract_items
@@ -66,20 +68,38 @@ def _totals(calls: list[dict]) -> dict:
 
 
 def analyse(dataset: dict, spec: str, out: Path, threshold: float = THRESHOLD, cache: EmbeddingCache | None = None,
-            workers: int = 4, export_top: int = req.TOP, word_requirements: bool = True) -> dict:
+            workers: int = 4, export_top: int = req.TOP, word_requirements: bool = True,
+            normalise_features: bool = True, extract_dir: Path | None = None) -> dict:
+    """`extract_dir` reads (and fills) extraction batches from another run's folder,
+    so later steps can be compared on identical extraction outputs."""
     started = time.perf_counter()
     prepared = prepare(dataset["items_csv"], dataset["releases_csv"])
     to_extract = [it for it in prepared["items"] if it["release"] and not it["duplicate_of"]]
-    ex = extract_items(to_extract, spec, out / "extract", dataset["product"], workers)
+    ex = extract_items(to_extract, spec, extract_dir or out / "extract", dataset["product"], workers)
     cl = cluster_aspects(ex["aspects"], threshold, cache)
-    _write(out / "aspects.json", {"aspects": ex["aspects"], "rejected": ex["rejected"], "missing": ex["missing"]})
     calls = ex["calls"] + ([cl["embedding"]] if cl["embedding"] else [])
+    if normalise_features and cl["features"]:
+        cl, meta = norm.normalise(cl, ex["aspects"], spec, dataset["product"], _normalise_cache(out))
+        calls.append({"step": "normalise", **meta})
+        _write(out / "normalise_llm.json", {"system": norm.SYSTEM, "prompt": cl["normalisation"]["prompt"],
+                                            "grouping": cl["normalisation"]["grouping"], "llm": meta})
+    _write(out / "aspects.json", {"aspects": ex["aspects"], "rejected": ex["rejected"], "missing": ex["missing"]})
     analysis = assemble(dataset, prepared, ex, cl, spec, calls, out if word_requirements else None, export_top)
     analysis["llm"]["wall_s"] = round(time.perf_counter() - started, 1)
     _write(out / "analysis.json", analysis)
     _write(out / "run.json", {"spec": spec, "ok": len(ex["missing"]) < len(to_extract), "calls": calls,
                               "totals": analysis["llm"]})
     return analysis
+
+
+def _normalise_cache(out: Path):
+    def lookup(prompt: str):
+        path = out / "normalise_llm.json"
+        if path.exists() and _read(path)["prompt"] == prompt and _read(path)["system"] == norm.SYSTEM:
+            saved = _read(path)
+            return norm.Grouping.model_validate(saved["grouping"]), saved["llm"]
+        return None
+    return lookup
 
 
 def _word(issues: list[dict], tbl: dict, spec: str, dataset: dict, cache_dir: Path) -> tuple:
@@ -141,8 +161,11 @@ def assemble(dataset: dict, prepared: dict, ex: dict, cl: dict, spec: str, calls
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "model": spec,
         "embedding_model": EMBEDDING_MODEL,
-        "settings": {"cluster_threshold": cl["threshold"], "min_count": MIN_COUNT, "raw_min_increase": RAW_MIN_INCREASE,
+        "settings": {"cluster_threshold": cl["threshold"], "normalised": "normalisation" in cl,
+                     "min_count": MIN_COUNT, "raw_min_increase": RAW_MIN_INCREASE,
                      "raw_min_ratio": RAW_MIN_RATIO, "export_top": export_top},
+        "normalisation": {k: v for k, v in cl.get("normalisation", {}).items() if k != "prompt"} or None,
+        "embedding_clusters": cl.get("embedding_clusters"),
         "releases": releases,
         "items": {it["id"]: {k: it[k] for k in ("date", "version", "source", "rating", "release", "assigned_by",
                                                  "duplicate_of", "text")} for it in items},
