@@ -1,0 +1,6 @@
+version,date,notes
+2.0,2026-03-02,"Folders, checklists, offline editing."
+2.1,2026-04-06,New account system with Google and Apple sign-in.
+2.2,2026-05-11,Rewritten sync engine; fix for being signed out after updating; new dark theme.
+2.3,2026-06-15,Featured in the store. Reworked reminders and notification scheduling.
+2.4,2026-07-20,Home-screen widgets; reminder scheduling fix.

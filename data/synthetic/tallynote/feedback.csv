@@ -1,0 +1,366 @@
+id,date,version,source,rating,text
+TN-0001,2026-03-02,v2.0,app_store,1,Offline edits sometimes vanish when I reconnect. Fix this please!!
+TN-0002,2026-03-03,2.0.0,app_store,4,"Solid app, no complaints."
+TN-0003,2026-03-03,2.0.0,play_store,3,"Search is slow once you have a lot of notes. On the plus side, love that it works fully offline. Overall it's fine."
+TN-0004,2026-03-03,2.0.2,play_store,5,Simple and does the job.
+TN-0005,2026-03-04,2.0.0,app_store,4,Very useful.
+TN-0006,2026-03-05,,play_store,5,Long time user here. Markdown support is great.
+TN-0007,2026-03-05,2.0,play_store,5,The reminders are reliable and easy to set.
+TN-0008,2026-03-06,2.0.1,app_store,2,Too expensive compared to the free alternatives. But works perfectly without signal. Search is fast and accurate. That's all.
+TN-0009,2026-03-07,v2.0,app_store,4,Really good.
+TN-0010,2026-03-07,v2.0,play_store,3,Dark mode resets to light every time I restart.
+TN-0011,2026-03-07,2.0.0,play_store,4,"Sync takes forever, notes from my Mac show up on my phone minutes later. Still, the offline support is rock solid. Overall it's fine."
+TN-0012,2026-03-08,,app_store,3,Reset my password twice and still can't get past the login. Fix this please!!
+TN-0013,2026-03-09,2.0.0,app_store,2,Sync between my iPad and phone lags badly. Also search can't find notes I know exist. Please fix.
+TN-0014,2026-03-09,,app_store,4,Wish I could share a single checklist without sharing the whole folder.
+TN-0015,2026-03-10,2.0.1,play_store,1,Used to be better.
+TN-0016,2026-03-11,2.0.2,app_store,5,No wifi in my building's basement and the app still works great. Keep it up.
+TN-0017,2026-03-11,2.0.0,play_store,1,None of my reminders have gone off since Tuesday.
+TN-0018,2026-03-12,,app_store,4,Can't live without it now.
+TN-0019,2026-03-12,,app_store,4,It's good. Recommended.
+TN-0020,2026-03-13,,app_store,3,Syncing large notebooks crawls.
+TN-0021,2026-03-14,,play_store,5,Exactly what I needed.
+TN-0022,2026-03-14,2.0.1,play_store,4,Short version: Checklists are so easy to make.
+TN-0023,2026-03-14,2.0.0,play_store,2,The sync spinner just sits there doing nothing. Really frustrating.
+TN-0024,2026-03-15,,app_store,3,My partner recommended it. Crashes every time I rotate the screen. Really frustrating.
+TN-0025,2026-03-16,2.0.0,app_store,5,Quick review. Great that I can write notes with zero bars of signal.
+TN-0026,2026-03-16,2.0.0,play_store,2,Meh.
+TN-0027,2026-03-17,2.0.2,app_store,3,Drag to reorder checklist items is so satisfying. The subscription price went up again. We'll see.
+TN-0028,2026-03-17,,app_store,3,"It works offline, which none of the other apps I tried did properly. And the app crashes on launch on my iPad Air."
+TN-0029,2026-03-18,2.0.0,app_store,5,Best notes app I've tried.
+TN-0030,2026-03-18,2.0,app_store,2,"sync is sooo slow, sometimes 30 minutes before anything shows up"
+TN-0031,2026-03-18,2.0,play_store,3,"Typing in the search box freezes the app for a second. Still, I travel a lot and the offline access is brilliant. Overall it's fine."
+TN-0032,2026-03-19,2.0.1,play_store,1,"Please add export to PDF. Also, sync is so slow that I sometimes type the same note twice."
+TN-0033,2026-03-19,2.0.2,play_store,2,Syncing between devices is painfully slow. Really frustrating.
+TN-0034,2026-03-20,2.0.0,app_store,3,Expected more.
+TN-0035,2026-03-20,,app_store,1,My shopping list didn't sync until I was already out of the shop.
+TN-0036,2026-03-21,v2.0,app_store,3,"Exporting to PDF loses all my images. Still, I can edit notes on the plane and nothing gets lost. Overall it's fine."
+TN-0037,2026-03-21,2.0.2,app_store,2,Quick review. Bullet points get messed up when I paste text.
+TN-0038,2026-03-21,2.0.1,issue_tracker,,"Slow sync with large notebooks. A notebook with 2,000 notes takes over 30 minutes to sync after login. 2.0.2."
+TN-0039,2026-03-21,v2.0,play_store,1,Check out my profile for free gift cards
+TN-0040,2026-03-21,,play_store,5,"Love it, I use it every day."
+TN-0041,2026-03-22,v2.0,app_store,5,Brilliant little app.
+TN-0042,2026-03-24,2.0.2,app_store,1,Downloaded it last month. They moved folders behind the paywall. Fix this please!!
+TN-0043,2026-03-24,v2.0,play_store,5,Downloaded it last month. Finally a proper dark mode. Worth it.
+TN-0044,2026-03-25,2.0.0,app_store,5,Love it!!
+TN-0045,2026-03-26,2.0.1,play_store,5,Great app!
+TN-0046,2026-03-27,2.0,app_store,5,"Five stars, does what it says."
+TN-0047,2026-03-27,2.0.1,app_store,4,Happy birthday to my sister!
+TN-0048,2026-03-28,,issue_tracker,,Feature request: shared lists that two accounts can edit.
+TN-0049,2026-03-29,2.0.2,app_store,4,The dark theme is easy on the eyes. Login with Face ID is smooth.
+TN-0050,2026-03-30,2.0.0,app_store,4,Fair price for what you get.
+TN-0051,2026-03-30,,play_store,2,There's no way to change the font size in the editor.
+TN-0052,2026-04-01,2.0.0,app_store,5,Follow my channel for daily productivity tips!! Link in bio
+TN-0053,2026-04-02,2.0,play_store,1,"Earn $500 a day from home, message me"
+TN-0054,2026-04-04,,app_store,5,I like that headings and bold just work.
+TN-0055,2026-04-04,,play_store,2,Quick review. It takes 20 minutes for a new note to sync to my laptop. I wish I could export a whole folder at once.
+TN-0056,2026-04-05,2.0.2,app_store,3,I searched for a phone number I saved and got nothing. Plus I edited a list on my work laptop and the phone still had the old version an hour later.
+TN-0057,2026-04-05,2.0.0,issue_tracker,,"Recurring reminder fires once, then never again. Steps: create a daily reminder, wait two days. v2.0."
+TN-0058,2026-04-06,2.1.1,app_store,5,Search finds anything instantly.
+TN-0059,2026-04-06,,issue_tracker,,Session lost after app update. Signed-in users are signed out and cannot sign in again. Version v2.1.
+TN-0060,2026-04-06,2.1,issue_tracker,,"Users stuck on sign-in screen. After entering a valid password the app shows a spinner and goes back to the login form. Seen on 2.1.2, Pixel 8."
+TN-0061,2026-04-07,2.1,app_store,3,I edited a list on my Chromebook and the phone still had the old version an hour later. The cursor jumps to the end when I edit a long note. Fix this please!!
+TN-0062,2026-04-07,2.1,play_store,2,Locked out of my own notes for since Tuesday because the login keeps looping.
+TN-0063,2026-04-07,v2.1,play_store,4,"sync is sooo slow, sometimes 15 minutes before anything shows up On the plus side, drag to reorder checklist items is so satisfying."
+TN-0064,2026-04-08,2.1.0,app_store,3,I use this every day for work. The sign in page just refreshes forever on my Pixel 9.
+TN-0065,2026-04-09,2.1.0,play_store,2,Search misses half of my notes. Hoping for an update soon.
+TN-0066,2026-04-10,2.1,play_store,4,"$7 a month for a notes app is too much. That said, offline editing on my iPhone SE is flawless."
+TN-0067,2026-04-11,,issue_tracker,,"Slow sync with large notebooks. A notebook with 2,000 notes takes over 10 minutes to sync after login. 2.1.0."
+TN-0068,2026-04-12,2.1.0,app_store,4,The editor is clean and distraction free.
+TN-0069,2026-04-13,2.1.1,app_store,1,I use this every day for work. They moved folders behind the paywall.
+TN-0070,2026-04-13,2.1.1,app_store,5,Short version: Offline editing on my iPhone 13 is flawless.
+TN-0071,2026-04-13,,issue_tracker,,"Slow sync with large notebooks. A notebook with 2,000 notes takes over 30 minutes to sync after login. 2.1.2."
+TN-0072,2026-04-13,2.1.0,play_store,2,Syncing large notebooks crawls.
+TN-0073,2026-04-14,2.1,app_store,2,Notifications for due tasks never arrive anymore.
+TN-0074,2026-04-14,v2.0,app_store,1,"Stuck in a login loop: enter password, spinner, back to the login page. Fix this please!!"
+TN-0075,2026-04-14,2.1.2,app_store,3,"can't get past sign in on my iPhone SE, tried reinstalling"
+TN-0076,2026-04-15,2.1.1,app_store,2,Reminders stopped going off after the update. Will change my rating when this is sorted.
+TN-0077,2026-04-15,v2.1,play_store,1,"Stuck in a login loop: enter password, spinner, back to the login page."
+TN-0078,2026-04-16,2.1.0,app_store,5,Really good.
+TN-0079,2026-04-16,2.1.2,app_store,2,The dark theme is easy on the eyes. Google sign-in just bounces me back to the start screen. We'll see.
+TN-0080,2026-04-16,v2.1,issue_tracker,,Google SSO redirects back to welcome screen (2.1.0). Reproducible every time on OnePlus 12.
+TN-0081,2026-04-17,2.1.0,play_store,2,"Edit after the latest update: Searching only matches titles, not the text inside notes."
+TN-0082,2026-04-18,2.1.2,app_store,5,It would be great to collaborate on a note with a coworker. Even in airplane mode all my lists are there.
+TN-0083,2026-04-18,v2.1,play_store,3,Quick review. It crashes when I open a long note.
+TN-0084,2026-04-19,v2.1,play_store,3,Syncing between devices is painfully slow.
+TN-0085,2026-04-19,,play_store,3,Watching the football while writing this.
+TN-0086,2026-04-20,2.1.2,app_store,2,Been using this for about a year. The search bar ignores tags. I have to sign in every single time I open the app now.
+TN-0087,2026-04-20,2.1.1,app_store,1,I use this every day for work. Paying yearly and still getting upsell popups.
+TN-0088,2026-04-20,v2.1,play_store,1,Export to text mangles my checklists.
+TN-0089,2026-04-21,2.1,app_store,5,Being able to use it offline when hiking is huge.
+TN-0090,2026-04-21,2.1,app_store,5,Would love a way to export everything to Markdown. Just my two cents.
+TN-0091,2026-04-21,,issue_tracker,,Sync latency of several minutes between Windows PC and OnePlus 12. Edits made on one device take 30+ minutes to appear on the other. Version 2.1.1.
+TN-0092,2026-04-21,,play_store,2,"The offline support is rock solid. Also, sync takes forever, notes from my work laptop show up on my phone minutes later."
+TN-0093,2026-04-23,2.1.2,play_store,4,It's good. Recommended.
+TN-0094,2026-04-24,2.1.2,play_store,2,Updated yesterday. The sync spinner just sits there doing nothing.
+TN-0095,2026-04-27,2.1,app_store,3,It logged me out and now won't let me back in.
+TN-0096,2026-04-27,2.1.2,issue_tracker,,"Login loop after updating to 2.1. Device: Pixel 8. Steps: open app, tap Sign in, enter credentials. Expected: notes list. Actual: returns to the sign-in screen."
+TN-0097,2026-04-27,,play_store,1,"Quick review. Can't log in anymore after updating, it just loops."
+TN-0098,2026-04-28,v2.1,play_store,2,"Can't log in anymore after updating, it just loops."
+TN-0099,2026-04-28,2.1.2,play_store,3,Downloaded it last month. I have to sign in every single time I open the app now.
+TN-0100,2026-04-28,2.1,play_store,5,Love the location-based reminders. Plus offline mode is the reason I switched from my old notes app.
+TN-0101,2026-04-29,v2.1,play_store,1,Disappointed.
+TN-0102,2026-04-30,v2.1,app_store,3,"Apple sign-in says success and then asks me to sign in again. That said, I travel a lot and the offline access is brilliant. That's all."
+TN-0103,2026-04-30,2.0,play_store,5,"Offline mode is a lifesaver on the subway. Plus reminders are the best part, they never miss."
+TN-0104,2026-04-30,,play_store,4,The editor is clean and distraction free.
+TN-0105,2026-05-01,2.1.2,play_store,3,Edit after the latest update: Search results come back in a random order.
+TN-0106,2026-05-02,2.1.2,app_store,2,Downloaded it last month. Every time I enter my password it flashes and returns to the sign in screen.
+TN-0107,2026-05-02,2.1.0,play_store,4,Great app!
+TN-0108,2026-05-04,2.1.0,app_store,5,Can't live without it now.
+TN-0109,2026-05-04,,app_store,1,Formatting gets lost when I paste from email.
+TN-0110,2026-05-04,v2.1,issue_tracker,,Feature request: bulk export of a folder to Markdown or PDF.
+TN-0111,2026-05-05,2.1,app_store,2,Google sign-in just bounces me back to the start screen.
+TN-0112,2026-05-05,2.1.0,app_store,4,Offline mode is a lifesaver on the subway.
+TN-0113,2026-05-05,2.1.0,issue_tracker,,Sync latency of several minutes between Mac and Galaxy S24. Edits made on one device take 30+ minutes to appear on the other. Version v2.1.
+TN-0114,2026-05-06,2.1.0,app_store,3,I like that headings and bold just work. Changes from my tablet take ages to appear on my phone.
+TN-0115,2026-05-06,v2.1,app_store,1,Quick review. Waiting for sync every morning is getting old.
+TN-0116,2026-05-07,2.1.0,app_store,1,"Login is broken. Tap sign in, nothing happens, back to the email screen."
+TN-0117,2026-05-07,,app_store,2,The sign in page just refreshes forever on my Pixel 9.
+TN-0118,2026-05-07,2.1.2,play_store,5,Great app!
+TN-0119,2026-05-08,,app_store,3,I use this every day for work. Sync between my iPad and phone lags badly. But love the location-based reminders.
+TN-0120,2026-05-09,2.0.2,app_store,2,Changes from my tablet take ages to appear on my phone. Fix this please!!
+TN-0121,2026-05-09,2.1.1,app_store,2,Edit after the latest update: Since the update it keeps kicking me back to the sign-in screen.
+TN-0122,2026-05-09,2.1.1,app_store,2,I use this every day for work. Froze and closed twice while I was typing.
+TN-0123,2026-05-10,2.1.0,play_store,5,Edit after the latest update: Sharing a grocery list with my partner works great. Five stars from me.
+TN-0124,2026-05-10,v2.1,play_store,3,"Logging in is impossible since 2.1, it goes round in circles."
+TN-0125,2026-05-10,2.1.1,play_store,1,Please add a way to share lists with my family. We'll see.
+TN-0126,2026-05-11,2.2.2,app_store,5,Best notes app I've tried.
+TN-0127,2026-05-11,2.2.0,app_store,2,Paying yearly and still getting upsell popups.
+TN-0128,2026-05-11,v2.2,issue_tracker,,"Users stuck on sign-in screen. After entering a valid password the app shows a spinner and goes back to the login form. Seen on 2.2.2, iPhone SE."
+TN-0129,2026-05-11,2.2.2,play_store,1,I set a reminder for 7:30 and got nothing.
+TN-0130,2026-05-14,2.2.0,app_store,4,The lifetime licence was worth every penny.
+TN-0131,2026-05-14,2.2.2,issue_tracker,,"Wrong project, moving this ticket to the website tracker."
+TN-0132,2026-05-14,,play_store,5,I use this every day for work. I wish I could export a whole folder at once.
+TN-0133,2026-05-15,2.2.1,play_store,3,Honest review: The daily reminder fires at random times now.
+TN-0134,2026-05-16,2.2.0,play_store,5,Love it!!
+TN-0135,2026-05-17,,app_store,4,Simple and does the job.
+TN-0136,2026-05-17,2.2.2,issue_tracker,,"Duplicate of an earlier ticket, closing."
+TN-0137,2026-05-17,2.2.0,issue_tracker,,"Full-text search misses note bodies. Searching for a word that only appears in the body of a note returns no results. 2.2.1, Galaxy S24."
+TN-0138,2026-05-17,2.2.0,play_store,5,Love that I can sign in with Apple and skip another password. Works perfectly without signal.
+TN-0139,2026-05-18,2.1.0,issue_tracker,,"Full-text search misses note bodies. Searching for a word that only appears in the body of a note returns no results. 2.1.0, iPhone 15."
+TN-0140,2026-05-18,,issue_tracker,,"Search input lag. Each keystroke in search blocks the UI for about a second with 1,000+ notes."
+TN-0141,2026-05-19,2.1,app_store,4,I can edit notes on the plane and nothing gets lost.
+TN-0142,2026-05-21,2.2.0,play_store,1,search doesn't find words with accents Hoping for an update soon.
+TN-0143,2026-05-22,2.2.0,play_store,5,Exactly what I needed.
+TN-0144,2026-05-23,v2.2,app_store,1,Disappointed.
+TN-0145,2026-05-23,,play_store,5,Love that it works fully offline.
+TN-0146,2026-05-23,,play_store,2,Not for me.
+TN-0147,2026-05-23,v2.2,play_store,5,Simple and does the job.
+TN-0148,2026-05-23,2.2.2,play_store,3,Sync is so slow that I sometimes type the same note twice. But no wifi in my building's basement and the app still works great.
+TN-0149,2026-05-24,2.2.2,app_store,2,Dark mode still has white flashes when switching notes.
+TN-0150,2026-05-25,v2.2,app_store,5,"Love it, I use it every day."
+TN-0151,2026-05-25,2.2.0,app_store,5,"Solid app, no complaints."
+TN-0152,2026-05-25,2.2.0,app_store,5,Very useful.
+TN-0153,2026-05-25,2.2.1,play_store,5,Honest review: Sync got so much faster in this version.
+TN-0154,2026-05-26,2.2,app_store,5,Brilliant little app.
+TN-0155,2026-05-26,2.2.1,app_store,5,Edit after the latest update: Wish I could share a single checklist without sharing the whole folder. Just my two cents.
+TN-0156,2026-05-27,v2.2,app_store,5,first
+TN-0157,2026-05-27,2.2.0,play_store,1,Not worth it.
+TN-0158,2026-05-27,2.2.0,play_store,2,Search misses half of my notes.
+TN-0159,2026-05-28,,play_store,5,Downloaded it last month. Great that I can write notes with zero bars of signal. Plus the editor is clean and distraction free. Highly recommend.
+TN-0160,2026-05-28,2.2.1,play_store,5,Notes appear on my other devices within seconds. Thanks to the devs!
+TN-0161,2026-05-30,2.2,app_store,5,Dark mode looks gorgeous on my iPad Air.
+TN-0162,2026-05-30,2.2,app_store,5,Great app!
+TN-0163,2026-05-30,v2.2,app_store,2,It takes 30 minutes for a new note to sync to my Windows PC.
+TN-0164,2026-05-30,2.2,app_store,2,Short version: The subscription price went up again.
+TN-0165,2026-05-31,2.2.2,app_store,3,It's okay I guess.
+TN-0166,2026-06-02,v2.2,app_store,5,"Being able to use it offline when hiking is huge. Love the search, it even finds words inside scanned receipts."
+TN-0167,2026-06-02,2.2.0,app_store,5,Short version: Please add a way to share lists with my family.
+TN-0168,2026-06-02,v2.2,issue_tracker,,Sync latency of several minutes between Mac and Pixel 9. Edits made on one device take 20+ minutes to appear on the other. Version 2.2.2.
+TN-0169,2026-06-03,v2.2,play_store,5,Very useful.
+TN-0170,2026-06-04,,play_store,4,Even in airplane mode all my lists are there. Plus markdown support is great.
+TN-0171,2026-06-04,2.2.1,play_store,5,"Five stars, does what it says."
+TN-0172,2026-06-05,2.2,play_store,3,My dog stepped on my phone and wrote this review lol
+TN-0173,2026-06-05,2.2.2,play_store,2,"The new sync is quick, my Chromebook and phone are always in step. Export to text mangles my checklists. Overall it's fine."
+TN-0174,2026-06-06,2.2,issue_tracker,,Pasting rich text breaks bullet list formatting. Paste a bulleted list from an email into a note on iPhone 13; bullets become plain text. v2.2.
+TN-0175,2026-06-06,,play_store,5,"Sync is instant now, nice work on the fix."
+TN-0176,2026-06-07,2.2.1,app_store,5,"Reminders are the best part, they never miss. Worth it."
+TN-0177,2026-06-07,2.2.0,issue_tracker,,Session lost after app update. Signed-in users are signed out and cannot sign in again. Version 2.2.2.
+TN-0178,2026-06-08,2.2.0,issue_tracker,,Crash when opening notes over 50 KB on iPhone 13. Stack trace attached. 2.2.
+TN-0179,2026-06-09,2.2.1,app_store,5,Checklists are so easy to make.
+TN-0180,2026-06-09,2.2.2,play_store,4,The reminders are reliable and easy to set. Worth it.
+TN-0181,2026-06-09,2.1.0,play_store,4,offline mode is perfect for my commute
+TN-0182,2026-06-10,2.2.0,app_store,1,"THE NEW DARK MODE IS BLINDING!!! White panels everywhere, it's like staring into a lamp at midnight. Who tested this??? Fix it or I'm leaving."
+TN-0183,2026-06-10,2.2,play_store,4,Downloaded it last month. Bullet points get messed up when I paste text. But offline mode is the reason I switched from my old notes app. Just my two cents.
+TN-0184,2026-06-10,2.2.1,play_store,1,"THE NEW DARK MODE IS BLINDING!!! White panels everywhere, it's like staring into a lamp at midnight. Who tested this??? Fix it or I'm leaving!!!"
+TN-0185,2026-06-11,v2.2,app_store,2,Edit after the latest update: Froze and closed twice while I was typing.
+TN-0186,2026-06-11,2.2.0,app_store,1,"THE NEW DARK MODE IS BLINDING. White panels everywhere, it's like staring into a lamp at midnight. Who tested this? Fix it or I'm leaving."
+TN-0187,2026-06-11,v2.2,issue_tracker,,"the new dark mode is blinding!!! white panels everywhere, it's like staring into a lamp at midnight. who tested this??? fix it or i'm leaving."
+TN-0188,2026-06-11,2.2.2,play_store,4,"It works offline, which none of the other apps I tried did properly."
+TN-0189,2026-06-12,2.2.0,play_store,1,"THE NEW DARK MODE IS BLINDING!!! White panels everywhere, it's like staring into a lamp at midnight. Who tested this??? Fix it or I'm leaving. "
+TN-0190,2026-06-13,2.2.1,app_store,3,Downloaded it last month. Offline mode lost a checklist I made on the train. Too expensive compared to the free alternatives. Hoping for an update soon.
+TN-0191,2026-06-13,2.1.0,app_store,2,Waiting for sync every morning is getting old.
+TN-0192,2026-06-13,v2.1,play_store,5,Quick review. Dark mode looks gorgeous on my Galaxy A54. Thanks to the devs!
+TN-0193,2026-06-13,2.2.0,play_store,5,Short version: offline mode is perfect for my commute
+TN-0194,2026-06-15,2.3,issue_tracker,,"Test ticket, please ignore."
+TN-0195,2026-06-15,2.3,play_store,5,Can't live without it now.
+TN-0196,2026-06-15,2.3.2,play_store,4,Markdown support is great.
+TN-0197,2026-06-16,2.3,app_store,2,I set a reminder for 7:30 and got nothing. Hoping for an update soon.
+TN-0198,2026-06-16,2.3.2,issue_tracker,,Scheduled reminders not delivered on 2.3.2. Reminder set for 7:30 on Galaxy S24; no notification is shown. Notification permission is granted.
+TN-0199,2026-06-16,2.3.2,play_store,5,"Solid app, no complaints."
+TN-0200,2026-06-17,2.3.0,app_store,1,Honest review: Reminders are completely broken on my Galaxy A54. Please fix.
+TN-0201,2026-06-17,2.3.2,app_store,2,Not for me.
+TN-0202,2026-06-17,2.3.2,app_store,4,Sync between my iPad and phone lags badly. But dark mode looks gorgeous on my Galaxy A54.
+TN-0203,2026-06-17,2.3.2,app_store,5,"Wrong app, I meant to review my bank's app."
+TN-0204,2026-06-17,2.3.0,issue_tracker,,"App crashes on rotation in the editor. Pixel 8, 2.3.2."
+TN-0205,2026-06-17,2.2.0,play_store,5,Checklists are so easy to make.
+TN-0206,2026-06-17,,play_store,1,My reminder for 6pm showed up three hours late.
+TN-0207,2026-06-17,2.3.1,play_store,2,Used to be better.
+TN-0208,2026-06-18,2.3.1,issue_tracker,,Scheduled reminders not delivered on v2.3. Reminder set for 6pm on iPhone SE; no notification is shown. Notification permission is granted.
+TN-0209,2026-06-18,2.3,play_store,1,Apple sign-in says success and then asks me to sign in again.
+TN-0210,2026-06-18,2.3.2,play_store,3,Not worth it.
+TN-0211,2026-06-18,2.3.2,play_store,5,Watching the football while writing this.
+TN-0212,2026-06-18,2.3.0,play_store,5,first
+TN-0213,2026-06-19,,app_store,5,"Love it, I use it every day."
+TN-0214,2026-06-19,v2.3,issue_tracker,,"Reminder notifications delayed by hours. Seen on iPhone 13, 2.3.0."
+TN-0215,2026-06-19,,issue_tracker,,Scheduled reminders not delivered on 2.3.2. Reminder set for 9am on OnePlus 12; no notification is shown. Notification permission is granted.
+TN-0216,2026-06-19,2.3,play_store,5,Exactly what I needed.
+TN-0217,2026-06-19,2.3.1,play_store,5,Love it!!
+TN-0218,2026-06-20,2.2.0,play_store,3,It's okay I guess.
+TN-0219,2026-06-20,2.3.2,play_store,4,Quick review. Too expensive compared to the free alternatives. But notes appear on my other devices within seconds.
+TN-0220,2026-06-21,2.3.2,app_store,4,Would love a way to export everything to Markdown. We'll see.
+TN-0221,2026-06-21,2.3.0,issue_tracker,,"Duplicate of an earlier ticket, closing."
+TN-0222,2026-06-21,2.3,issue_tracker,,"Full-text search misses note bodies. Searching for a word that only appears in the body of a note returns no results. 2.3.0, iPad Air."
+TN-0223,2026-06-21,2.3.2,issue_tracker,,"[Bug] Search input lag. Each keystroke in search blocks the UI for about a second with 1,000+ notes. Several users affected."
+TN-0224,2026-06-21,,play_store,3,Happy birthday to my sister!
+TN-0225,2026-06-22,v2.3,app_store,5,Sync got so much faster in this version.
+TN-0226,2026-06-22,,app_store,5,The offline support is rock solid. Thanks to the devs!
+TN-0227,2026-06-22,2.3.0,issue_tracker,,"Test ticket, please ignore."
+TN-0228,2026-06-22,2.3.0,play_store,2,Honest review: The reminder notification shows up after I've already opened the task.
+TN-0229,2026-06-23,2.3.2,app_store,5,It's good. Recommended.
+TN-0230,2026-06-23,2.3.2,app_store,1,My reminder for 7:30 showed up three hours late.
+TN-0231,2026-06-23,2.3.0,play_store,2,Alerts for my to-dos stopped working. And I searched for a phone number I saved and got nothing.
+TN-0232,2026-06-23,2.3.1,play_store,5,Love that it works fully offline.
+TN-0233,2026-06-23,2.3,play_store,5,Offline editing on my iPhone 15 is flawless.
+TN-0234,2026-06-24,,app_store,2,Formatting gets lost when I paste from email. Really frustrating.
+TN-0235,2026-06-25,2.3.0,app_store,1,It crashes when I open a long note.
+TN-0236,2026-06-25,v2.3,app_store,4,It would be great to collaborate on a note with a coworker.
+TN-0237,2026-06-25,v2.3,app_store,5,Love the location-based reminders. Thanks to the devs!
+TN-0238,2026-06-25,2.3.2,app_store,5,My partner recommended it. Being able to use it offline when hiking is huge. Keep it up.
+TN-0239,2026-06-25,2.3,app_store,3,"can't get past sign in on my iPhone 13, tried reinstalling"
+TN-0240,2026-06-26,2.3.0,app_store,4,Long time user here. Wish I could share a single checklist without sharing the whole folder. Just my two cents.
+TN-0241,2026-06-26,2.3.0,issue_tracker,,"Duplicate of an earlier ticket, closing."
+TN-0242,2026-06-27,2.3.0,app_store,5,I travel a lot and the offline access is brilliant. The lifetime licence was worth every penny.
+TN-0243,2026-06-27,,app_store,2,The app crashes on launch on my iPhone 13. Also some text is unreadable in the dark theme. Exporting to PDF loses all my images.
+TN-0244,2026-06-27,2.3.0,play_store,2,Been using this for about a year. search doesn't find words with accents
+TN-0245,2026-06-27,2.3.0,play_store,2,"reminders worked fine before, now they just don't ring But even in airplane mode all my lists are there."
+TN-0246,2026-06-28,v2.3,app_store,5,Best notes app I've tried.
+TN-0247,2026-06-28,2.3.2,app_store,5,Great app!
+TN-0248,2026-06-28,v2.3,app_store,2,Meh.
+TN-0249,2026-06-28,2.3,app_store,5,Offline editing on my Galaxy S24 is flawless.
+TN-0250,2026-06-28,,play_store,2,"Searching only matches titles, not the text inside notes."
+TN-0251,2026-06-29,2.3.0,app_store,4,My partner recommended it. Love that it works fully offline.
+TN-0252,2026-06-29,2.3.1,play_store,4,Brilliant little app.
+TN-0253,2026-06-30,2.3.2,app_store,3,Changes from my tablet take ages to appear on my phone.
+TN-0254,2026-06-30,2.3.2,app_store,1,Meh.
+TN-0255,2026-06-30,2.3.1,play_store,4,Offline mode is the reason I switched from my old notes app.
+TN-0256,2026-06-30,,play_store,2,Reminders are silent now even though notifications are on.
+TN-0257,2026-07-01,v2.3,app_store,4,I can edit notes on the plane and nothing gets lost. Highly recommend.
+TN-0258,2026-07-01,2.3.2,play_store,3,"My partner recommended it. The sync spinner just sits there doing nothing. On the plus side, the editor is clean and distraction free."
+TN-0259,2026-07-02,2.3.0,app_store,4,Long time user here. offline mode is perfect for my commute It would be great to collaborate on a note with a coworker.
+TN-0260,2026-07-02,2.3.0,play_store,5,"Sync is instant now, nice work on the fix. Thanks to the devs!"
+TN-0261,2026-07-03,2.3,issue_tracker,,"Test ticket, please ignore."
+TN-0262,2026-07-03,2.3.2,play_store,4,Best notes app I've tried.
+TN-0263,2026-07-04,2.3.1,play_store,1,Expected more.
+TN-0264,2026-07-04,v2.3,play_store,4,"Reminders are the best part, they never miss. Thanks to the devs!"
+TN-0265,2026-07-05,2.3.2,app_store,1,Downloaded it last month. Dark mode resets to light every time I restart.
+TN-0266,2026-07-05,2.3.0,play_store,5,Checklists are so easy to make.
+TN-0267,2026-07-05,,play_store,3,Happy birthday to my sister!
+TN-0268,2026-07-05,,play_store,2,Reminders stopped going off after the update.
+TN-0269,2026-07-05,2.3.0,play_store,1,Testing testing 123
+TN-0270,2026-07-06,2.3.0,issue_tracker,,"Duplicate of an earlier ticket, closing."
+TN-0271,2026-07-06,,play_store,5,Really good.
+TN-0272,2026-07-06,2.3.0,play_store,3,Short version: Reminders are silent now even though notifications are on. Fix this please!!
+TN-0273,2026-07-07,2.3.0,app_store,2,The cursor jumps to the end when I edit a long note.
+TN-0274,2026-07-07,2.3.0,issue_tracker,,Pasting rich text breaks bullet list formatting. Paste a bulleted list from an email into a note on Galaxy S24; bullets become plain text. 2.3.1.
+TN-0275,2026-07-07,,play_store,1,Crashes every time I rotate the screen.
+TN-0276,2026-07-07,2.3.2,play_store,3,Missed a meeting because the reminder didn't fire.
+TN-0277,2026-07-07,2.3.1,play_store,3,"Recurring reminders only work the first time. On the plus side, no wifi in my building's basement and the app still works great."
+TN-0278,2026-07-09,2.3,app_store,4,Drag to reorder checklist items is so satisfying.
+TN-0279,2026-07-09,2.3.1,app_store,5,"Love the search, it even finds words inside scanned receipts. Finally a proper dark mode. Highly recommend."
+TN-0280,2026-07-09,2.3.1,issue_tracker,,"Customer report: Recurring reminder fires once, then never again. Steps: create a daily reminder, wait two days. v2.3. Reported via support."
+TN-0281,2026-07-09,2.3,play_store,1,The reminder notification shows up after I've already opened the task.
+TN-0282,2026-07-10,2.3.0,app_store,5,Does anyone know if the shopping centre is open on Sundays?
+TN-0283,2026-07-11,,app_store,2,Paying yearly and still getting upsell popups. Hoping for an update soon.
+TN-0284,2026-07-11,2.3,app_store,5,Search finds anything instantly.
+TN-0285,2026-07-11,2.3.1,app_store,1,Snoozed reminders never come back. Really frustrating.
+TN-0286,2026-07-11,2.3,issue_tracker,,Customer report: Feature request: bulk export of a folder to Markdown or PDF. Reported via support.
+TN-0287,2026-07-11,2.3.0,issue_tracker,,"[Bug] Search input lag. Each keystroke in search blocks the UI for about a second with 1,000+ notes. Reported via support."
+TN-0288,2026-07-11,2.3.1,play_store,2,Edit after the latest update: The subscription price went up again. Please fix.
+TN-0289,2026-07-11,2.3.1,play_store,3,Offline mode is a lifesaver on the subway. Also typing in the search box freezes the app for a second.
+TN-0290,2026-07-12,2.3.1,app_store,4,Edit after the latest update: Signing in with my Google account took two seconds. Snoozed reminders never come back.
+TN-0291,2026-07-12,2.3.2,app_store,2,Quick review. $7 a month for a notes app is too much. Search results come back in a random order. Really frustrating.
+TN-0292,2026-07-12,2.3.0,play_store,4,Long time user here. Sharing a grocery list with my partner works great.
+TN-0293,2026-07-13,2.3.2,app_store,1,There's no way to change the font size in the editor. Will change my rating when this is sorted.
+TN-0294,2026-07-13,v2.3,app_store,4,offline mode is perfect for my commute And my shopping list didn't sync until I was already out of the shop.
+TN-0295,2026-07-14,2.3.0,issue_tracker,,"Reminder notifications delayed by hours. Seen on OnePlus 12, 2.3.0."
+TN-0296,2026-07-14,2.3.0,issue_tracker,,"Test ticket, please ignore."
+TN-0297,2026-07-14,2.3.0,play_store,5,Drag to reorder checklist items is so satisfying. Keep it up.
+TN-0298,2026-07-14,2.3.2,play_store,4,I travel a lot and the offline access is brilliant.
+TN-0299,2026-07-14,2.3.1,play_store,3,My partner recommended it. They moved folders behind the paywall.
+TN-0300,2026-07-15,2.3.2,app_store,2,$7 a month for a notes app is too much. But I like that headings and bold just work. That's all.
+TN-0301,2026-07-15,2.3.2,app_store,5,Downloaded it last month. Markdown support is great. Plus works perfectly without signal. Keep it up.
+TN-0302,2026-07-15,2.3.0,play_store,5,Finally a proper dark mode. Finally sync just works and it's fast.
+TN-0303,2026-07-15,2.3,play_store,2,Search is slow once you have a lot of notes. Please fix.
+TN-0304,2026-07-16,2.3,app_store,5,Brilliant little app.
+TN-0305,2026-07-16,2.3.0,issue_tracker,,Question: how do I move my account to a new email address?
+TN-0306,2026-07-16,2.3.0,play_store,5,"Edit after the latest update: It works offline, which none of the other apps I tried did properly."
+TN-0307,2026-07-16,2.3.0,play_store,1,Offline mode lost a checklist I made on the train.
+TN-0308,2026-07-17,2.3.0,app_store,1,Recurring reminders only work the first time.
+TN-0309,2026-07-17,2.3.1,app_store,3,Testing testing 123
+TN-0310,2026-07-17,2.3.0,app_store,4,Very useful.
+TN-0311,2026-07-17,2.3.1,issue_tracker,,"Recurring reminder fires once, then never again. Steps: create a daily reminder, wait two days. 2.3.2."
+TN-0312,2026-07-17,v2.3,play_store,5,I can edit notes on the plane and nothing gets lost. And finally sync just works and it's fast. Worth it.
+TN-0313,2026-07-18,2.3.1,app_store,4,"Five stars, does what it says."
+TN-0314,2026-07-18,2.3.0,app_store,5,Great that I can write notes with zero bars of signal.
+TN-0315,2026-07-18,2.3.2,app_store,5,No wifi in my building's basement and the app still works great. Search is fast and accurate.
+TN-0316,2026-07-19,2.3.0,app_store,4,Great app!
+TN-0317,2026-07-19,v2.3,app_store,3,Quick review. I like that headings and bold just work. Plus exporting to PDF loses all my images.
+TN-0318,2026-07-19,2.3.0,play_store,5,"Five stars, does what it says."
+TN-0319,2026-07-19,v2.3,play_store,1,It logged me out and now won't let me back in. Will change my rating when this is sorted.
+TN-0320,2026-07-20,,app_store,1,The new widget doesn't update until I open the app.
+TN-0321,2026-07-20,2.4.2,issue_tracker,,"Duplicate of an earlier ticket, closing."
+TN-0322,2026-07-20,2.4.1,play_store,5,Great app!
+TN-0323,2026-07-20,2.4.0,play_store,4,Love the to-do widget.
+TN-0324,2026-07-20,,play_store,3,The subscription price went up again. Hoping for an update soon.
+TN-0325,2026-07-21,2.4,play_store,5,Exactly what I needed.
+TN-0326,2026-07-21,v2.3,play_store,3,Used to be better.
+TN-0327,2026-07-21,v2.3,play_store,4,Watching the football while writing this.
+TN-0328,2026-07-22,2.4.0,app_store,5,"It works offline, which none of the other apps I tried did properly. I like that headings and bold just work. Worth it."
+TN-0329,2026-07-22,v2.4,app_store,5,Love it!!
+TN-0330,2026-07-22,2.4.0,play_store,1,Some text is unreadable in the dark theme.
+TN-0331,2026-07-23,2.4,app_store,5,Simple and does the job.
+TN-0332,2026-07-25,v2.4,app_store,5,"I use this every day for work. The new sync is quick, my laptop and phone are always in step."
+TN-0333,2026-07-25,2.4,app_store,4,"Love it, I use it every day."
+TN-0334,2026-07-25,2.4.2,issue_tracker,,Bug: Feature request: bulk export of a folder to Markdown or PDF. Priority: high.
+TN-0335,2026-07-26,,app_store,1,Syncing between devices is painfully slow.
+TN-0336,2026-07-26,2.4.2,issue_tracker,,Widget not refreshing. Home-screen widget on OnePlus 12 keeps showing stale tasks until the app is opened. 2.4.0.
+TN-0337,2026-07-26,2.3.1,play_store,1,"Short version: Logging in is impossible since 2.1, it goes round in circles. Will change my rating when this is sorted."
+TN-0338,2026-07-27,v2.4,app_store,2,Edit after the latest update: Search can't find notes I know exist.
+TN-0339,2026-07-27,2.4.0,app_store,4,The dark theme is easy on the eyes.
+TN-0340,2026-07-27,2.4.1,issue_tracker,,"Customer report: Search input lag. Each keystroke in search blocks the UI for about a second with 1,000+ notes. Priority: high."
+TN-0341,2026-07-27,2.4,issue_tracker,,"Full-text search misses note bodies. Searching for a word that only appears in the body of a note returns no results. 2.4.0, iPhone SE."
+TN-0342,2026-07-27,2.4.0,issue_tracker,,"Login loop after updating to v2.4. Device: iPhone 13. Steps: open app, tap Sign in, enter credentials. Expected: notes list. Actual: returns to the sign-in screen."
+TN-0343,2026-07-27,2.4.0,play_store,4,Even in airplane mode all my lists are there.
+TN-0344,2026-07-27,2.3,play_store,5,Signing in with my Google account took two seconds.
+TN-0345,2026-07-27,2.4.0,play_store,5,The new home screen widget is really handy.
+TN-0346,2026-07-28,v2.4,app_store,4,"The app crashes on launch on my Pixel 8. That said, search is fast and accurate. We'll see."
+TN-0347,2026-07-28,2.4,play_store,1,"Long time user here. reminders worked fine before, now they just don't ring"
+TN-0348,2026-07-28,2.4,play_store,5,"Solid app, no complaints."
+TN-0349,2026-07-28,2.4.1,play_store,2,The reminders are reliable and easy to set. Paying yearly and still getting upsell popups.
+TN-0350,2026-07-29,2.4.1,app_store,5,Works perfectly without signal.
+TN-0351,2026-07-29,v2.4,issue_tracker,,Pasting rich text breaks bullet list formatting. Paste a bulleted list from an email into a note on iPad Air; bullets become plain text. 2.4.
+TN-0352,2026-07-29,2.4.2,issue_tracker,,Widget not refreshing. Home-screen widget on Galaxy S24 keeps showing stale tasks until the app is opened. 2.4.
+TN-0353,2026-07-29,,play_store,4,Long time user here. Offline mode is a lifesaver on the subway.
+TN-0354,2026-07-30,v2.3,app_store,3,Please add export to PDF. That's all.
+TN-0355,2026-07-31,2.4.0,issue_tracker,,"Test ticket, please ignore."
+TN-0356,2026-08-01,,app_store,5,Testing testing 123
+TN-0357,2026-08-01,2.4.0,app_store,5,Updated yesterday. Offline mode is the reason I switched from my old notes app. Thanks to the devs!
+TN-0358,2026-08-01,2.4.0,play_store,4,The editor is clean and distraction free. Worth it.
+TN-0359,2026-08-01,2.4.2,play_store,5,The offline support is rock solid.
+TN-0360,2026-08-02,2.4.1,app_store,5,Finally sync just works and it's fast.
+TN-0361,2026-08-02,2.3.0,app_store,4,It's good. Recommended.
+TN-0362,2026-08-02,2.4.0,app_store,5,first
+TN-0363,2026-08-02,,issue_tracker,,Customer report: Feature request: shared lists that two accounts can edit. Reported via support.
+TN-0364,2026-08-02,2.4,issue_tracker,,"Test ticket, please ignore."
+TN-0365,2026-08-02,,play_store,5,Login with Face ID is smooth.

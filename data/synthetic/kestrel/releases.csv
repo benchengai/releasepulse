@@ -1,0 +1,6 @@
+version,date,notes
+3.0,2026-02-09,"Spending reports, receipt scanning, bill alerts."
+3.1,2026-03-16,Free tier with ads; budget categories redesign.
+3.2,2026-04-20,Faster start-up; migration to a new bank-connection provider.
+3.3,2026-05-25,Bank connection fixes. Covered in a national newspaper's money section.
+3.4,2026-06-29,Shared budgets; new camera module for receipt scanning.
