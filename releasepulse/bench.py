@@ -46,6 +46,9 @@ def run_row(analysis: dict, gold: dict, calls: list[dict]) -> dict:
         "item_feature_f1": s["item_features"]["f1"],
         "polarity_agreement": s["polarity_agreement"],
         "complaint_agreement": s["complaint_agreement"],
+        "hard_recall": s["hard"]["recall"],
+        "hard_polarity": s["hard"]["polarity_agreement"],
+        "hard_feature": s["hard"]["feature_agreement"],
         "quote_validity": s["quote_validity"],
         "cue_validity": s["cue_validity"],
         "missing_items": s["missing_items"],
@@ -89,7 +92,8 @@ def run_once(dataset: dict, spec: str, out: Path, cache: EmbeddingCache, workers
 
 
 METRICS = ("mention_precision", "mention_strict_precision", "mention_recall", "mention_f1", "item_feature_f1",
-           "polarity_agreement", "complaint_agreement", "quote_validity", "cue_validity", "missing_items",
+           "polarity_agreement", "complaint_agreement", "hard_recall", "hard_polarity", "hard_feature",
+           "quote_validity", "cue_validity", "missing_items",
            "purity", "inverse_purity", "features_predicted", "reg_precision", "reg_recall", "imp_precision",
            "imp_recall", "raw_precision", "raw_recall", "nodedupe_precision", "traps_flagged",
            "traps_flagged_raw", "top_praised_ok", "cost_usd", "latency_s", "wall_s", "call_latency_median_s",
@@ -172,16 +176,17 @@ def render_markdown(results: dict) -> str:
         "**Extraction and clustering**",
         "",
         "| Model | Mention F1 | Mention precision | Strict precision | Mention recall | Item×feature F1 "
-        "| Polarity agr. | Quotes verified | Cues verified | Items not returned | Cluster purity | Inverse purity "
-        "| Features found |",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+        "| Polarity agr. | Hard: recall | Hard: polarity | Hard: feature | Quotes verified | Cues verified "
+        "| Items not returned | Cluster purity | Inverse purity | Features found |",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for spec, m in models.items():
         s = m["summary"]
         lines.append(
             f"| `{spec}` | {_cell(s, 'mention_f1')} | {_cell(s, 'mention_precision')} "
             f"| {_cell(s, 'mention_strict_precision')} | {_cell(s, 'mention_recall')} | {_cell(s, 'item_feature_f1')} "
-            f"| {_cell(s, 'polarity_agreement')} | {_cell(s, 'quote_validity')} | {_cell(s, 'cue_validity')} "
+            f"| {_cell(s, 'polarity_agreement')} | {_cell(s, 'hard_recall')} | {_cell(s, 'hard_polarity')} "
+            f"| {_cell(s, 'hard_feature')} | {_cell(s, 'quote_validity')} | {_cell(s, 'cue_validity')} "
             f"| {_cell(s, 'missing_items', '{:.1f}')} | {_cell(s, 'purity')} | {_cell(s, 'inverse_purity')} "
             f"| {_cell(s, 'features_predicted', '{:.0f}')} |")
     lines += [

@@ -1,346 +1,346 @@
 id,date,version,source,rating,text
-KB-0001,2026-02-09,3.0.2,play_store,2,It reads the date on my receipt as the total. Fix this please!!
-KB-0002,2026-02-11,,play_store,1,The free version is too limited now. Plus the app takes forever to launch
-KB-0003,2026-02-12,,app_store,4,Love this app.
-KB-0004,2026-02-12,3.0.2,play_store,4,Love the pie chart by category. Opening the app shows a spinner for ages.
-KB-0005,2026-02-16,,app_store,4,Does anyone know a good pizza place downtown?
-KB-0006,2026-02-16,v3.0,app_store,4,Recommended it to all my friends.
-KB-0007,2026-02-17,3.0.2,play_store,1,Edit after the latest update: Price went up without warning.
-KB-0008,2026-02-18,3.0.0,app_store,4,"Auto-categorisation is surprisingly accurate. Also, love the passcode lock, my kids can't see my spending."
-KB-0009,2026-02-19,v3.0,play_store,5,Premium is worth every cent.
-KB-0010,2026-02-20,3.0.0,app_store,5,Been using this for about a year. I love that it reads the shop name off the receipt. Five stars from me.
-KB-0011,2026-02-20,3.0,app_store,4,Excellent.
-KB-0012,2026-02-20,3.0.0,play_store,1,Bill reminders come a day after the bill is paid.
-KB-0013,2026-02-21,3.0.1,app_store,2,Been using this for about a year. CSV export has the wrong date format. Fix this please!!
-KB-0014,2026-02-21,3.0,issue_tracker,,Moved to the website repository.
-KB-0015,2026-02-22,3.0.2,app_store,3,"Premium at $59 a year is too pricey for a budgeting app. On the plus side, the weekly spending summary is really helpful. Overall it's fine."
-KB-0016,2026-02-22,3.0.2,app_store,2,Transactions from my main bank stopped importing after the update.
-KB-0017,2026-02-22,3.0.1,play_store,3,Been using this for about a year. Takes 30 seconds to open. Not happy right now.
-KB-0018,2026-02-22,3.0.2,play_store,4,"My partner recommended it. Rollover budgets are exactly what I wanted. Also, connecting Harbour Federal took less than a minute."
-KB-0019,2026-02-23,3.0,app_store,4,Edit after the latest update: The category breakdown chart is super clear. Also so laggy that I gave up checking it at the till.
-KB-0020,2026-02-23,3.0.2,app_store,5,The bill alerts have saved me from late fees.
-KB-0021,2026-02-24,3.0.0,play_store,1,"Been using this for about a year. It's sluggish, scrolling transactions stutters. Camera freezes on the receipt screen."
-KB-0022,2026-02-24,3.0,play_store,5,Good app.
-KB-0023,2026-02-26,3.0,app_store,5,The spending charts are beautiful and clear. Transactions import reliably every morning.
-KB-0024,2026-02-26,3.0,app_store,3,This review is for my school project
-KB-0025,2026-02-27,v3.0,app_store,1,Every screen takes ages to load.
-KB-0026,2026-02-27,3.0.0,play_store,2,Downloaded it last month. Too many features locked behind premium.
-KB-0027,2026-02-27,3.0.2,play_store,3,"Writing this on the bus, hi mum"
-KB-0028,2026-02-28,v3.0,app_store,2,Updated yesterday. Startup is painfully slow on my Moto G.
-KB-0029,2026-03-01,,app_store,2,Can't create my own categories. And the monthly report double counts transfers.
-KB-0030,2026-03-01,3.0.0,app_store,5,"Receipt scanning is magic, it reads the total perfectly."
-KB-0031,2026-03-01,v3.0,issue_tracker,,Cold start takes 30s on iPhone 16. Profiling shows the transaction list loads before the first frame. v3.0.
-KB-0032,2026-03-02,3.0,app_store,3,"Monthly reports showed me exactly where my money goes. Also, auto-categorising puts groceries under entertainment. We'll see."
-KB-0033,2026-03-02,3.0.0,app_store,2,"The passcode screen appears twice. Still, best charts of any budgeting app I've used."
-KB-0034,2026-03-03,3.0.1,app_store,5,Face ID lock makes me feel safe. Worth it.
-KB-0035,2026-03-04,3.0.1,play_store,5,Changed how I handle money.
-KB-0036,2026-03-05,3.0.1,app_store,5,Nice and simple.
-KB-0037,2026-03-05,,app_store,5,The receipt scanner saves me so much typing. Thanks to the devs!
-KB-0038,2026-03-06,3.0.0,app_store,2,Accounts show 'needs attention' and never refresh.
-KB-0039,2026-03-06,3.0,app_store,5,The category budgets keep me on track.
-KB-0040,2026-03-06,3.0.1,app_store,5,Very good app.
-KB-0041,2026-03-06,3.0.0,play_store,5,Does the job.
-KB-0042,2026-03-06,3.0.0,play_store,2,Honest review: Loading the dashboard takes forever.
-KB-0043,2026-03-08,3.0.2,play_store,5,Downloaded it last month. the reports are clear even for someone bad with numbers
-KB-0044,2026-03-09,3.0,app_store,4,Five stars.
-KB-0045,2026-03-10,3.0.1,play_store,5,Please let budgets start on payday instead of the 1st.
-KB-0046,2026-03-10,3.0.2,play_store,2,Uninstalled.
-KB-0047,2026-03-11,3.0.0,app_store,1,Subscription is too expensive. Slow slow slow. I just want to check my balance.
-KB-0048,2026-03-11,,app_store,5,The yearly overview chart is brilliant.
-KB-0049,2026-03-11,3.0.0,play_store,5,Really helpful app!
-KB-0050,2026-03-12,3.0.2,play_store,5,Good app.
-KB-0051,2026-03-12,3.0.0,play_store,5,I need a way to export a year of transactions for my accountant. Overall it's fine.
-KB-0052,2026-03-12,3.0.2,play_store,5,Setting a monthly budget is easy.
-KB-0053,2026-03-13,3.0.2,app_store,1,"bank connection keeps dropping, useless without it Really frustrating."
-KB-0054,2026-03-15,v3.0,play_store,2,I never get the bill alerts even though they're switched on.
-KB-0055,2026-03-16,3.1.0,app_store,2,the app takes forever to launch Plus subscription is too expensive. Will change my rating when this is sorted.
-KB-0056,2026-03-16,,play_store,4,Changed how I handle money.
-KB-0057,2026-03-16,3.1,play_store,2,Linking my account gives 'connection failed' every time.
-KB-0058,2026-03-17,,issue_tracker,,Cold start takes 20s on iPhone 16. Profiling shows the transaction list loads before the first frame. 3.1.0.
-KB-0059,2026-03-17,3.1.1,play_store,5,Honest review: Auto-categorisation is surprisingly accurate. Plus the insights screen is the best part of the app. Worth it.
-KB-0060,2026-03-20,3.1.1,issue_tracker,,Cold start takes 10s on Moto G. Profiling shows the transaction list loads before the first frame. 3.1.
-KB-0061,2026-03-20,3.1.1,play_store,5,Excellent.
-KB-0062,2026-03-20,3.1.0,play_store,5,Love the pie chart by category.
-KB-0063,2026-03-21,3.1.0,app_store,4,"I check the spending trends every week, so useful. Five stars from me."
-KB-0064,2026-03-21,v3.1,app_store,3,Loading the dashboard takes forever. Please fix.
-KB-0065,2026-03-21,,play_store,5,"Crypto signals in my profile, 10x guaranteed"
-KB-0066,2026-03-23,,issue_tracker,,Bill alert notifications not delivered on iPhone 16. 3.1.1.
-KB-0067,2026-03-23,v3.1,issue_tracker,,Closing as duplicate.
-KB-0068,2026-03-23,3.1.0,issue_tracker,,Cold start takes 20s on Moto G. Profiling shows the transaction list loads before the first frame. 3.1.1.
-KB-0069,2026-03-23,3.1.2,play_store,3,Since the update I can't scan receipts at all. But love getting a heads-up before rent goes out.
-KB-0070,2026-03-25,3.1.1,app_store,5,Rated by mistake.
-KB-0071,2026-03-26,3.1.0,app_store,1,Bill alerts fire for bills I've already cancelled. Not happy right now.
-KB-0072,2026-03-26,3.1.1,play_store,2,Quick review. Tapping 'scan receipt' gives a black screen and then it quits. Takes 30 seconds to open. Face ID unlock fails half the time.
-KB-0073,2026-03-27,3.1.0,app_store,4,Can't believe it's raining again.
-KB-0074,2026-03-30,3.1.2,app_store,4,Can't believe it's raining again.
-KB-0075,2026-03-30,v3.1,app_store,1,Not great.
-KB-0076,2026-03-30,,play_store,3,"My partner recommended it. The yearly overview chart is brilliant. Re-authorised Harbour Federal three times, still no transactions."
-KB-0077,2026-03-31,3.1.0,play_store,2,Long time user here. Export to spreadsheet drops the category column. Moving a transaction to another category is fiddly.
-KB-0078,2026-03-31,3.1.2,play_store,4,Really helpful app!
-KB-0079,2026-04-01,3.1.0,issue_tracker,,"Test issue from the QA team, ignore."
-KB-0080,2026-04-03,v3.1,app_store,3,"Opening the app shows a spinner for ages. On the plus side, the category breakdown chart is super clear."
-KB-0081,2026-04-03,3.1.0,play_store,4,Edit after the latest update: Seeing my spending graphed by month changed my habits. Keep it up.
-KB-0082,2026-04-04,3.0.0,app_store,4,Great budgeting app.
-KB-0083,2026-04-04,3.1.0,app_store,3,"The app is so slow to start. Also, ironic that a budgeting app costs this much."
-KB-0084,2026-04-04,3.1.0,play_store,5,Please add export to Excel.
-KB-0085,2026-04-04,3.1,play_store,4,Super useful.
-KB-0086,2026-04-04,v3.1,play_store,1,The free version is too limited now.
-KB-0087,2026-04-05,3.1.1,play_store,1,"Ads ads ads! Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone!"
-KB-0088,2026-04-05,v3.1,play_store,1,"Ads ads ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone."
-KB-0089,2026-04-06,3.1.0,app_store,5,Great budgeting app.
-KB-0090,2026-04-06,3.1,app_store,1,"ads ads ads. every single screen now has an advert, this used to be a clean app. uninstalling until the ads are gone."
-KB-0091,2026-04-06,3.1.0,issue_tracker,,Feature request: custom budget period aligned to payday.
-KB-0092,2026-04-06,3.1.0,play_store,1,"Ads, ads, ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone."
-KB-0093,2026-04-06,3.1.0,play_store,5,Updated yesterday. Fingerprint unlock is quick.
-KB-0094,2026-04-07,3.1.0,app_store,1,"Ads ads ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone..."
-KB-0095,2026-04-07,3.1.2,app_store,5,Good app.
-KB-0096,2026-04-07,3.1,app_store,3,"Honest review: Paywalled half the features, really?"
-KB-0097,2026-04-08,,app_store,2,Two stars.
-KB-0098,2026-04-08,3.1.0,play_store,1,A full-screen ad every time I add an expense.
-KB-0099,2026-04-08,,play_store,1,Half my accounts disconnected after updating.
-KB-0100,2026-04-09,3.1.0,app_store,2,Every screen takes ages to load.
-KB-0101,2026-04-09,3.1.1,issue_tracker,,Cold start takes 20s on Galaxy A35. Profiling shows the transaction list loads before the first frame. v3.1.
-KB-0102,2026-04-09,3.1.0,play_store,5,Best charts of any budgeting app I've used. Plus transactions import reliably every morning. Keep it up.
-KB-0103,2026-04-09,v3.1,play_store,5,"Long time user here. Receipt scanning is magic, it reads the total perfectly. Highly recommend."
-KB-0104,2026-04-10,3.1,play_store,5,Nice and simple.
-KB-0105,2026-04-11,3.1.1,app_store,4,Super useful.
-KB-0106,2026-04-12,3.1.0,play_store,5,Honest review: Love the envelope-style budgets.
-KB-0107,2026-04-13,3.1,app_store,2,Not impressed.
-KB-0108,2026-04-13,v3.1,play_store,5,the reports are clear even for someone bad with numbers
-KB-0109,2026-04-14,v3.1,app_store,2,Charts don't let me pick a custom date range.
-KB-0110,2026-04-14,,play_store,1,Please add export to Excel. Overall it's fine.
-KB-0111,2026-04-14,3.1,play_store,4,Very good app.
-KB-0112,2026-04-15,3.1,play_store,5,Snapping a photo of a receipt and having it filed is great. Highly recommend.
-KB-0113,2026-04-16,3.1.0,app_store,5,"Love the passcode lock, my kids can't see my spending."
-KB-0114,2026-04-16,3.1.1,play_store,2,"Ironic that a budgeting app costs this much. Also, budgets reset on the wrong day of the month. Fix this please!!"
-KB-0115,2026-04-16,3.1.1,play_store,3,"Win a free phone, visit my page"
-KB-0116,2026-04-17,3.1.0,app_store,5,Recommended it to all my friends.
-KB-0117,2026-04-19,v3.1,play_store,5,I love that it reads the shop name off the receipt.
-KB-0118,2026-04-20,v3.2,play_store,5,"Downloaded it last month. Opens instantly now, much faster than before. Keep it up."
-KB-0119,2026-04-21,3.2.1,app_store,3,"bank connection keeps dropping, useless without it Still, the insights screen is the best part of the app."
-KB-0120,2026-04-22,,play_store,4,Love this app.
-KB-0121,2026-04-23,,app_store,2,Long time user here. It keeps asking me to re-link Harbour Federal and then fails.
-KB-0122,2026-04-23,v3.2,app_store,5,Quick review. Snapping a photo of a receipt and having it filed is great.
-KB-0123,2026-04-23,v3.2,issue_tracker,,Bank connection fails with 'provider error' after updating to 3.2.1. Bank: my main bank. Device: Galaxy A35. Re-linking does not help.
-KB-0124,2026-04-23,,play_store,3,Updated yesterday. I need a way to export a year of transactions for my accountant.
-KB-0125,2026-04-24,,play_store,5,The speed improvement in this update is huge.
-KB-0126,2026-04-25,3.2.0,app_store,3,Quick review. Linking my account gives 'connection failed' every time. Will change my rating when this is sorted.
-KB-0127,2026-04-25,3.2,play_store,2,Been using this for about a year. Can't create my own categories.
-KB-0128,2026-04-25,3.2.2,play_store,4,Good app.
-KB-0129,2026-04-26,3.2,app_store,5,"Been using this for about a year. Receipt scanning is magic, it reads the total perfectly."
-KB-0130,2026-04-26,3.2.1,issue_tracker,,Bill alert notifications not delivered on Moto G. 3.2.
-KB-0131,2026-04-26,3.2.0,play_store,2,"My card transactions are missing, the bank link is broken."
-KB-0132,2026-04-27,3.2.0,play_store,1,Face ID unlock fails half the time.
-KB-0133,2026-04-28,3.2.0,app_store,2,Short version: Too many ads in the free version.
-KB-0134,2026-04-28,3.2.1,issue_tracker,,Bank connection fails with 'provider error' after updating to 3.2.0. Bank: my credit union. Device: Moto G. Re-linking does not help.
-KB-0135,2026-04-29,3.1.1,app_store,5,"The bank connection is rock solid. Also, reports make it obvious when I'm overspending."
-KB-0136,2026-04-30,3.2,app_store,5,I use this every day for work. Premium is worth every cent. Love the envelope-style budgets.
-KB-0137,2026-04-30,3.2.1,app_store,3,Scanning a receipt closes the app.
-KB-0138,2026-04-30,3.2.1,issue_tracker,,"OAuth re-link loop for my main bank. After approving in the bank app the user is sent back to the link screen. 3.2, Pixel 7."
-KB-0139,2026-05-01,3.2,play_store,3,Long time user here. Budgets reset on the wrong day of the month.
-KB-0140,2026-05-02,3.2.2,app_store,1,My bank account won't connect anymore. Charts don't let me pick a custom date range.
-KB-0141,2026-05-02,3.2.0,issue_tracker,,"Test issue from the QA team, ignore."
-KB-0142,2026-05-02,3.2.0,issue_tracker,,Transactions not imported since migration to the new provider. Accounts stuck on 'syncing'. 3.2.0.
-KB-0143,2026-05-02,3.2,play_store,5,"The bill alerts have saved me from late fees. I check the spending trends every week, so useful."
-KB-0144,2026-05-03,3.2.1,app_store,5,The insights screen is the best part of the app.
-KB-0145,2026-05-03,3.2.0,app_store,2,receipt scanning crashes every time on my Pixel 7
-KB-0146,2026-05-03,3.2,play_store,2,Quick review. So laggy that I gave up checking it at the till. Not happy right now.
-KB-0147,2026-05-03,3.2,play_store,2,"Re-authorised my credit union three times, still no transactions. Fix this please!!"
-KB-0148,2026-05-04,3.2.0,app_store,5,Five stars.
-KB-0149,2026-05-04,,play_store,5,This review is for my school project
-KB-0150,2026-05-05,3.2,app_store,5,Been using this for about a year. The spending charts are beautiful and clear. Highly recommend.
-KB-0151,2026-05-05,3.2,app_store,4,The category budgets keep me on track. Five stars from me.
-KB-0152,2026-05-05,3.2.1,play_store,2,Could be better.
-KB-0153,2026-05-06,,play_store,5,I use this every day for work. Rollover budgets are exactly what I wanted.
-KB-0154,2026-05-07,3.2,app_store,4,Does the job.
-KB-0155,2026-05-07,3.2.1,issue_tracker,,Bill alert notifications not delivered on Pixel 7. v3.2.
-KB-0156,2026-05-09,3.2.0,app_store,5,Nice and simple.
-KB-0157,2026-05-09,3.2.1,play_store,5,Monthly reports showed me exactly where my money goes.
-KB-0158,2026-05-10,3.2.0,app_store,1,"It's sluggish, scrolling transactions stutters."
-KB-0159,2026-05-11,3.2.0,play_store,1,Price went up without warning.
-KB-0160,2026-05-13,3.2,app_store,1,Short version: Ironic that a budgeting app costs this much.
-KB-0161,2026-05-14,3.2.0,play_store,5,Reports make it obvious when I'm overspending. Keep it up.
-KB-0162,2026-05-15,3.2,app_store,4,"I check the spending trends every week, so useful. It imports duplicate transactions from Northgate Bank and then stops syncing. Overall it's fine."
-KB-0163,2026-05-15,,app_store,1,Too many features locked behind premium.
-KB-0164,2026-05-16,v3.2,app_store,5,Edit after the latest update: Face ID lock makes me feel safe. Highly recommend.
-KB-0165,2026-05-16,v3.2,play_store,5,The receipt scanner saves me so much typing.
-KB-0166,2026-05-17,3.2.0,app_store,3,Would love sub-categories.
-KB-0167,2026-05-18,3.2.0,app_store,2,Bank sync has been broken for a week. Fix this please!!
-KB-0168,2026-05-18,3.1.1,app_store,5,Setting a monthly budget is easy. Worth it.
-KB-0169,2026-05-18,3.1,play_store,4,Rollover budgets are exactly what I wanted. Premium is worth every cent.
-KB-0170,2026-05-19,3.2.2,app_store,5,Fingerprint unlock is quick.
-KB-0171,2026-05-19,,play_store,3,"My card transactions are missing, the bank link is broken. That said, seeing my spending graphed by month changed my habits."
-KB-0172,2026-05-19,3.2.0,play_store,4,Super useful.
-KB-0173,2026-05-20,3.2.1,app_store,5,App launches in a second now.
-KB-0174,2026-05-22,3.2.2,app_store,2,"Been using this for about a year. No new transactions since the update, the connection just errors out."
-KB-0175,2026-05-22,3.2.1,app_store,1,It imports duplicate transactions from my main bank and then stops syncing. Please fix.
-KB-0176,2026-05-22,3.2.2,play_store,4,The category budgets keep me on track.
-KB-0177,2026-05-23,,app_store,1,"Paywalled half the features, really?"
-KB-0178,2026-05-23,3.2.0,app_store,4,the reports are clear even for someone bad with numbers Keep it up.
-KB-0179,2026-05-24,3.2.1,app_store,2,Honest review: Premium at $59 a year is too pricey for a budgeting app.
-KB-0180,2026-05-24,,play_store,2,Export to spreadsheet drops the category column.
-KB-0181,2026-05-25,,app_store,4,Love this app.
-KB-0182,2026-05-25,v3.3,app_store,5,My partner recommended it. The receipt scanner saves me so much typing. Worth it.
-KB-0183,2026-05-26,3.3.1,app_store,4,The category breakdown chart is super clear.
-KB-0184,2026-05-26,3.3.1,app_store,5,Updated yesterday. The bill alerts have saved me from late fees. Worth it.
-KB-0185,2026-05-26,3.3.2,play_store,5,Fingerprint unlock is quick.
-KB-0186,2026-05-26,3.3.1,play_store,5,Five stars.
-KB-0187,2026-05-27,v3.3,play_store,4,Auto-categorisation is surprisingly accurate.
-KB-0188,2026-05-27,3.3,play_store,4,"Downloaded it last month. Love the passcode lock, my kids can't see my spending."
-KB-0189,2026-05-28,v3.3,issue_tracker,,"OAuth re-link loop for my savings bank. After approving in the bank app the user is sent back to the link screen. v3.3, Pixel 9 Pro."
-KB-0190,2026-05-29,3.3.0,app_store,5,Love getting a heads-up before rent goes out. Thanks to the devs!
-KB-0191,2026-05-29,3.3.1,play_store,1,Bit of a let down.
-KB-0192,2026-05-29,3.2,play_store,5,Love the envelope-style budgets. Connecting Harbour Federal took less than a minute. Thanks to the devs!
-KB-0193,2026-05-29,,play_store,2,Moving a transaction to another category is fiddly.
-KB-0194,2026-05-29,3.3.0,play_store,2,Two stars.
-KB-0195,2026-05-30,3.3.0,app_store,5,Edit after the latest update: Best charts of any budgeting app I've used.
-KB-0196,2026-05-30,,app_store,5,The bank connection is rock solid.
-KB-0197,2026-05-30,3.3.2,play_store,5,Rated by mistake.
-KB-0198,2026-05-30,,play_store,5,The spending charts are beautiful and clear.
-KB-0199,2026-05-31,v3.3,app_store,2,My partner recommended it. the reports are clear even for someone bad with numbers Can't create my own categories.
-KB-0200,2026-05-31,3.3,app_store,1,Please let budgets start on payday instead of the 1st. That's all.
-KB-0201,2026-05-31,3.3.0,play_store,5,Setting a monthly budget is easy.
-KB-0202,2026-06-01,3.3.0,app_store,2,"Edit after the latest update: Receipt capture is broken, it just shuts down. Really frustrating."
-KB-0203,2026-06-01,3.3.2,app_store,5,Really helpful app!
-KB-0204,2026-06-01,v3.3,issue_tracker,,Bill alert notifications not delivered on iPhone 12 mini. 3.3.0.
-KB-0205,2026-06-01,,issue_tracker,,Closing as duplicate.
-KB-0206,2026-06-01,,play_store,4,Can't believe it's raining again.
-KB-0207,2026-06-01,3.3.0,play_store,2,Price went up without warning.
-KB-0208,2026-06-02,,app_store,2,"I use this every day for work. Paywalled half the features, really?"
-KB-0209,2026-06-02,,play_store,2,Startup is painfully slow on my Galaxy S23.
-KB-0210,2026-06-03,v3.3,app_store,5,Does the job.
-KB-0211,2026-06-03,v3.3,issue_tracker,,Moved to the website repository.
-KB-0212,2026-06-03,,play_store,5,Love the envelope-style budgets. Thanks to the devs!
-KB-0213,2026-06-03,3.3.0,play_store,5,Super useful.
-KB-0214,2026-06-04,,app_store,5,Really helpful app!
-KB-0215,2026-06-04,3.3.0,play_store,3,"Edit after the latest update: Too many features locked behind premium. Still, the insights screen is the best part of the app."
-KB-0216,2026-06-04,3.3.0,play_store,3,Would love sub-categories.
-KB-0217,2026-06-05,v3.3,app_store,1,My partner recommended it. Moving a transaction to another category is fiddly.
-KB-0218,2026-06-05,v3.3,play_store,1,The monthly report double counts transfers. I never get the bill alerts even though they're switched on. Really frustrating.
-KB-0219,2026-06-06,v3.2,app_store,1,Long time user here. The bank feed is stuck on last month's balance. Not happy right now.
-KB-0220,2026-06-06,,app_store,5,Short version: Love the pie chart by category. Highly recommend.
-KB-0221,2026-06-06,3.3.0,issue_tracker,,"Receipt scan returns black preview and the app terminates. Moto G, 3.3.0."
-KB-0222,2026-06-06,3.3,play_store,4,The bank connection is rock solid. Keep it up.
-KB-0223,2026-06-07,v3.3,app_store,5,Does the job.
-KB-0224,2026-06-07,v3.3,play_store,5,Rollover budgets are exactly what I wanted. Keep it up.
-KB-0225,2026-06-08,v3.3,app_store,1,Auto-categorising puts groceries under entertainment.
-KB-0226,2026-06-08,v3.2,app_store,3,Bank sync has been broken for a week.
-KB-0227,2026-06-08,3.3.2,play_store,5,This review is for my school project
-KB-0228,2026-06-09,3.3.0,app_store,2,Not great.
-KB-0229,2026-06-09,3.3.0,play_store,2,"Bill alerts fire for bills I've already cancelled. That said, snapping a photo of a receipt and having it filed is great."
-KB-0230,2026-06-09,3.3.2,play_store,1,Premium at $6.49 is too pricey for a budgeting app.
-KB-0231,2026-06-09,3.3.0,play_store,5,Setting a monthly budget is easy. Highly recommend.
-KB-0232,2026-06-10,3.3,app_store,4,Seeing my spending graphed by month changed my habits. The passcode screen appears twice. Just my two cents.
-KB-0233,2026-06-11,3.3.0,app_store,4,Premium is worth every cent.
-KB-0234,2026-06-11,3.3.1,app_store,5,Setting a monthly budget is easy.
-KB-0235,2026-06-11,3.3,app_store,4,The weekly spending summary is really helpful. Please add export to Excel.
-KB-0236,2026-06-11,,play_store,5,Snapping a photo of a receipt and having it filed is great.
-KB-0237,2026-06-12,3.3.1,app_store,3,"CSV export has the wrong date format. On the plus side, connecting Northgate Bank took less than a minute."
-KB-0238,2026-06-12,v3.3,app_store,4,The weekly spending summary is really helpful.
-KB-0239,2026-06-12,3.3.0,play_store,2,The yearly overview chart is brilliant. The scanner can't find the edges of the receipt.
-KB-0240,2026-06-13,3.3.0,play_store,5,Auto-categorisation is surprisingly accurate.
-KB-0241,2026-06-13,,play_store,5,Best charts of any budgeting app I've used. Highly recommend.
-KB-0242,2026-06-14,3.3,app_store,4,Can't believe it's raining again.
-KB-0243,2026-06-14,,play_store,5,Good app.
-KB-0244,2026-06-14,3.3.2,play_store,1,Honest review: Transactions from my main bank stopped importing after the update.
-KB-0245,2026-06-14,3.3.0,play_store,1,Too many ads in the free version. Fix this please!!
-KB-0246,2026-06-15,3.3.0,app_store,5,Honest review: Monthly reports showed me exactly where my money goes. Five stars from me.
-KB-0247,2026-06-15,3.3.2,issue_tracker,,Moved to the website repository.
-KB-0248,2026-06-15,3.3.0,play_store,4,Recommended it to all my friends.
-KB-0249,2026-06-15,3.2.0,play_store,5,The weekly spending summary is really helpful. Highly recommend.
-KB-0250,2026-06-16,3.3.2,app_store,5,Downloaded it last month. Monthly reports showed me exactly where my money goes.
-KB-0251,2026-06-16,v3.3,app_store,5,The receipt scanner saves me so much typing. Five stars from me.
-KB-0252,2026-06-16,v3.3,play_store,3,Been using this for about a year. The passcode screen appears twice.
-KB-0253,2026-06-16,3.3.0,play_store,2,Long time user here. Price went up without warning. Hoping for an update soon.
-KB-0254,2026-06-16,v3.3,play_store,1,Slow slow slow. I just want to check my balance.
-KB-0255,2026-06-16,3.3.1,play_store,3,This review is for my school project
-KB-0256,2026-06-16,v3.3,play_store,4,"Writing this on the bus, hi mum"
-KB-0257,2026-06-17,v3.3,app_store,5,Downloaded it last month. The speed improvement in this update is huge.
-KB-0258,2026-06-17,3.3,app_store,5,Love this app.
-KB-0259,2026-06-17,3.3.0,app_store,5,Very good app.
-KB-0260,2026-06-17,3.3,play_store,5,Five stars.
-KB-0261,2026-06-18,3.3.2,app_store,5,Good app.
-KB-0262,2026-06-18,3.3.1,app_store,5,The yearly overview chart is brilliant.
-KB-0263,2026-06-19,3.3,play_store,4,Good app.
-KB-0264,2026-06-19,3.2.0,play_store,1,Updated yesterday. Half my accounts disconnected after updating. Fix this please!!
-KB-0265,2026-06-20,v3.3,app_store,5,I love that it reads the shop name off the receipt. Thanks to the devs!
-KB-0266,2026-06-20,v3.3,app_store,4,Nice and simple.
-KB-0267,2026-06-21,3.3.0,app_store,1,"Win a free phone, visit my page"
-KB-0268,2026-06-21,3.3.0,play_store,4,Face ID lock makes me feel safe.
-KB-0269,2026-06-21,3.3.1,play_store,1,"Writing this on the bus, hi mum"
-KB-0270,2026-06-22,3.3,app_store,5,Changed how I handle money.
-KB-0271,2026-06-22,3.3.2,app_store,4,Rated by mistake.
-KB-0272,2026-06-23,3.3.2,app_store,2,Not impressed.
-KB-0273,2026-06-23,3.3.0,app_store,5,"Opens instantly now, much faster than before."
-KB-0274,2026-06-23,3.3.0,app_store,1,The bank feed is stuck on last month's balance.
-KB-0275,2026-06-23,3.3.0,play_store,5,Excellent.
-KB-0276,2026-06-23,3.3.0,play_store,3,"Writing this on the bus, hi mum"
-KB-0277,2026-06-24,3.3.0,app_store,5,App launches in a second now.
-KB-0278,2026-06-24,3.3.0,app_store,5,"Receipt scanning is magic, it reads the total perfectly. Thanks to the devs!"
-KB-0279,2026-06-24,3.3.1,play_store,4,Great budgeting app.
-KB-0280,2026-06-24,,play_store,1,I need a way to export a year of transactions for my accountant. Just my two cents.
-KB-0281,2026-06-25,3.3.0,app_store,3,Could be better.
-KB-0282,2026-06-25,3.3,app_store,5,Excellent.
-KB-0283,2026-06-26,v3.3,app_store,4,Transactions import reliably every morning.
-KB-0284,2026-06-26,3.3.2,play_store,2,Premium at $5.99 is too pricey for a budgeting app.
-KB-0285,2026-06-27,3.3.0,app_store,4,Good app.
-KB-0286,2026-06-27,3.3.1,play_store,3,Subscription is too expensive.
-KB-0287,2026-06-27,3.3.2,play_store,5,The category breakdown chart is super clear.
-KB-0288,2026-06-28,3.3,app_store,3,"Been using this for about a year. The monthly report double counts transfers. That said, the category budgets keep me on track."
-KB-0289,2026-06-28,,app_store,4,Changed how I handle money.
-KB-0290,2026-06-28,v3.3,app_store,5,Downloaded it last month. Reports make it obvious when I'm overspending.
-KB-0291,2026-06-28,3.3,app_store,5,Great budgeting app.
-KB-0292,2026-06-29,v3.4,app_store,3,Bit of a let down.
-KB-0293,2026-06-29,,play_store,1,Receipt photos come out blurry and the total is read wrong.
-KB-0294,2026-06-29,v3.4,play_store,2,Subscription is too expensive. Plus accounts show 'needs attention' and never refresh. Not happy right now.
-KB-0295,2026-06-30,3.4.2,app_store,4,"Love the passcode lock, my kids can't see my spending. And transactions import reliably every morning."
-KB-0296,2026-06-30,3.4.0,play_store,5,Quick review. App launches in a second now.
-KB-0297,2026-06-30,,play_store,5,Reports make it obvious when I'm overspending. Highly recommend.
-KB-0298,2026-06-30,3.4.0,play_store,3,Since the update I can't scan receipts at all.
-KB-0299,2026-07-01,3.4.0,app_store,1,Export to spreadsheet drops the category column. Not happy right now.
-KB-0300,2026-07-01,,app_store,2,Face ID unlock fails half the time.
-KB-0301,2026-07-01,3.4.0,app_store,1,"Paywalled half the features, really?"
-KB-0302,2026-07-02,v3.4,app_store,3,The spending charts are beautiful and clear. Tapping 'scan receipt' gives a black screen and then it quits. We'll see.
-KB-0303,2026-07-02,3.4.0,issue_tracker,,"Test issue from the QA team, ignore."
-KB-0304,2026-07-02,3.4.0,play_store,5,"Crypto signals in my profile, 10x guaranteed"
-KB-0305,2026-07-02,3.4,play_store,3,"Receipt capture is broken, it just shuts down. Also, budgets reset on the wrong day of the month. Please fix."
-KB-0306,2026-07-02,v3.4,play_store,2,So laggy that I gave up checking it at the till. And my bank account won't connect anymore.
-KB-0307,2026-07-02,3.4.0,play_store,2,The receipt scanner crashes as soon as the camera opens.
-KB-0308,2026-07-03,,app_store,1,Edit after the latest update: The receipt scanner crashes as soon as the camera opens. Hoping for an update soon.
-KB-0309,2026-07-03,3.4.0,app_store,5,Finally we can budget together as a couple.
-KB-0310,2026-07-03,3.4.0,app_store,4,I use this every day for work. Auto-categorisation is surprisingly accurate. Ironic that a budgeting app costs this much.
-KB-0311,2026-07-03,3.3.0,app_store,2,The free version is too limited now.
-KB-0312,2026-07-03,3.3.0,app_store,2,Too many features locked behind premium.
-KB-0313,2026-07-03,v3.4,play_store,5,Super useful.
-KB-0314,2026-07-04,,app_store,5,Quick review. Seeing my spending graphed by month changed my habits.
-KB-0315,2026-07-04,3.4.0,issue_tracker,,Crash when opening the receipt camera on 3.4.0. Device: iPhone 16. Reproducible 100%.
-KB-0316,2026-07-04,3.4,issue_tracker,,Moved to the website repository.
-KB-0317,2026-07-04,3.4,play_store,5,Very good app.
-KB-0318,2026-07-05,3.4,app_store,4,"Camera freezes on the receipt screen. That said, rollover budgets are exactly what I wanted."
-KB-0319,2026-07-05,3.4.0,app_store,2,Uninstalled.
-KB-0320,2026-07-06,3.4.0,play_store,5,Love this app.
-KB-0321,2026-07-07,3.4,issue_tracker,,Shared budget invite email not delivered. 3.4.0.
-KB-0322,2026-07-07,,play_store,4,Recommended it to all my friends.
-KB-0323,2026-07-08,3.4.0,app_store,5,My partner recommended it. Love the pie chart by category.
-KB-0324,2026-07-08,,app_store,2,"Shared budgets double count our joint account. On the plus side, love getting a heads-up before rent goes out."
-KB-0325,2026-07-08,3.4.1,app_store,1,The invite link for shared budgets never arrives.
-KB-0326,2026-07-09,3.4,play_store,4,"Been using this for about a year. Receipt scanning is magic, it reads the total perfectly. Thanks to the devs!"
-KB-0327,2026-07-10,3.4.0,app_store,5,Been using this for about a year. I need a way to export a year of transactions for my accountant.
-KB-0328,2026-07-10,3.4.1,issue_tracker,,Bill alert notifications not delivered on iPhone 14. v3.4.
-KB-0329,2026-07-10,3.4,play_store,5,Really helpful app!
-KB-0330,2026-07-11,3.3.0,issue_tracker,,Closing as duplicate.
-KB-0331,2026-07-11,3.4.2,play_store,5,Seeing my spending graphed by month changed my habits.
-KB-0332,2026-07-12,3.3,app_store,1,The app is so slow to start. Will change my rating when this is sorted.
-KB-0333,2026-07-12,3.4.2,play_store,3,"Receipt photos come out blurry and the total is read wrong. But I check the spending trends every week, so useful."
-KB-0334,2026-07-13,v3.4,app_store,5,My partner recommended it. Shared budgets with my husband is a great addition.
-KB-0335,2026-07-13,3.4.1,app_store,5,Updated yesterday. Love the envelope-style budgets.
-KB-0336,2026-07-13,,issue_tracker,,Closing as duplicate.
-KB-0337,2026-07-13,3.4,issue_tracker,,"Test issue from the QA team, ignore."
-KB-0338,2026-07-13,3.4.0,play_store,5,Long time user here. I love that it reads the shop name off the receipt.
-KB-0339,2026-07-13,3.4.1,play_store,3,The bank connection is rock solid. Auto-categorising puts groceries under entertainment.
-KB-0340,2026-07-14,3.4.0,app_store,2,Long time user here. Scanning a receipt closes the app.
-KB-0341,2026-07-14,3.4.1,app_store,5,Monthly reports showed me exactly where my money goes. Five stars from me.
-KB-0342,2026-07-14,3.4,app_store,2,Short version: Charts don't let me pick a custom date range. Please fix.
-KB-0343,2026-07-14,3.4.2,app_store,1,Would love sub-categories. We'll see.
-KB-0344,2026-07-14,,issue_tracker,,Closing as duplicate.
-KB-0345,2026-07-14,3.4.0,play_store,1,Quick review. The free version is too limited now.
+KB-0001,2026-02-09,3.0.2,play_store,2,Opening the app shows a spinner for ages. Fix this please!!
+KB-0002,2026-02-11,3.0,app_store,5,Auto-categorisation is surprisingly accurate.
+KB-0003,2026-02-12,3.0,app_store,3,I use this every day for work. Export to spreadsheet drops the category column.
+KB-0004,2026-02-12,3.0.1,app_store,1,The free version is too limited now. Love staring at the loading spinner every morning. Not. Will change my rating when this is sorted.
+KB-0005,2026-02-12,3.0.0,play_store,2,"Loading the dashboard takes forever. Also, it reads the date on my receipt as the total."
+KB-0006,2026-02-13,3.0.1,app_store,2,Every screen takes ages to load. Not happy right now.
+KB-0007,2026-02-14,,app_store,5,Can't believe it's raining again.
+KB-0008,2026-02-14,3.0.1,play_store,5,Does anyone know a good pizza place downtown?
+KB-0009,2026-02-14,,play_store,3,Long time user here. Please add export to Excel. Just my two cents.
+KB-0010,2026-02-14,3.0.2,play_store,2,Seeing my spending graphed by month changed my habits. Plus the app takes forever to launch
+KB-0011,2026-02-14,3.0.2,play_store,1,Updated yesterday. The app is so slow to start. Hoping for an update soon.
+KB-0012,2026-02-15,3.0.0,app_store,4,Nice and simple.
+KB-0013,2026-02-18,3.0,app_store,5,Good app.
+KB-0014,2026-02-18,3.0.1,app_store,4,The yearly overview chart is brilliant. Thanks to the devs!
+KB-0015,2026-02-18,3.0.2,issue_tracker,,Closing as duplicate.
+KB-0016,2026-02-19,3.0.1,play_store,3,Price went up without warning. Really frustrating.
+KB-0017,2026-02-19,3.0.1,play_store,2,Six dollars a month to tell me I spend too much.
+KB-0018,2026-02-20,3.0.0,play_store,2,Ironic that a budgeting app costs this much. Also startup is painfully slow on my Moto G. Not happy right now.
+KB-0019,2026-02-20,3.0,play_store,5,Rollover budgets are exactly what I wanted.
+KB-0020,2026-02-21,3.0.2,app_store,4,"Love the envelope-style budgets. Also, face ID lock makes me feel safe. Thanks to the devs!"
+KB-0021,2026-02-22,v3.0,app_store,1,Accounts show 'needs attention' and never refresh.
+KB-0022,2026-02-22,3.0.0,app_store,1,It imports duplicate transactions from Harbour Federal and then stops syncing.
+KB-0023,2026-02-22,3.0.2,app_store,4,"Premium at $59 a year is too pricey for a budgeting app. Still, love the pie chart by category."
+KB-0024,2026-02-22,v3.0,play_store,3,Not impressed.
+KB-0025,2026-02-24,3.0.2,app_store,3,The insights screen is the best part of the app. Moving a transaction to another category is fiddly.
+KB-0026,2026-02-27,3.0,play_store,2,My partner recommended it. Bill alerts fire for bills I've already cancelled. Really frustrating.
+KB-0027,2026-02-28,3.0.0,app_store,5,I love that it reads the shop name off the receipt.
+KB-0028,2026-02-28,3.0.0,play_store,5,Changed how I handle money.
+KB-0029,2026-02-28,3.0.2,play_store,5,The category breakdown chart is super clear.
+KB-0030,2026-03-01,3.0.0,play_store,5,Setting a monthly budget is easy. My card purchases show up within minutes.
+KB-0031,2026-03-02,3.0,app_store,5,Quick review. Fingerprint unlock is quick. Worth it.
+KB-0032,2026-03-02,v3.0,app_store,5,"Win a free phone, visit my page"
+KB-0033,2026-03-03,3.0.0,app_store,1,Honest review: Budgets reset on the wrong day of the month. The monthly report double counts transfers.
+KB-0034,2026-03-03,3.0.0,play_store,5,Premium is worth every cent.
+KB-0035,2026-03-03,3.0.1,play_store,1,"Short version: Receipt capture is broken, it just shuts down. Please fix."
+KB-0036,2026-03-04,3.0.2,app_store,5,Long time user here. No more typing in totals from paper slips.
+KB-0037,2026-03-05,,app_store,1,My bank account won't connect anymore.
+KB-0038,2026-03-05,,app_store,1,Rated by mistake.
+KB-0039,2026-03-05,3.0.0,app_store,5,Super useful.
+KB-0040,2026-03-05,,app_store,5,Very good app.
+KB-0041,2026-03-05,,play_store,2,Not great.
+KB-0042,2026-03-06,3.0.0,app_store,2,Takes 15 seconds to open.
+KB-0043,2026-03-06,3.0.0,issue_tracker,,Cold start takes 20s on Pixel 7. Profiling shows the transaction list loads before the first frame. 3.0.
+KB-0044,2026-03-07,3.0.0,app_store,4,Short version: Love getting a heads-up before rent goes out. Thanks to the devs!
+KB-0045,2026-03-10,,play_store,4,Great budgeting app.
+KB-0046,2026-03-10,3.0.1,play_store,5,Please let budgets start on payday instead of the 1st.
+KB-0047,2026-03-11,3.0.2,app_store,3,The graphs are not bad at all. So laggy that I gave up checking it at the till.
+KB-0048,2026-03-11,,app_store,3,"The passcode screen appears twice. That said, best charts of any budgeting app I've used. We'll see."
+KB-0049,2026-03-12,3.0.2,app_store,5,Snapping a photo of a receipt and having it filed is great. Highly recommend.
+KB-0050,2026-03-12,3.0.2,play_store,1,Uninstalled.
+KB-0051,2026-03-13,3.0.1,play_store,2,"Long time user here. Found out my phone bill was due from the late fee, not from the app."
+KB-0052,2026-03-14,,app_store,5,This review is for my school project
+KB-0053,2026-03-15,,play_store,5,Five stars.
+KB-0054,2026-03-16,3.1,play_store,5,Excellent.
+KB-0055,2026-03-16,,play_store,5,Quick review. The weekly spending summary is really helpful. Keep it up.
+KB-0056,2026-03-17,3.1.1,play_store,2,Bit of a let down.
+KB-0057,2026-03-18,3.1.0,issue_tracker,,Cold start takes 20s on Galaxy A35. Profiling shows the transaction list loads before the first frame. v3.1. Several users affected.
+KB-0058,2026-03-18,3.1.2,play_store,1,I could make a coffee in the time it takes to open.
+KB-0059,2026-03-20,3.1.0,app_store,5,Really helpful app!
+KB-0060,2026-03-20,3.1.1,play_store,5,Updated yesterday. Snapping a photo of a receipt and having it filed is great.
+KB-0061,2026-03-21,3.1.1,play_store,5,Does the job.
+KB-0062,2026-03-21,3.1,play_store,5,I use this every day for work. Reports make it obvious when I'm overspending.
+KB-0063,2026-03-21,v3.1,play_store,5,"Quick review. Receipt scanning is magic, it reads the total perfectly."
+KB-0064,2026-03-21,3.1.0,play_store,5,The receipt scanner saves me so much typing.
+KB-0065,2026-03-21,3.1.0,play_store,2,Uninstalled.
+KB-0066,2026-03-22,,play_store,1,My partner recommended it. Six dollars a month to tell me I spend too much. Fix this please!!
+KB-0067,2026-03-23,3.1.2,app_store,3,Charts don't let me pick a custom date range. Please fix.
+KB-0068,2026-03-23,3.1,app_store,1,So laggy that I gave up checking it at the till.
+KB-0069,2026-03-23,3.1.2,app_store,5,The spending charts are beautiful and clear.
+KB-0070,2026-03-24,3.1.1,app_store,5,"Love the passcode lock, my kids can't see my spending."
+KB-0071,2026-03-24,3.1.0,play_store,5,My partner recommended it. Rollover budgets are exactly what I wanted.
+KB-0072,2026-03-25,,app_store,4,Does the job.
+KB-0073,2026-03-25,,app_store,1,Long time user here. It keeps asking me to re-link my credit union and then fails.
+KB-0074,2026-03-25,3.1.2,play_store,5,Setting a monthly budget is easy.
+KB-0075,2026-03-25,3.1.1,play_store,2,"Takes 20 seconds to open. Paywalled half the features, really? Hoping for an update soon."
+KB-0076,2026-03-26,3.1.1,app_store,3,Could be better.
+KB-0077,2026-03-26,v3.1,app_store,1,"It's sluggish, scrolling transactions stutters. Also too many ads in the free version. Fix this please!!"
+KB-0078,2026-03-26,3.1.0,issue_tracker,,Bank connection fails with 'provider error' after updating to 3.1.0. Bank: Northgate Bank. Device: iPhone 12 mini. Re-linking does not help.
+KB-0079,2026-03-27,3.1,app_store,2,Bill reminders come a day after the bill is paid.
+KB-0080,2026-03-27,,app_store,5,The bill alerts have saved me from late fees.
+KB-0081,2026-03-27,3.1.0,play_store,4,Can't believe it's raining again.
+KB-0082,2026-03-27,v3.1,play_store,5,Recommended it to all my friends.
+KB-0083,2026-03-28,3.1.0,play_store,4,"Crypto signals in my profile, 10x guaranteed"
+KB-0084,2026-03-30,3.1,play_store,1,Loading the dashboard takes forever.
+KB-0085,2026-03-30,3.1.2,play_store,2,Slow slow slow. I just want to check my balance.
+KB-0086,2026-03-31,,app_store,3,Please add export to Excel.
+KB-0087,2026-03-31,3.1.1,issue_tracker,,Cold start takes 20s on Moto G. Profiling shows the transaction list loads before the first frame. 3.1.0.
+KB-0088,2026-03-31,v3.1,issue_tracker,,OCR reads wrong total on receipts with discounts. 3.1.0.
+KB-0089,2026-04-01,v3.1,app_store,4,Connecting Harbour Federal took less than a minute. Thanks to the devs!
+KB-0090,2026-04-02,3.1.1,app_store,3,Could be better.
+KB-0091,2026-04-02,3.1,app_store,5,"I check the spending trends every week, so useful."
+KB-0092,2026-04-02,3.1,play_store,1,"Ads ads ads! Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone!"
+KB-0093,2026-04-02,3.1,play_store,1,"Ads ads ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone."
+KB-0094,2026-04-02,3.1.1,play_store,1,I need a way to export a year of transactions for my accountant. Overall it's fine.
+KB-0095,2026-04-03,,app_store,3,The category breakdown chart is super clear. CSV export has the wrong date format. Overall it's fine.
+KB-0096,2026-04-03,3.1.2,app_store,1,"ads ads ads. every single screen now has an advert, this used to be a clean app. uninstalling until the ads are gone."
+KB-0097,2026-04-03,3.1.1,play_store,1,"Ads, ads, ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone."
+KB-0098,2026-04-04,3.1.2,app_store,1,"Ads ads ads. Every single screen now has an advert, this used to be a clean app. Uninstalling until the ads are gone..."
+KB-0099,2026-04-05,3.1,app_store,5,Nobody can snoop on my spending when they borrow my phone.
+KB-0100,2026-04-05,3.1.0,app_store,1,Two stars.
+KB-0101,2026-04-06,3.1.0,app_store,5,Good app.
+KB-0102,2026-04-06,3.1.1,play_store,5,Auto-categorisation is surprisingly accurate. Five stars from me.
+KB-0103,2026-04-07,3.0.0,app_store,5,Love this app.
+KB-0104,2026-04-08,3.1.0,play_store,2,Groceries keep ending up under entertainment.
+KB-0105,2026-04-08,3.1.0,play_store,4,Seeing where my money went each month in one picture is brilliant.
+KB-0106,2026-04-09,3.0.1,app_store,5,The spending charts are beautiful and clear. And transactions import reliably every morning.
+KB-0107,2026-04-09,3.1.0,play_store,3,Face ID unlock fails half the time.
+KB-0108,2026-04-10,3.1.1,app_store,3,"Slow slow slow. I just want to check my balance. Still, the reports are clear even for someone bad with numbers"
+KB-0109,2026-04-11,3.1.1,play_store,5,Would love sub-categories. That's all.
+KB-0110,2026-04-12,3.1,play_store,1,Can't create my own categories.
+KB-0111,2026-04-14,3.1.1,app_store,4,"Writing this on the bus, hi mum"
+KB-0112,2026-04-14,,issue_tracker,,"OAuth re-link loop for my credit union. After approving in the bank app the user is sent back to the link screen. 3.1.0, iPhone 14."
+KB-0113,2026-04-14,,play_store,4,"Long time user here. I never get the bill alerts even though they're switched on. On the plus side, monthly reports showed me exactly where my money goes. Just my two cents."
+KB-0114,2026-04-14,3.1,play_store,1,Not great.
+KB-0115,2026-04-16,3.1.1,app_store,1,Subscription is too expensive.
+KB-0116,2026-04-16,3.1.1,play_store,1,Tapping 'scan receipt' gives a black screen and then it quits.
+KB-0117,2026-04-17,3.1.1,app_store,3,"Too many features locked behind premium. That said, the bank connection is rock solid."
+KB-0118,2026-04-20,v3.2,app_store,5,Downloaded it last month. Premium is worth every cent. Keep it up.
+KB-0119,2026-04-20,,app_store,5,Good app.
+KB-0120,2026-04-20,3.2.2,play_store,5,Seeing my spending graphed by month changed my habits.
+KB-0121,2026-04-21,3.2.2,app_store,1,Bank sync has been broken for since Monday. Not happy right now.
+KB-0122,2026-04-21,3.2.1,app_store,5,Excellent.
+KB-0123,2026-04-21,,app_store,5,I use this every day for work. Rollover budgets are exactly what I wanted. Thanks to the devs!
+KB-0124,2026-04-21,3.2.1,app_store,4,No more typing in totals from paper slips. Also love the envelope-style budgets.
+KB-0125,2026-04-22,3.2.0,app_store,1,bank conection keeps failng
+KB-0126,2026-04-22,3.2,play_store,5,Very good app.
+KB-0127,2026-04-23,,app_store,1,Updated yesterday. Ironic that a budgeting app costs this much.
+KB-0128,2026-04-23,,play_store,2,Half my accounts disconnected after updating. But face ID lock makes me feel safe. Just my two cents.
+KB-0129,2026-04-24,v3.2,app_store,2,"The receipt scanner saves me so much typing. Paywalled half the features, really?"
+KB-0130,2026-04-24,3.1.0,play_store,4,Premium is worth every cent. The category budgets keep me on track.
+KB-0131,2026-04-25,3.2.0,app_store,1,Face ID unlock fails half the time.
+KB-0132,2026-04-25,,app_store,1,"bank connection keeps dropping, useless without it the app takes forever to launch Hoping for an update soon."
+KB-0133,2026-04-26,3.2.2,app_store,4,This review is for my school project
+KB-0134,2026-04-26,3.2.1,play_store,4,"Opens instantly now, much faster than before. Plus love getting a heads-up before rent goes out."
+KB-0135,2026-04-26,3.2.1,play_store,5,The weekly spending summary is really helpful. Keep it up.
+KB-0136,2026-04-27,3.2.0,app_store,5,Reports make it obvious when I'm overspending. Also I love that it reads the shop name off the receipt.
+KB-0137,2026-04-27,3.2.0,app_store,5,Super useful.
+KB-0138,2026-04-27,3.2.0,play_store,3,Downloaded it last month. The category budgets keep me on track. Also subscription is too expensive.
+KB-0139,2026-04-30,3.2.2,play_store,5,Recommended it to all my friends.
+KB-0140,2026-05-02,3.1.2,app_store,3,Startup is painfully slow on my iPhone 14.
+KB-0141,2026-05-03,3.2.0,play_store,4,App launches in a second now.
+KB-0142,2026-05-04,3.2.0,app_store,1,Bit of a let down.
+KB-0143,2026-05-04,3.2.2,play_store,1,Been using this for about a year. A full-screen ad every time I add an expense. And camera freezes on the receipt screen.
+KB-0144,2026-05-04,3.2.0,play_store,3,Export to spreadsheet drops the category column.
+KB-0145,2026-05-05,3.2,play_store,5,Been using this for about a year. Best charts of any budgeting app I've used. Highly recommend.
+KB-0146,2026-05-06,,app_store,3,Edit after the latest update: The insights screen is the best part of the app. And transactions from my main bank stopped importing after the update.
+KB-0147,2026-05-06,3.2.1,app_store,2,Short version: I keep re-entering my bank password and nothing comes through. Fix this please!!
+KB-0148,2026-05-06,3.2.0,play_store,2,"Found out my phone bill was due from the late fee, not from the app."
+KB-0149,2026-05-06,v3.2,play_store,5,My partner recommended it. Seeing where my money went each month in one picture is brilliant. Transactions import reliably every morning.
+KB-0150,2026-05-07,3.2,app_store,1,Long time user here. receipt scanning crashes every time on my Pixel 9 Pro Fix this please!!
+KB-0151,2026-05-07,v3.2,issue_tracker,,Bank connection fails with 'provider error' after updating to v3.2. Bank: Northgate Bank. Device: iPhone 16. Re-linking does not help.
+KB-0152,2026-05-07,v3.2,play_store,2,Bank sync has been broken for since Monday. Fix this please!!
+KB-0153,2026-05-07,3.2,play_store,5,Five stars.
+KB-0154,2026-05-08,3.2.1,play_store,2,Honest review: Linking my account gives 'connection failed' every time. Fix this please!!
+KB-0155,2026-05-08,,play_store,5,Really helpful app!
+KB-0156,2026-05-09,3.2,app_store,4,The graphs are not bad at all. Highly recommend.
+KB-0157,2026-05-09,3.2.0,play_store,3,"Long time user here. Re-authorised my main bank three times, still no transactions."
+KB-0158,2026-05-10,v3.2,app_store,3,"Writing this on the bus, hi mum"
+KB-0159,2026-05-10,3.2.0,play_store,1,Charts don't let me pick a custom date range.
+KB-0160,2026-05-10,3.2,play_store,1,Downloaded it last month. bank conection keeps failng
+KB-0161,2026-05-11,3.2.0,app_store,5,Would love sub-categories.
+KB-0162,2026-05-11,3.2.2,issue_tracker,,Transactions not imported since migration to the new provider. Accounts stuck on 'syncing'. 3.2.1.
+KB-0163,2026-05-11,3.2.0,play_store,4,Good app.
+KB-0164,2026-05-11,v3.2,play_store,1,Moving a transaction to another category is fiddly.
+KB-0165,2026-05-13,v3.2,app_store,3,Price went up without warning.
+KB-0166,2026-05-13,3.2.1,play_store,5,Great budgeting app.
+KB-0167,2026-05-13,3.1,play_store,3,"Too many features locked behind premium. But I check the spending trends every week, so useful."
+KB-0168,2026-05-15,3.2,app_store,5,Monthly reports showed me exactly where my money goes.
+KB-0169,2026-05-15,,play_store,5,Edit after the latest update: the reports are clear even for someone bad with numbers
+KB-0170,2026-05-16,3.2.2,app_store,5,Honest review: The yearly overview chart is brilliant.
+KB-0171,2026-05-16,3.2.0,app_store,5,The category budgets keep me on track. Worth it.
+KB-0172,2026-05-16,v3.2,play_store,3,Haven't seen a single new transaction since Tuesday even though I've used my card every day.
+KB-0173,2026-05-17,3.2.0,app_store,1,"My card transactions are missing, the bank link is broken."
+KB-0174,2026-05-17,3.2.1,app_store,3,Not impressed.
+KB-0175,2026-05-19,,issue_tracker,,Bill alert notifications not delivered on Pixel 9 Pro. 3.2.2.
+KB-0176,2026-05-20,3.2,app_store,2,"No new transactions since the update, the connection just errors out."
+KB-0177,2026-05-20,,play_store,1,"Updated yesterday. Premium at $5.99 is too pricey for a budgeting app. Re-authorised Harbour Federal three times, still no transactions. Please fix."
+KB-0178,2026-05-22,3.2.2,app_store,5,Been using this for about a year. It's not sluggish anymore.
+KB-0179,2026-05-22,3.2.0,app_store,5,"Short version: Love the passcode lock, my kids can't see my spending. Keep it up."
+KB-0180,2026-05-22,3.2.1,issue_tracker,,Cold start takes 20s on iPhone 14. Profiling shows the transaction list loads before the first frame. 3.2.
+KB-0181,2026-05-22,3.2,play_store,1,The bank feed is stuck on last month's balance. Hoping for an update soon.
+KB-0182,2026-05-23,3.2,app_store,3,Downloaded it last month. Auto-categorising puts groceries under entertainment.
+KB-0183,2026-05-24,3.2.1,app_store,3,"Love the envelope-style budgets. Also, fantastic, my balance is a week old again."
+KB-0184,2026-05-25,3.3,app_store,5,"I check the spending trends every week, so useful. Worth it."
+KB-0185,2026-05-25,,app_store,5,The speed improvement in this update is huge.
+KB-0186,2026-05-26,v3.3,app_store,3,Every screen takes ages to load.
+KB-0187,2026-05-26,,app_store,5,Good app.
+KB-0188,2026-05-26,v3.3,app_store,5,Honest review: The speed improvement in this update is huge.
+KB-0189,2026-05-26,3.3.0,play_store,3,Edit after the latest update: Groceries keep ending up under entertainment.
+KB-0190,2026-05-26,3.3.1,play_store,2,Long time user here. The yearly overview chart is brilliant. Haven't seen a single new transaction since Tuesday even though I've used my card every day.
+KB-0191,2026-05-26,3.3.0,play_store,5,Snapping a photo of a receipt and having it filed is great. Worth it.
+KB-0192,2026-05-27,3.3.0,app_store,2,I never get the bill alerts even though they're switched on.
+KB-0193,2026-05-27,3.3.1,app_store,1,My partner recommended it. The app is so slow to start.
+KB-0194,2026-05-27,,app_store,4,Nice and simple.
+KB-0195,2026-05-27,v3.3,app_store,1,Two stars.
+KB-0196,2026-05-27,3.3.1,play_store,5,Excellent.
+KB-0197,2026-05-28,3.3.0,app_store,1,Could be better.
+KB-0198,2026-05-28,3.3.0,app_store,3,"Setting a monthly budget is easy. Also, charts don't let me pick a custom date range."
+KB-0199,2026-05-29,3.3.0,app_store,5,"Win a free phone, visit my page"
+KB-0200,2026-05-29,3.3,issue_tracker,,Moved to the website repository.
+KB-0201,2026-05-29,3.3.1,play_store,5,Honest review: Please let budgets start on payday instead of the 1st.
+KB-0202,2026-05-30,3.3.0,app_store,5,Changed how I handle money.
+KB-0203,2026-05-30,3.3.1,app_store,5,Connecting my main bank took less than a minute.
+KB-0204,2026-05-30,,app_store,2,Two stars.
+KB-0205,2026-05-30,3.3.1,play_store,5,"Writing this on the bus, hi mum"
+KB-0206,2026-05-31,3.2.2,app_store,5,Downloaded it last month. I need a way to export a year of transactions for my accountant. That's all.
+KB-0207,2026-05-31,3.3,play_store,5,"Long time user here. Love the passcode lock, my kids can't see my spending."
+KB-0208,2026-05-31,3.3.2,play_store,5,"Receipt scanning is magic, it reads the total perfectly. Keep it up."
+KB-0209,2026-06-01,3.3.0,play_store,5,Long time user here. Love the envelope-style budgets.
+KB-0210,2026-06-01,,play_store,1,Rated by mistake.
+KB-0211,2026-06-02,,app_store,2,I use this every day for work. CSV export has the wrong date format.
+KB-0212,2026-06-02,,app_store,5,My partner recommended it. Monthly reports showed me exactly where my money goes. Also no more typing in totals from paper slips.
+KB-0213,2026-06-02,3.3.1,play_store,5,Rated by mistake.
+KB-0214,2026-06-03,3.3.0,app_store,5,Good app.
+KB-0215,2026-06-03,3.3.2,app_store,4,Honest review: Please add export to Excel. We'll see.
+KB-0216,2026-06-04,3.3.2,app_store,3,Auto-categorisation is surprisingly accurate. Six dollars a month to tell me I spend too much.
+KB-0217,2026-06-04,v3.3,app_store,1,The free version is too limited now.
+KB-0218,2026-06-04,3.3.0,issue_tracker,,Closing as duplicate.
+KB-0219,2026-06-05,3.3.0,app_store,4,Does the job.
+KB-0220,2026-06-05,3.3,app_store,2,The receipt scanner saves me so much typing. Ironic that a budgeting app costs this much.
+KB-0221,2026-06-05,3.3.2,issue_tracker,,"Test issue from the QA team, ignore."
+KB-0222,2026-06-06,3.3.0,app_store,5,The bill alerts have saved me from late fees. Highly recommend.
+KB-0223,2026-06-06,3.3.0,play_store,4,Five stars.
+KB-0224,2026-06-06,3.3.1,play_store,4,Love this app.
+KB-0225,2026-06-06,3.3.1,play_store,2,Subscription is too expensive.
+KB-0226,2026-06-06,3.3.1,play_store,5,The category budgets keep me on track. Keep it up.
+KB-0227,2026-06-07,3.3.0,app_store,5,Honest review: I love that it reads the shop name off the receipt.
+KB-0228,2026-06-07,,app_store,5,"Receipt scanning is magic, it reads the total perfectly. Five stars from me."
+KB-0229,2026-06-07,3.3.1,play_store,5,Been using this for about a year. The bill alerts have saved me from late fees.
+KB-0230,2026-06-07,v3.3,play_store,1,Honest review: Price went up without warning.
+KB-0231,2026-06-08,3.3.0,issue_tracker,,Moved to the website repository.
+KB-0232,2026-06-08,v3.3,play_store,1,Not great.
+KB-0233,2026-06-08,,play_store,5,The weekly spending summary is really helpful. Thanks to the devs!
+KB-0234,2026-06-09,3.3.2,app_store,5,Love this app.
+KB-0235,2026-06-09,v3.3,app_store,5,Premium is worth every cent.
+KB-0236,2026-06-10,3.3.2,play_store,5,Been using this for about a year. Nobody can snoop on my spending when they borrow my phone.
+KB-0237,2026-06-11,3.3.1,play_store,2,The free version is too limited now.
+KB-0238,2026-06-12,3.3.2,app_store,5,Love the pie chart by category. Worth it.
+KB-0239,2026-06-12,3.3.0,app_store,5,This review is for my school project
+KB-0240,2026-06-12,3.3,app_store,4,the reports are clear even for someone bad with numbers Five stars from me.
+KB-0241,2026-06-12,v3.3,play_store,2,Transactions from my credit union stopped importing after the update. Hoping for an update soon.
+KB-0242,2026-06-12,3.3.1,play_store,2,Uninstalled.
+KB-0243,2026-06-12,3.3.0,play_store,3,Updated yesterday. Since the update I can't scan receipts at all.
+KB-0244,2026-06-13,,app_store,2,The monthly report double counts transfers. Really frustrating.
+KB-0245,2026-06-13,3.3.1,play_store,5,App launches in a second now.
+KB-0246,2026-06-13,,play_store,1,Receipt photos come out blurry and the total is read wrong.
+KB-0247,2026-06-14,v3.3,app_store,1,Quick review. Bill reminders come a day after the bill is paid. Not happy right now.
+KB-0248,2026-06-14,v3.3,app_store,1,Rated by mistake.
+KB-0249,2026-06-14,3.3.2,play_store,4,Nice and simple.
+KB-0250,2026-06-14,,play_store,3,Setting a monthly budget is easy. The passcode screen appears twice.
+KB-0251,2026-06-15,3.3,app_store,2,A full-screen ad every time I add an expense.
+KB-0252,2026-06-15,3.3.0,issue_tracker,,"Test issue from the QA team, ignore."
+KB-0253,2026-06-16,v3.3,play_store,5,Really helpful app!
+KB-0254,2026-06-17,v3.3,play_store,5,Would love sub-categories.
+KB-0255,2026-06-18,3.3.2,app_store,5,Auto-categorisation is surprisingly accurate. Keep it up.
+KB-0256,2026-06-18,3.3.1,app_store,1,Uninstalled.
+KB-0257,2026-06-18,3.3.1,app_store,5,Very good app.
+KB-0258,2026-06-18,3.3.2,play_store,4,Seeing where my money went each month in one picture is brilliant. Highly recommend.
+KB-0259,2026-06-19,3.3.0,app_store,3,Auto-categorising puts groceries under entertainment. Please fix.
+KB-0260,2026-06-20,3.3.1,issue_tracker,,"Test issue from the QA team, ignore."
+KB-0261,2026-06-20,,play_store,5,Fingerprint unlock is quick.
+KB-0262,2026-06-20,3.3.2,play_store,5,Recommended it to all my friends.
+KB-0263,2026-06-20,,play_store,4,The spending charts are beautiful and clear. Worth it.
+KB-0264,2026-06-21,,play_store,5,Rollover budgets are exactly what I wanted. Five stars from me.
+KB-0265,2026-06-21,3.3.2,play_store,5,The insights screen is the best part of the app.
+KB-0266,2026-06-22,3.3.0,issue_tracker,,Feature request: scheduled monthly CSV export by email.
+KB-0267,2026-06-22,3.3.0,play_store,2,Short version: Premium at $5.99 is too pricey for a budgeting app.
+KB-0268,2026-06-23,3.3.2,app_store,5,My card purchases show up within minutes. Worth it.
+KB-0269,2026-06-24,3.3,app_store,1,Bill alerts fire for bills I've already cancelled.
+KB-0270,2026-06-24,3.3.0,app_store,5,Can't believe it's raining again.
+KB-0271,2026-06-24,3.3,app_store,3,Updated yesterday. Love staring at the loading spinner every morning. Not.
+KB-0272,2026-06-24,3.3.0,play_store,4,Very good app.
+KB-0273,2026-06-25,3.3.0,app_store,4,Reports make it obvious when I'm overspending.
+KB-0274,2026-06-25,,play_store,5,Edit after the latest update: The category breakdown chart is super clear. Keep it up.
+KB-0275,2026-06-26,v3.3,app_store,1,Budgets reset on the wrong day of the month.
+KB-0276,2026-06-26,,app_store,4,My partner recommended it. The graphs are not bad at all.
+KB-0277,2026-06-26,v3.3,issue_tracker,,"OAuth re-link loop for my main bank. After approving in the bank app the user is sent back to the link screen. 3.3.0, Galaxy A35."
+KB-0278,2026-06-27,3.3.1,app_store,3,"Paywalled half the features, really?"
+KB-0279,2026-06-27,3.3,app_store,2,"The passcode screen appears twice. On the plus side, setting a monthly budget is easy."
+KB-0280,2026-06-27,3.3.1,play_store,5,Best charts of any budgeting app I've used.
+KB-0281,2026-06-27,,play_store,2,I use this every day for work. reciept scaner crashs Hoping for an update soon.
+KB-0282,2026-06-27,3.3.1,play_store,3,Not impressed.
+KB-0283,2026-06-28,v3.3,app_store,2,Bit of a let down.
+KB-0284,2026-06-28,3.2.2,play_store,5,Changed how I handle money.
+KB-0285,2026-06-28,3.3.0,play_store,5,Transactions import reliably every morning. Keep it up.
+KB-0286,2026-06-29,3.4.2,issue_tracker,,Crash when opening the receipt camera on 3.4.0. Device: Moto G. Reproducible 100%.
+KB-0287,2026-06-29,,play_store,5,"Receipt scanning is magic, it reads the total perfectly."
+KB-0288,2026-06-30,v3.4,app_store,4,I use this every day for work. I need a way to export a year of transactions for my accountant.
+KB-0289,2026-06-30,3.3.0,app_store,5,Seeing my spending graphed by month changed my habits. Worth it.
+KB-0290,2026-06-30,3.3.1,app_store,5,The bank connection is rock solid.
+KB-0291,2026-06-30,,app_store,1,The bank feed is stuck on last month's balance. Really frustrating.
+KB-0292,2026-06-30,3.4.2,app_store,1,The receipt scanner crashes as soon as the camera opens.
+KB-0293,2026-06-30,3.4.1,play_store,1,Edit after the latest update: Scanning a receipt closes the app.
+KB-0294,2026-06-30,3.4.0,play_store,2,The free version is too limited now. Please fix.
+KB-0295,2026-07-01,,app_store,5,Updated yesterday. The bank connection is rock solid.
+KB-0296,2026-07-01,,issue_tracker,,Closing as duplicate.
+KB-0297,2026-07-01,3.3.1,issue_tracker,,Moved to the website repository.
+KB-0298,2026-07-02,3.4.2,app_store,2,"CSV export has the wrong date format. That said, the category breakdown chart is super clear. We'll see."
+KB-0299,2026-07-02,,app_store,5,"Crypto signals in my profile, 10x guaranteed"
+KB-0300,2026-07-02,3.4.0,issue_tracker,,"Receipt scan returns black preview and the app terminates. Pixel 7, 3.4.0."
+KB-0301,2026-07-02,3.4,play_store,3,"Budgets reset on the wrong day of the month. That said, the yearly overview chart is brilliant. That's all."
+KB-0302,2026-07-02,3.4,play_store,5,Excellent.
+KB-0303,2026-07-02,,play_store,5,The category budgets keep me on track.
+KB-0304,2026-07-03,3.3,play_store,5,Love the pie chart by category. Highly recommend.
+KB-0305,2026-07-03,3.4.2,play_store,5,Quick review. I love that it reads the shop name off the receipt.
+KB-0306,2026-07-03,3.4,play_store,2,Quick review. Six dollars a month to tell me I spend too much. Every time I point the camera at a receipt the whole thing quits.
+KB-0307,2026-07-03,3.3.0,play_store,2,Too many features locked behind premium.
+KB-0308,2026-07-04,,issue_tracker,,Crash when opening the receipt camera on 3.4. Device: Galaxy S23. Reproducible 100%.
+KB-0309,2026-07-04,3.4,issue_tracker,,OCR reads wrong total on receipts with discounts. v3.4.
+KB-0310,2026-07-04,,play_store,1,The scanner can't find the edges of the receipt. Really frustrating.
+KB-0311,2026-07-04,v3.4,play_store,4,This review is for my school project
+KB-0312,2026-07-05,3.4.0,app_store,1,Two stars.
+KB-0313,2026-07-05,3.4.0,issue_tracker,,Feature request: custom budget period aligned to payday.
+KB-0314,2026-07-05,3.4.0,issue_tracker,,Shared budget invite email not delivered. 3.4.0.
+KB-0315,2026-07-05,3.4,play_store,5,"I check the spending trends every week, so useful. Thanks to the devs!"
+KB-0316,2026-07-06,3.3.0,app_store,4,Five stars.
+KB-0317,2026-07-06,3.4.1,app_store,2,Long time user here. Shared budgets double count our joint account.
+KB-0318,2026-07-06,v3.4,app_store,3,The invite link for shared budgets never arrives. But it's not sluggish anymore.
+KB-0319,2026-07-06,v3.4,play_store,2,Could be better.
+KB-0320,2026-07-07,,app_store,4,Good app.
+KB-0321,2026-07-07,3.4.1,app_store,4,Recommended it to all my friends.
+KB-0322,2026-07-08,3.4.0,app_store,3,Not impressed.
+KB-0323,2026-07-08,3.4.0,play_store,2,My partner recommended it. Auto-categorising puts groceries under entertainment. Too many features locked behind premium.
+KB-0324,2026-07-09,,app_store,1,Downloaded it last month. Premium at $6.49 is too pricey for a budgeting app. Really frustrating.
+KB-0325,2026-07-09,3.3.0,app_store,4,Super useful.
+KB-0326,2026-07-09,3.4,play_store,4,Seeing where my money went each month in one picture is brilliant. Five stars from me.
+KB-0327,2026-07-09,3.4,play_store,4,Shared budgets with my husband is a great addition.
+KB-0328,2026-07-10,3.4.0,app_store,5,Auto-categorisation is surprisingly accurate. Highly recommend.
+KB-0329,2026-07-10,3.4.1,app_store,4,My card purchases show up within minutes. Thanks to the devs!
+KB-0330,2026-07-10,3.4.0,app_store,4,"The monthly report double counts transfers. That said, love the envelope-style budgets."
+KB-0331,2026-07-10,3.4.1,issue_tracker,,Cold start takes 10s on Pixel 9 Pro. Profiling shows the transaction list loads before the first frame. v3.4.
+KB-0332,2026-07-11,3.4.2,issue_tracker,,Transactions not imported since migration to the new provider. Accounts stuck on 'syncing'. v3.4.
+KB-0333,2026-07-11,3.3.1,play_store,5,Love the pie chart by category. Five stars from me.
+KB-0334,2026-07-12,,app_store,3,Updated yesterday. Face ID unlock fails half the time.
+KB-0335,2026-07-12,,play_store,5,Love getting a heads-up before rent goes out.
+KB-0336,2026-07-13,3.4.2,app_store,4,Best charts of any budgeting app I've used. Worth it.
+KB-0337,2026-07-13,3.3.0,app_store,2,Can't create my own categories.
+KB-0338,2026-07-13,v3.4,app_store,5,My partner recommended it. Fingerprint unlock is quick.
+KB-0339,2026-07-13,v3.4,app_store,1,Short version: Bill alerts fire for bills I've already cancelled.
+KB-0340,2026-07-13,3.4,app_store,4,Short version: The spending charts are beautiful and clear.
+KB-0341,2026-07-13,3.4,app_store,1,Thanks for the update that made photographing receipts impossible.
+KB-0342,2026-07-13,3.4.1,issue_tracker,,"Receipt scan returns black preview and the app terminates. Moto G, 3.4.2."
+KB-0343,2026-07-13,,play_store,4,Reports make it obvious when I'm overspending. Thanks to the devs!
+KB-0344,2026-07-14,v3.3,app_store,5,Great budgeting app.
+KB-0345,2026-07-14,,app_store,5,Short version: Finally we can budget together as a couple.

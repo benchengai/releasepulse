@@ -5,7 +5,9 @@ feature with each polarity. Those counts are planted exactly: each mention is
 placed in a random item, and the item's text is composed from hand-written
 phrases with slots filled at random. Because every mention is a known phrase,
 the gold labels record its character span, which the evaluation uses to pair
-extracted aspects with planted mentions.
+extracted aspects with planted mentions. Phrases marked with a leading "~" are
+hard on purpose (sarcasm, no feature name, negated praise, typos, emoji); their
+mentions are flagged `hard` so recall on them can be reported separately.
 
 Everything is seeded, so `releasepulse synth` reproduces the committed files
 byte for byte. All texts are fictional and every file says so.
@@ -118,15 +120,19 @@ def _compose_review(mentions: list[tuple[str, str, str]], rng: random.Random,
     previous = None
     for feature, polarity, phrase in mentions:
         if previous is not None:
+            mark, body = ("~", phrase[1:]) if phrase.startswith("~") else ("", phrase)
             if previous == "negative" and polarity == "positive":
                 parts.append(rng.choice(["On the plus side,", "That said,", "But", "Still,"]))
-                phrase = phrase[0].lower() + phrase[1:] if not phrase[:2].isupper() else phrase
+                phrase = mark + (body[0].lower() + body[1:] if not body[:2].isupper() else body)
             elif rng.random() < 0.35:
                 parts.append(rng.choice(["Also", "Also,", "And", "Plus"]))
-                phrase = phrase[0].lower() + phrase[1:] if not phrase[:2].isupper() else phrase
+                phrase = mark + (body[0].lower() + body[1:] if not body[:2].isupper() else body)
+        hard = phrase.startswith("~")
+        phrase = phrase.removeprefix("~")
         offset = sum(len(p) + 1 for p in parts)
         parts.append(phrase)
-        spans.append({"feature": feature, "polarity": polarity, "start": offset, "end": offset + len(phrase)})
+        spans.append({"feature": feature, "polarity": polarity, "start": offset, "end": offset + len(phrase),
+                      **({"hard": True} if hard else {})})
         previous = polarity
     if extra == "closer" or rng.random() < 0.3:
         pols = {m[1] for m in mentions}

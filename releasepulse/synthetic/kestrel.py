@@ -92,11 +92,16 @@ SPEC = {
                 "Accounts show 'needs attention' and never refresh.",
                 "Half my accounts disconnected after updating.",
                 "It imports duplicate transactions from {bank} and then stops syncing.",
+                "~Haven't seen a single new transaction since Tuesday even though I've used my card every day.",
+                "~Fantastic, my balance is a week old again.",
+                "~bank conection keeps failng",
+                "~I keep re-entering my bank password and nothing comes through.",
             ],
             "pos": [
                 "Connecting {bank} took less than a minute.",
                 "Transactions import reliably every morning.",
                 "The bank connection is rock solid.",
+                "~My card purchases show up within minutes.",
             ],
             "ticket_neg": [
                 "Bank connection fails with 'provider error' after updating to {version_seen}. Bank: {bank}. "
@@ -121,12 +126,16 @@ SPEC = {
                 "Tapping 'scan receipt' gives a black screen and then it quits.",
                 "The scanner can't find the edges of the receipt.",
                 "Receipt capture is broken, it just shuts down.",
+                "~Every time I point the camera at a receipt the whole thing quits.",
+                "~Thanks for the update that made photographing receipts impossible.",
+                "~reciept scaner crashs",
             ],
             "pos": [
                 "Receipt scanning is magic, it reads the total perfectly.",
                 "Snapping a photo of a receipt and having it filed is great.",
                 "The receipt scanner saves me so much typing.",
                 "I love that it reads the shop name off the receipt.",
+                "~No more typing in totals from paper slips.",
             ],
             "ticket_neg": [
                 "Crash when opening the receipt camera on {version_seen}. Device: {device}. Reproducible 100%.",
@@ -154,6 +163,8 @@ SPEC = {
                 "the reports are clear even for someone bad with numbers",
                 "Seeing my spending graphed by month changed my habits.",
                 "The category breakdown chart is super clear.",
+                "~Seeing where my money went each month in one picture is brilliant.",
+                "~The graphs are not bad at all.",
             ],
         },
         "speed": {
@@ -170,11 +181,14 @@ SPEC = {
                 "Loading the dashboard takes forever.",
                 "So laggy that I gave up checking it at the till.",
                 "the app takes forever to launch",
+                "~I could make a coffee in the time it takes to open.",
+                "~Love staring at the loading spinner every morning. Not.",
             ],
             "pos": [
                 "Opens instantly now, much faster than before.",
                 "The speed improvement in this update is huge.",
                 "App launches in a second now.",
+                "~It's not sluggish anymore.",
             ],
             "ticket_neg": [
                 "Cold start takes {seconds}s on {device}. Profiling shows the transaction list loads before the "
@@ -192,6 +206,7 @@ SPEC = {
                 "Ironic that a budgeting app costs this much.",
                 "Price went up without warning.",
                 "Too many features locked behind premium.",
+                "~Six dollars a month to tell me I spend too much.",
             ],
             "pos": [
                 "Premium is worth every cent.",
@@ -205,6 +220,7 @@ SPEC = {
                 "Budgets reset on the wrong day of the month.",
                 "Auto-categorising puts groceries under entertainment.",
                 "Moving a transaction to another category is fiddly.",
+                "~Groceries keep ending up under entertainment.",
             ],
             "pos": [
                 "Setting a monthly budget is easy.",
@@ -252,6 +268,7 @@ SPEC = {
                 "Bill reminders come a day after the bill is paid.",
                 "I never get the bill alerts even though they're switched on.",
                 "Bill alerts fire for bills I've already cancelled.",
+                "~Found out my phone bill was due from the late fee, not from the app.",
             ],
             "pos": [
                 "The bill alerts have saved me from late fees.",
@@ -287,6 +304,7 @@ SPEC = {
                 "Face ID lock makes me feel safe.",
                 "Love the passcode lock, my kids can't see my spending.",
                 "Fingerprint unlock is quick.",
+                "~Nobody can snoop on my spending when they borrow my phone.",
             ],
         },
     },

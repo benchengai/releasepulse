@@ -1,8 +1,11 @@
 """Score an analysis against the planted ground truth of a synthetic set.
 
-Pairing: an extracted aspect is paired with the planted mention in the same
-item whose character span its verified quote overlaps most (one-to-one,
-largest overlap first). An unpaired aspect whose quote overlaps an
+Pairing: within each item, extracted aspects and planted mentions are paired
+one-to-one by the character spans of the verified quotes, choosing the
+assignment with the most overlapping pairs, then the highest total coverage
+of the planted spans (an item has at most a handful of each, so this is exact
+search). A quote that runs across two sentences therefore still pairs with
+the right mention. An unpaired aspect whose quote overlaps an
 already-paired mention is a *split* (the model named two aspects where one
 was planted); it counts as grounded for precision, and as wrong for strict
 precision. Everything else unpaired is *extra* (invented, or a real aspect the
@@ -26,6 +29,26 @@ def _overlap(a: tuple[int, int], b: tuple[int, int]) -> int:
     return max(0, min(a[1], b[1]) - max(a[0], b[0]))
 
 
+def _best_assignment(n_gold: int, preds: list[int], cover: dict) -> list[tuple[int, int]]:
+    """One-to-one pairs (gold index, pred index) maximising the number of pairs with any
+    overlap, then the summed coverage. Exhaustive; items have few mentions."""
+    best: tuple = ((0, 0.0), [])
+
+    def search(gi: int, free: list[int], pairs: list, n: int, total: float) -> None:
+        nonlocal best
+        if gi == n_gold:
+            if (n, total) > best[0]:
+                best = ((n, total), list(pairs))
+            return
+        search(gi + 1, free, pairs, n, total)
+        for p in free:
+            if cover[(gi, p)] > 0:
+                search(gi + 1, [q for q in free if q != p], pairs + [(gi, p)], n + 1, total + cover[(gi, p)])
+
+    search(0, list(preds), [], 0, 0.0)
+    return best[1]
+
+
 def pair_mentions(aspects: list[dict], gold: dict, sent: set[str]) -> dict:
     preds = defaultdict(list)
     for i, a in enumerate(aspects):
@@ -35,14 +58,12 @@ def pair_mentions(aspects: list[dict], gold: dict, sent: set[str]) -> dict:
         if iid not in sent:
             continue
         gms = g["mentions"]
-        cands = sorted(((_overlap(tuple(aspects[p]["span"]), (m["start"], m["end"])), gi, p)
-                        for gi, m in enumerate(gms) for p in preds.get(iid, [])), key=lambda c: (-c[0], c[1], c[2]))
-        used_g, used_p = set(), set()
-        for ov, gi, p in cands:
-            if ov > 0 and gi not in used_g and p not in used_p:
-                used_g.add(gi)
-                used_p.add(p)
-                matched.append({"item_id": iid, "pred": p, "gold": gms[gi]})
+        ps = preds.get(iid, [])
+        cover = {(gi, p): _overlap(tuple(aspects[p]["span"]), (m["start"], m["end"])) / (m["end"] - m["start"])
+                 for gi, m in enumerate(gms) for p in ps}
+        best = _best_assignment(len(gms), ps, cover)
+        used_g, used_p = {gi for gi, _ in best}, {p for _, p in best}
+        matched += [{"item_id": iid, "pred": p, "gold": gms[gi]} for gi, p in sorted(best)]
         for p in preds.get(iid, []):
             if p in used_p:
                 continue
@@ -113,6 +134,9 @@ def score(analysis: dict, gold: dict) -> dict:
     complaint_agree = [(aspects[m["pred"]]["polarity"] in ("negative", "mixed")) == (m["gold"]["polarity"] == "negative")
                        for m in pairs["matched"]]
 
+    hard_matched = [m for m in pairs["matched"] if m["gold"].get("hard")]
+    hard_gold = len(hard_matched) + sum(1 for m in pairs["missed"] if m["gold"].get("hard"))
+
     fmap = feature_map(aspects, pairs)
     pred_if = {(a["item_id"], fmap.get(a["feature"], "unmapped:" + a["feature"])) for a in aspects}
     gold_if = {(iid, m["feature"]) for iid in sent for m in gold["items"][iid]["mentions"]}
@@ -144,6 +168,14 @@ def score(analysis: dict, gold: dict) -> dict:
                      "precision": precision, "strict_precision": matched / n_pred if n_pred else 0.0,
                      "recall": recall, "f1": 2 * precision * recall / (precision + recall) if precision + recall else 0.0},
         "polarity_agreement": sum(agree) / len(agree) if agree else None,
+        "hard": {
+            "gold": hard_gold,
+            "recall": len(hard_matched) / hard_gold if hard_gold else None,
+            "polarity_agreement": (sum(aspects[m["pred"]]["polarity"] == m["gold"]["polarity"] for m in hard_matched)
+                                   / len(hard_matched)) if hard_matched else None,
+            "feature_agreement": (sum(fmap.get(aspects[m["pred"]]["feature"]) == m["gold"]["feature"]
+                                      for m in hard_matched) / len(hard_matched)) if hard_matched else None,
+        },
         "complaint_agreement": sum(complaint_agree) / len(complaint_agree) if complaint_agree else None,
         "item_features": {k: v for k, v in _prf(pred_if, gold_if).items() if k in ("precision", "recall", "f1")},
         "quote_validity": analysis["extraction"]["quote_validity"],

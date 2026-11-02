@@ -305,8 +305,21 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "speed",
      "polarity": "negative",
+     "start": 0,
+     "end": 41
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0002": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
      "start": 0,
      "end": 45
     }
@@ -314,7 +327,20 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0002": {
+  "KB-0003": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "negative",
+     "start": 31,
+     "end": 79
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0004": {
    "release": "3.0",
    "mentions": [
     {
@@ -326,33 +352,9 @@
     {
      "feature": "speed",
      "polarity": "negative",
-     "start": 42,
-     "end": 73
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0003": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0004": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 31
-    },
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 32,
-     "end": 73
+     "start": 37,
+     "end": 92,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -360,56 +362,56 @@
   },
   "KB-0005": {
    "release": "3.0",
-   "mentions": [],
-   "noise_kind": "off_topic",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 36
+    },
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 43,
+     "end": 88
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0006": {
    "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 32
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0007": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 30,
-     "end": 60
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0008": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 45
-    },
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 52,
-     "end": 106
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0009": {
    "release": "3.0",
    "mentions": [
     {
-     "feature": "pricing",
-     "polarity": "positive",
-     "start": 0,
-     "end": 28
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 21,
+     "end": 48
     }
    ],
    "noise_kind": null,
@@ -419,10 +421,16 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "reports",
      "polarity": "positive",
-     "start": 34,
-     "end": 85
+     "start": 0,
+     "end": 54
+    },
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 60,
+     "end": 91
     }
    ],
    "noise_kind": null,
@@ -430,69 +438,56 @@
   },
   "KB-0011": {
    "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 19,
+     "end": 47
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0012": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 49
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0013": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "negative",
-     "start": 34,
-     "end": 71
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0014": {
    "release": "3.0",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 39
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0015": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 56
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 75,
-     "end": 121
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0016": {
    "release": "3.0",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "pricing",
      "polarity": "negative",
      "start": 0,
-     "end": 66
+     "end": 30
     }
    ],
    "noise_kind": null,
@@ -502,10 +497,11 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "speed",
+     "feature": "pricing",
      "polarity": "negative",
-     "start": 34,
-     "end": 59
+     "start": 0,
+     "end": 48,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -515,16 +511,16 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 27,
-     "end": 70
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 0,
+     "end": 44
     },
     {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 77,
-     "end": 128
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 50,
+     "end": 89
     }
    ],
    "noise_kind": null,
@@ -534,16 +530,10 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "budgets",
      "polarity": "positive",
-     "start": 30,
-     "end": 74
-    },
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 80,
-     "end": 128
+     "start": 0,
+     "end": 43
     }
    ],
    "noise_kind": null,
@@ -553,232 +543,22 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "bill_alerts",
+     "feature": "budgets",
      "polarity": "positive",
      "start": 0,
-     "end": 45
+     "end": 32
+    },
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 39,
+     "end": 71
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0021": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 34,
-     "end": 81
-    },
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 82,
-     "end": 119
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0022": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0023": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 44
-    },
-    {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 45,
-     "end": 88
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0024": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0025": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 32
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0026": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 26,
-     "end": 66
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0027": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0028": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 19,
-     "end": 58
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0029": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 0,
-     "end": 31
-    },
-    {
-     "feature": "reports",
-     "polarity": "negative",
-     "start": 36,
-     "end": 79
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0030": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 56
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0031": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 107
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0032": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 54
-    },
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 61,
-     "end": 114
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0033": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "negative",
-     "start": 0,
-     "end": 34
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 42,
-     "end": 85
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0034": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 32
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0035": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0036": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0037": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 44
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0038": {
    "release": "3.0",
    "mentions": [
     {
@@ -791,17 +571,229 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0039": {
+  "KB-0022": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 78
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0023": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 0,
+     "end": 56
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 64,
+     "end": 95
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0024": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0025": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 48
+    },
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 49,
+     "end": 100
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0026": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 27,
+     "end": 77
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0027": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 51
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0028": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0029": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0030": {
    "release": "3.0",
    "mentions": [
     {
      "feature": "budgets",
      "polarity": "positive",
      "start": 0,
+     "end": 33
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 34,
+     "end": 75,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0031": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 14,
+     "end": 42
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0032": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "spam",
+   "duplicate_of": null
+  },
+  "KB-0033": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 15,
+     "end": 59
+    },
+    {
+     "feature": "reports",
+     "polarity": "negative",
+     "start": 60,
+     "end": 103
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0034": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "positive",
+     "start": 0,
+     "end": 28
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0035": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 15,
+     "end": 61
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0036": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 21,
+     "end": 63,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0037": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
      "end": 38
     }
    ],
    "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0038": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0039": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0040": {
@@ -813,7 +805,7 @@
   "KB-0041": {
    "release": "3.0",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0042": {
@@ -822,8 +814,8 @@
     {
      "feature": "speed",
      "polarity": "negative",
-     "start": 15,
-     "end": 51
+     "start": 0,
+     "end": 25
     }
    ],
    "noise_kind": null,
@@ -833,10 +825,10 @@
    "release": "3.0",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 26,
-     "end": 81
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 104
     }
    ],
    "noise_kind": null,
@@ -844,11 +836,24 @@
   },
   "KB-0044": {
    "release": "3.0",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "positive",
+     "start": 15,
+     "end": 60
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0045": {
+   "release": "3.0",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0045": {
+  "KB-0046": {
    "release": "3.0",
    "mentions": [
     {
@@ -861,20 +866,15 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0046": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
   "KB-0047": {
    "release": "3.0",
    "mentions": [
     {
-     "feature": "pricing",
-     "polarity": "negative",
+     "feature": "reports",
+     "polarity": "positive",
      "start": 0,
-     "end": 30
+     "end": 30,
+     "hard": true
     },
     {
      "feature": "speed",
@@ -890,10 +890,16 @@
    "release": "3.0",
    "mentions": [
     {
+     "feature": "app_lock",
+     "polarity": "negative",
+     "start": 0,
+     "end": 34
+    },
+    {
      "feature": "reports",
      "polarity": "positive",
-     "start": 0,
-     "end": 39
+     "start": 46,
+     "end": 89
     }
    ],
    "noise_kind": null,
@@ -901,24 +907,32 @@
   },
   "KB-0049": {
    "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 59
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0050": {
    "release": "3.0",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0051": {
    "release": "3.0",
    "mentions": [
     {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 0,
-     "end": 64
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 21,
+     "end": 89,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -926,57 +940,30 @@
   },
   "KB-0052": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0053": {
    "release": "3.0",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 50
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0054": {
-   "release": "3.0",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 60
-    }
-   ],
-   "noise_kind": null,
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0055": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 31
-    },
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 37,
-     "end": 67
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 14,
+     "end": 60
     }
    ],
    "noise_kind": null,
@@ -985,17 +972,17 @@
   "KB-0056": {
    "release": "3.1",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0057": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "speed",
      "polarity": "negative",
      "start": 0,
-     "end": 56
+     "end": 132
     }
    ],
    "noise_kind": null,
@@ -1008,7 +995,8 @@
      "feature": "speed",
      "polarity": "negative",
      "start": 0,
-     "end": 108
+     "end": 51,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -1016,31 +1004,18 @@
   },
   "KB-0059": {
    "release": "3.1",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 15,
-     "end": 60
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 66,
-     "end": 114
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0060": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 103
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 19,
+     "end": 78
     }
    ],
    "noise_kind": null,
@@ -1058,8 +1033,8 @@
     {
      "feature": "reports",
      "polarity": "positive",
-     "start": 0,
-     "end": 31
+     "start": 31,
+     "end": 77
     }
    ],
    "noise_kind": null,
@@ -1069,16 +1044,247 @@
    "release": "3.1",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "receipts",
      "polarity": "positive",
-     "start": 0,
-     "end": 50
+     "start": 14,
+     "end": 70
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0064": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0065": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0066": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 27,
+     "end": 75,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0067": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "negative",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0068": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0069": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0070": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0071": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 27,
+     "end": 70
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0072": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0073": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 21,
+     "end": 82
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0074": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 33
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0075": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 25
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 26,
+     "end": 62
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0076": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0077": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 47
+    },
+    {
+     "feature": "ads",
+     "polarity": "negative",
+     "start": 53,
+     "end": 86
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0078": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 140
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0079": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 49
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0080": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0081": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0082": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0083": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "spam",
+   "duplicate_of": null
+  },
+  "KB-0084": {
    "release": "3.1",
    "mentions": [
     {
@@ -1091,32 +1297,33 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0065": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "spam",
-   "duplicate_of": null
-  },
-  "KB-0066": {
+  "KB-0085": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "bill_alerts",
+     "feature": "speed",
      "polarity": "negative",
      "start": 0,
-     "end": 59
+     "end": 48
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0067": {
+  "KB-0086": {
    "release": "3.1",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 27
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0068": {
+  "KB-0087": {
    "release": "3.1",
    "mentions": [
     {
@@ -1129,279 +1336,46 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0069": {
+  "KB-0088": {
    "release": "3.1",
    "mentions": [
     {
      "feature": "receipts",
      "polarity": "negative",
      "start": 0,
-     "end": 46
-    },
+     "end": 56
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0089": {
+   "release": "3.1",
+   "mentions": [
     {
-     "feature": "bill_alerts",
+     "feature": "bank_sync",
      "polarity": "positive",
-     "start": 51,
-     "end": 96
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0070": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0071": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
      "start": 0,
-     "end": 50
+     "end": 51
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0072": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 14,
-     "end": 76
-    },
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 77,
-     "end": 102
-    },
-    {
-     "feature": "app_lock",
-     "polarity": "negative",
-     "start": 103,
-     "end": 138
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0073": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0074": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0075": {
+  "KB-0090": {
    "release": "3.1",
    "mentions": [],
    "noise_kind": "generic_negative",
    "duplicate_of": null
   },
-  "KB-0076": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 27,
-     "end": 66
-    },
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 67,
-     "end": 132
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0077": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "negative",
-     "start": 21,
-     "end": 69
-    },
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 70,
-     "end": 121
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0078": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0079": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
-   "duplicate_of": null
-  },
-  "KB-0080": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 41
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 60,
-     "end": 104
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0081": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 30,
-     "end": 84
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0082": {
-   "release": "3.0",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0083": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 28
-    },
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 35,
-     "end": 79
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0084": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 0,
-     "end": 27
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0085": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0086": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 36
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0087": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "ads",
-     "polarity": "negative",
-     "start": 0,
-     "end": 117
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0088": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "ads",
-     "polarity": "negative",
-     "start": 0,
-     "end": 117
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": "KB-0087"
-  },
-  "KB-0089": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0090": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "ads",
-     "polarity": "negative",
-     "start": 0,
-     "end": 117
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": "KB-0087"
-  },
   "KB-0091": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "budgets",
-     "polarity": "neutral",
+     "feature": "reports",
+     "polarity": "positive",
      "start": 0,
-     "end": 56
+     "end": 50
     }
    ],
    "noise_kind": null,
@@ -1414,26 +1388,71 @@
      "feature": "ads",
      "polarity": "negative",
      "start": 0,
-     "end": 119
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": "KB-0087"
-  },
-  "KB-0093": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 19,
-     "end": 47
+     "end": 117
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
+  "KB-0093": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "ads",
+     "polarity": "negative",
+     "start": 0,
+     "end": 117
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": "KB-0092"
+  },
   "KB-0094": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 64
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0095": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
+    },
+    {
+     "feature": "export",
+     "polarity": "negative",
+     "start": 45,
+     "end": 82
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0096": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "ads",
+     "polarity": "negative",
+     "start": 0,
+     "end": 117
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": "KB-0092"
+  },
+  "KB-0097": {
    "release": "3.1",
    "mentions": [
     {
@@ -1444,32 +1463,7 @@
     }
    ],
    "noise_kind": null,
-   "duplicate_of": "KB-0087"
-  },
-  "KB-0095": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0096": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 15,
-     "end": 51
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0097": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
+   "duplicate_of": "KB-0092"
   },
   "KB-0098": {
    "release": "3.1",
@@ -1478,20 +1472,21 @@
      "feature": "ads",
      "polarity": "negative",
      "start": 0,
-     "end": 45
+     "end": 119
     }
    ],
    "noise_kind": null,
-   "duplicate_of": null
+   "duplicate_of": "KB-0092"
   },
   "KB-0099": {
    "release": "3.1",
    "mentions": [
     {
-     "feature": "bank_sync",
-     "polarity": "negative",
+     "feature": "app_lock",
+     "polarity": "positive",
      "start": 0,
-     "end": 45
+     "end": 58,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -1499,38 +1494,71 @@
   },
   "KB-0100": {
    "release": "3.1",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 32
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0101": {
    "release": "3.1",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 108
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0102": {
    "release": "3.1",
    "mentions": [
     {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0103": {
+   "release": "3.0",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0104": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 0,
+     "end": 45,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0105": {
+   "release": "3.1",
+   "mentions": [
+    {
      "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 43
+     "end": 66,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0106": {
+   "release": "3.0",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
     },
     {
      "feature": "bank_sync",
@@ -1542,341 +1570,8 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0103": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 21,
-     "end": 77
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0104": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0105": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0106": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 15,
-     "end": 47
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
   "KB-0107": {
    "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
-  "KB-0108": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 55
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0109": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "negative",
-     "start": 0,
-     "end": 45
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0110": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 0,
-     "end": 27
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0111": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0112": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 59
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0113": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 54
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0114": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 44
-    },
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 51,
-     "end": 95
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0115": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "spam",
-   "duplicate_of": null
-  },
-  "KB-0116": {
-   "release": "3.1",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0117": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 51
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0118": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "positive",
-     "start": 26,
-     "end": 71
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0119": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 50
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 58,
-     "end": 106
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0120": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0121": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 21,
-     "end": 82
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0122": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 14,
-     "end": 73
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0123": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 134
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0124": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 19,
-     "end": 83
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0125": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "positive",
-     "start": 0,
-     "end": 45
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0126": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 14,
-     "end": 70
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0127": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 34,
-     "end": 65
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0128": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0129": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 34,
-     "end": 90
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0130": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 54
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0131": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 58
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0132": {
-   "release": "3.2",
    "mentions": [
     {
      "feature": "app_lock",
@@ -1888,263 +1583,192 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0133": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "ads",
-     "polarity": "negative",
-     "start": 15,
-     "end": 48
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0134": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 133
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0135": {
+  "KB-0108": {
    "release": "3.1",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 0,
-     "end": 34
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 41,
-     "end": 87
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0136": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "positive",
-     "start": 31,
-     "end": 59
-    },
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 60,
-     "end": 92
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0137": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 34
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0138": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 124
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0139": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 21,
-     "end": 65
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0140": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 38
-    },
-    {
-     "feature": "reports",
-     "polarity": "negative",
-     "start": 39,
-     "end": 84
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0141": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
-   "duplicate_of": null
-  },
-  "KB-0142": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 98
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0143": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 45
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 46,
-     "end": 96
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0144": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 48
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0145": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 49
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0146": {
-   "release": "3.2",
    "mentions": [
     {
      "feature": "speed",
      "polarity": "negative",
-     "start": 14,
+     "start": 0,
+     "end": 48
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 56,
+     "end": 111
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0109": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 26
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0110": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 0,
+     "end": 31
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0111": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0112": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 131
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0113": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 21,
+     "end": 81
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 100,
+     "end": 154
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0114": {
+   "release": "3.1",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0115": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0116": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
      "end": 62
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0147": {
+  "KB-0117": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 0,
+     "end": 40
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 52,
+     "end": 86
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0118": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "positive",
+     "start": 26,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0119": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0120": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0121": {
    "release": "3.2",
    "mentions": [
     {
      "feature": "bank_sync",
      "polarity": "negative",
      "start": 0,
-     "end": 65
+     "end": 43
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0148": {
+  "KB-0122": {
    "release": "3.2",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0149": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0150": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 34,
-     "end": 78
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0151": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 38
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0152": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
-  "KB-0153": {
+  "KB-0123": {
    "release": "3.2",
    "mentions": [
     {
@@ -2157,84 +1781,174 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0154": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0155": {
+  "KB-0124": {
    "release": "3.2",
    "mentions": [
     {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 56
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0156": {
-   "release": "3.2",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0157": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "reports",
+     "feature": "receipts",
      "polarity": "positive",
      "start": 0,
-     "end": 54
+     "end": 42,
+     "hard": true
+    },
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 48,
+     "end": 80
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0158": {
+  "KB-0125": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 27,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0126": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0127": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 19,
+     "end": 63
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0128": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 45
+    },
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 50,
+     "end": 82
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0129": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 44
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 45,
+     "end": 81
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0130": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "positive",
+     "start": 0,
+     "end": 28
+    },
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 29,
+     "end": 67
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0131": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "negative",
+     "start": 0,
+     "end": 35
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0132": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 50
+    },
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 51,
+     "end": 82
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0133": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0134": {
    "release": "3.2",
    "mentions": [
     {
      "feature": "speed",
-     "polarity": "negative",
+     "polarity": "positive",
      "start": 0,
-     "end": 47
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0159": {
-   "release": "3.2",
-   "mentions": [
+     "end": 45
+    },
     {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 30
+     "feature": "bill_alerts",
+     "polarity": "positive",
+     "start": 51,
+     "end": 96
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0160": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 15,
-     "end": 59
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0161": {
+  "KB-0135": {
    "release": "3.2",
    "mentions": [
     {
@@ -2247,161 +1961,70 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0162": {
+  "KB-0136": {
    "release": "3.2",
    "mentions": [
     {
      "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 50
+     "end": 46
     },
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 51,
-     "end": 128
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0163": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 40
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0164": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 30,
-     "end": 62
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0165": {
-   "release": "3.2",
-   "mentions": [
     {
      "feature": "receipts",
      "polarity": "positive",
-     "start": 0,
-     "end": 44
+     "start": 52,
+     "end": 103
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0166": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "neutral",
-     "start": 0,
-     "end": 26
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0167": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 37
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0168": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0169": {
-   "release": "3.1",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 43
-    },
-    {
-     "feature": "pricing",
-     "polarity": "positive",
-     "start": 44,
-     "end": 72
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0170": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 28
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0171": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 58
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 70,
-     "end": 124
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0172": {
+  "KB-0137": {
    "release": "3.2",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0173": {
+  "KB-0138": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 26,
+     "end": 64
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 70,
+     "end": 100
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0139": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0140": {
+   "release": "3.1",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 42
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0141": {
    "release": "3.2",
    "mentions": [
     {
@@ -2414,85 +2037,32 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0174": {
+  "KB-0142": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0143": {
    "release": "3.2",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "ads",
      "polarity": "negative",
      "start": 34,
-     "end": 103
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0175": {
-   "release": "3.2",
-   "mentions": [
+     "end": 79
+    },
     {
-     "feature": "bank_sync",
+     "feature": "receipts",
      "polarity": "negative",
-     "start": 0,
-     "end": 75
+     "start": 84,
+     "end": 121
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0176": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 38
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0177": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 36
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0178": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 55
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0179": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 15,
-     "end": 71
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0180": {
+  "KB-0144": {
    "release": "3.2",
    "mentions": [
     {
@@ -2505,76 +2075,189 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0181": {
-   "release": "3.3",
+  "KB-0145": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 34,
+     "end": 77
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0146": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 30,
+     "end": 78
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 83,
+     "end": 149
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0147": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 15,
+     "end": 77,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0148": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 68,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0149": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 27,
+     "end": 93,
+     "hard": true
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 94,
+     "end": 137
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0150": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 21,
+     "end": 74
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0151": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 134
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0152": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0153": {
+   "release": "3.2",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0182": {
-   "release": "3.3",
+  "KB-0154": {
+   "release": "3.2",
    "mentions": [
     {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 27,
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 15,
      "end": 71
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0183": {
-   "release": "3.3",
+  "KB-0155": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0156": {
+   "release": "3.2",
    "mentions": [
     {
      "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 44
+     "end": 30,
+     "hard": true
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0184": {
-   "release": "3.3",
+  "KB-0157": {
+   "release": "3.2",
    "mentions": [
     {
-     "feature": "bill_alerts",
-     "polarity": "positive",
-     "start": 19,
-     "end": 64
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 21,
+     "end": 83
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0185": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 28
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0186": {
-   "release": "3.3",
+  "KB-0158": {
+   "release": "3.2",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
-  "KB-0187": {
-   "release": "3.3",
+  "KB-0159": {
+   "release": "3.2",
    "mentions": [
     {
-     "feature": "budgets",
-     "polarity": "positive",
+     "feature": "reports",
+     "polarity": "negative",
      "start": 0,
      "end": 45
     }
@@ -2582,72 +2265,54 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0188": {
-   "release": "3.3",
+  "KB-0160": {
+   "release": "3.2",
    "mentions": [
     {
-     "feature": "app_lock",
-     "polarity": "positive",
+     "feature": "bank_sync",
+     "polarity": "negative",
      "start": 26,
-     "end": 80
+     "end": 53,
+     "hard": true
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0189": {
-   "release": "3.3",
+  "KB-0161": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 26
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0162": {
+   "release": "3.2",
    "mentions": [
     {
      "feature": "bank_sync",
      "polarity": "negative",
      "start": 0,
-     "end": 132
+     "end": 98
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0190": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 45
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0191": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
-  "KB-0192": {
+  "KB-0163": {
    "release": "3.2",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 32
-    },
-    {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 33,
-     "end": 84
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0193": {
-   "release": "3.3",
+  "KB-0164": {
+   "release": "3.2",
    "mentions": [
     {
      "feature": "budgets",
@@ -2659,148 +2324,8 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0194": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
-  "KB-0195": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 30,
-     "end": 73
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0196": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 0,
-     "end": 34
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0197": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0198": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 44
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0199": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 27,
-     "end": 82
-    },
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 83,
-     "end": 114
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0200": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "neutral",
-     "start": 0,
-     "end": 54
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0201": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0202": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 30,
-     "end": 76
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0203": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0204": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 64
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0205": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
-   "duplicate_of": null
-  },
-  "KB-0206": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0207": {
-   "release": "3.3",
+  "KB-0165": {
+   "release": "3.2",
    "mentions": [
     {
      "feature": "pricing",
@@ -2812,14 +2337,511 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0208": {
-   "release": "3.3",
+  "KB-0166": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0167": {
+   "release": "3.1",
    "mentions": [
     {
      "feature": "pricing",
      "polarity": "negative",
-     "start": 31,
-     "end": 67
+     "start": 0,
+     "end": 40
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 45,
+     "end": 95
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0168": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0169": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 30,
+     "end": 85
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0170": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 15,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0171": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 38
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0172": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 92,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0173": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 58
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0174": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0175": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 61
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0176": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 69
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0177": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 19,
+     "end": 70
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 71,
+     "end": 136
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0178": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "positive",
+     "start": 34,
+     "end": 60,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0179": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 15,
+     "end": 69
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0180": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 106
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0181": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 47
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0182": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 26,
+     "end": 79
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0183": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 32
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 39,
+     "end": 81,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0184": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 50
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0185": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "positive",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0186": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 0,
+     "end": 32
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0187": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0188": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "positive",
+     "start": 15,
+     "end": 60
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0189": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 30,
+     "end": 75,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0190": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 21,
+     "end": 60
+    },
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 61,
+     "end": 153,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0191": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 59
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0192": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 60
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0193": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 27,
+     "end": 55
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0194": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0195": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0196": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0197": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0198": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 33
+    },
+    {
+     "feature": "reports",
+     "polarity": "negative",
+     "start": 40,
+     "end": 85
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0199": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "spam",
+   "duplicate_of": null
+  },
+  "KB-0200": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "ticket_noise",
+   "duplicate_of": null
+  },
+  "KB-0201": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "neutral",
+     "start": 15,
+     "end": 69
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0202": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0203": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0204": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0205": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0206": {
+   "release": "3.2",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 26,
+     "end": 90
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0207": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 21,
+     "end": 75
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0208": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 56
     }
    ],
    "noise_kind": null,
@@ -2829,10 +2851,10 @@
    "release": "3.3",
    "mentions": [
     {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 43
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 21,
+     "end": 53
     }
    ],
    "noise_kind": null,
@@ -2841,23 +2863,37 @@
   "KB-0210": {
    "release": "3.3",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0211": {
    "release": "3.3",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "negative",
+     "start": 31,
+     "end": 68
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0212": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "budgets",
+     "feature": "reports",
      "polarity": "positive",
-     "start": 0,
-     "end": 32
+     "start": 27,
+     "end": 81
+    },
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 87,
+     "end": 129,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -2866,7 +2902,7 @@
   "KB-0213": {
    "release": "3.3",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0214": {
@@ -2879,16 +2915,10 @@
    "release": "3.3",
    "mentions": [
     {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 30,
-     "end": 70
-    },
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 78,
-     "end": 126
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 15,
+     "end": 42
     }
    ],
    "noise_kind": null,
@@ -2899,9 +2929,16 @@
    "mentions": [
     {
      "feature": "budgets",
-     "polarity": "neutral",
+     "polarity": "positive",
      "start": 0,
-     "end": 26
+     "end": 45
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 46,
+     "end": 94,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -2911,10 +2948,10 @@
    "release": "3.3",
    "mentions": [
     {
-     "feature": "budgets",
+     "feature": "pricing",
      "polarity": "negative",
-     "start": 27,
-     "end": 78
+     "start": 0,
+     "end": 36
     }
    ],
    "noise_kind": null,
@@ -2922,44 +2959,30 @@
   },
   "KB-0218": {
    "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "negative",
-     "start": 0,
-     "end": 43
-    },
-    {
-     "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 44,
-     "end": 104
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0219": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 21,
-     "end": 68
-    }
-   ],
-   "noise_kind": null,
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0220": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "receipts",
      "polarity": "positive",
-     "start": 15,
-     "end": 46
+     "start": 0,
+     "end": 44
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 45,
+     "end": 89
     }
    ],
    "noise_kind": null,
@@ -2967,25 +2990,18 @@
   },
   "KB-0221": {
    "release": "3.3",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 73
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0222": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "bill_alerts",
      "polarity": "positive",
      "start": 0,
-     "end": 34
+     "end": 45
     }
    ],
    "noise_kind": null,
@@ -2999,38 +3015,31 @@
   },
   "KB-0224": {
    "release": "3.3",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 43
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0225": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "budgets",
+     "feature": "pricing",
      "polarity": "negative",
      "start": 0,
-     "end": 53
+     "end": 30
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0226": {
-   "release": "3.2",
+   "release": "3.3",
    "mentions": [
     {
-     "feature": "bank_sync",
-     "polarity": "negative",
+     "feature": "budgets",
+     "polarity": "positive",
      "start": 0,
-     "end": 37
+     "end": 38
     }
    ],
    "noise_kind": null,
@@ -3038,14 +3047,28 @@
   },
   "KB-0227": {
    "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 15,
+     "end": 66
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0228": {
    "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_negative",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0229": {
@@ -3053,15 +3076,9 @@
    "mentions": [
     {
      "feature": "bill_alerts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 50
-    },
-    {
-     "feature": "receipts",
      "polarity": "positive",
-     "start": 62,
-     "end": 121
+     "start": 34,
+     "end": 79
     }
    ],
    "noise_kind": null,
@@ -3073,8 +3090,8 @@
     {
      "feature": "pricing",
      "polarity": "negative",
-     "start": 0,
-     "end": 51
+     "start": 15,
+     "end": 45
     }
    ],
    "noise_kind": null,
@@ -3082,37 +3099,36 @@
   },
   "KB-0231": {
    "release": "3.3",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0232": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0233": {
    "release": "3.3",
    "mentions": [
     {
      "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 54
-    },
-    {
-     "feature": "app_lock",
-     "polarity": "negative",
-     "start": 55,
-     "end": 89
+     "end": 46
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0233": {
+  "KB-0234": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0235": {
    "release": "3.3",
    "mentions": [
     {
@@ -3125,46 +3141,15 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0234": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0235": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 46
-    },
-    {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 47,
-     "end": 74
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
   "KB-0236": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "app_lock",
      "polarity": "positive",
-     "start": 0,
-     "end": 59
+     "start": 34,
+     "end": 92,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -3174,16 +3159,10 @@
    "release": "3.3",
    "mentions": [
     {
-     "feature": "export",
+     "feature": "pricing",
      "polarity": "negative",
      "start": 0,
-     "end": 37
-    },
-    {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 56,
-     "end": 106
+     "end": 36
     }
    ],
    "noise_kind": null,
@@ -3196,7 +3175,7 @@
      "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 46
+     "end": 31
     }
    ],
    "noise_kind": null,
@@ -3204,31 +3183,18 @@
   },
   "KB-0239": {
    "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 39
-    },
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 40,
-     "end": 88
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "off_topic",
    "duplicate_of": null
   },
   "KB-0240": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "budgets",
+     "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 45
+     "end": 55
     }
    ],
    "noise_kind": null,
@@ -3238,10 +3204,10 @@
    "release": "3.3",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
+     "feature": "bank_sync",
+     "polarity": "negative",
      "start": 0,
-     "end": 43
+     "end": 69
     }
    ],
    "noise_kind": null,
@@ -3250,326 +3216,36 @@
   "KB-0242": {
    "release": "3.3",
    "mentions": [],
-   "noise_kind": "off_topic",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0243": {
    "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 19,
+     "end": 65
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0244": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "reports",
      "polarity": "negative",
-     "start": 15,
-     "end": 81
+     "start": 0,
+     "end": 43
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0245": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "ads",
-     "polarity": "negative",
-     "start": 0,
-     "end": 33
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0246": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 15,
-     "end": 69
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0247": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
-   "duplicate_of": null
-  },
-  "KB-0248": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0249": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 46
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0250": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 26,
-     "end": 80
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0251": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 44
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0252": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "negative",
-     "start": 34,
-     "end": 68
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0253": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 21,
-     "end": 51
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0254": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "negative",
-     "start": 0,
-     "end": 48
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0255": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0256": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0257": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "positive",
-     "start": 26,
-     "end": 71
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0258": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0259": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0260": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0261": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0262": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 39
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0263": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0264": {
-   "release": "3.2",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 19,
-     "end": 64
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0265": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "positive",
-     "start": 0,
-     "end": 51
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0266": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0267": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "spam",
-   "duplicate_of": null
-  },
-  "KB-0268": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 32
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0269": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0270": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0271": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0272": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_negative",
-   "duplicate_of": null
-  },
-  "KB-0273": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "positive",
-     "start": 0,
-     "end": 45
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0274": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 0,
-     "end": 47
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0275": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
-   "duplicate_of": null
-  },
-  "KB-0276": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "off_topic",
-   "duplicate_of": null
-  },
-  "KB-0277": {
    "release": "3.3",
    "mentions": [
     {
@@ -3582,96 +3258,179 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0278": {
+  "KB-0246": {
    "release": "3.3",
    "mentions": [
     {
      "feature": "receipts",
-     "polarity": "positive",
+     "polarity": "negative",
      "start": 0,
-     "end": 56
+     "end": 59
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0279": {
+  "KB-0247": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 14,
+     "end": 63
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0248": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0249": {
    "release": "3.3",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0280": {
+  "KB-0250": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "export",
-     "polarity": "neutral",
+     "feature": "budgets",
+     "polarity": "positive",
      "start": 0,
-     "end": 64
+     "end": 33
+    },
+    {
+     "feature": "app_lock",
+     "polarity": "negative",
+     "start": 34,
+     "end": 68
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0281": {
+  "KB-0251": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "ads",
+     "polarity": "negative",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0252": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "ticket_noise",
+   "duplicate_of": null
+  },
+  "KB-0253": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0254": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 26
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0255": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 45
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0256": {
    "release": "3.3",
    "mentions": [],
    "noise_kind": "generic_negative",
    "duplicate_of": null
   },
-  "KB-0282": {
+  "KB-0257": {
    "release": "3.3",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0283": {
+  "KB-0258": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "bank_sync",
+     "feature": "reports",
      "polarity": "positive",
      "start": 0,
-     "end": 43
+     "end": 66,
+     "hard": true
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0284": {
+  "KB-0259": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "pricing",
+     "feature": "budgets",
      "polarity": "negative",
      "start": 0,
-     "end": 51
+     "end": 53
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0285": {
+  "KB-0260": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "ticket_noise",
+   "duplicate_of": null
+  },
+  "KB-0261": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "positive",
+     "start": 0,
+     "end": 28
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0262": {
    "release": "3.3",
    "mentions": [],
    "noise_kind": "generic_positive",
    "duplicate_of": null
   },
-  "KB-0286": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 30
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0287": {
+  "KB-0263": {
    "release": "3.3",
    "mentions": [
     {
@@ -3684,20 +3443,301 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0288": {
+  "KB-0264": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0265": {
    "release": "3.3",
    "mentions": [
     {
      "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0266": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 55
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0267": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "pricing",
      "polarity": "negative",
-     "start": 34,
-     "end": 77
+     "start": 15,
+     "end": 66
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0268": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 0,
+     "end": 41,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0269": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bill_alerts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 50
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0270": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0271": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "speed",
+     "polarity": "negative",
+     "start": 19,
+     "end": 74,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0272": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0273": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 46
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0274": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 30,
+     "end": 74
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0275": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 0,
+     "end": 44
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0276": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 27,
+     "end": 57,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0277": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 129
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0278": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 0,
+     "end": 36
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0279": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "app_lock",
+     "polarity": "negative",
+     "start": 0,
+     "end": 34
     },
     {
      "feature": "budgets",
      "polarity": "positive",
-     "start": 89,
-     "end": 127
+     "start": 53,
+     "end": 86
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0280": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0281": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 31,
+     "end": 52,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0282": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0283": {
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0284": {
+   "release": "3.2",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0285": {
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0286": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 82
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0287": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "positive",
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0288": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "export",
+     "polarity": "neutral",
+     "start": 31,
+     "end": 95
     }
    ],
    "noise_kind": null,
@@ -3705,33 +3745,54 @@
   },
   "KB-0289": {
    "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0290": {
    "release": "3.3",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "bank_sync",
      "polarity": "positive",
-     "start": 26,
-     "end": 72
+     "start": 0,
+     "end": 34
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0291": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "negative",
+     "start": 0,
+     "end": 47
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0292": {
    "release": "3.4",
-   "mentions": [],
-   "noise_kind": "generic_negative",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0293": {
@@ -3740,8 +3801,8 @@
     {
      "feature": "receipts",
      "polarity": "negative",
-     "start": 0,
-     "end": 59
+     "start": 30,
+     "end": 64
     }
    ],
    "noise_kind": null,
@@ -3754,13 +3815,7 @@
      "feature": "pricing",
      "polarity": "negative",
      "start": 0,
-     "end": 30
-    },
-    {
-     "feature": "bank_sync",
-     "polarity": "negative",
-     "start": 36,
-     "end": 86
+     "end": 36
     }
    ],
    "noise_kind": null,
@@ -3770,16 +3825,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "app_lock",
-     "polarity": "positive",
-     "start": 0,
-     "end": 54
-    },
-    {
      "feature": "bank_sync",
      "polarity": "positive",
-     "start": 59,
-     "end": 102
+     "start": 19,
+     "end": 53
     }
    ],
    "noise_kind": null,
@@ -3787,38 +3836,30 @@
   },
   "KB-0296": {
    "release": "3.4",
-   "mentions": [
-    {
-     "feature": "speed",
-     "polarity": "positive",
-     "start": 14,
-     "end": 43
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0297": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 0,
-     "end": 46
-    }
-   ],
-   "noise_kind": null,
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "ticket_noise",
    "duplicate_of": null
   },
   "KB-0298": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "export",
      "polarity": "negative",
      "start": 0,
-     "end": 46
+     "end": 37
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 49,
+     "end": 93
     }
    ],
    "noise_kind": null,
@@ -3826,25 +3867,18 @@
   },
   "KB-0299": {
    "release": "3.4",
-   "mentions": [
-    {
-     "feature": "export",
-     "polarity": "negative",
-     "start": 0,
-     "end": 48
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "spam",
    "duplicate_of": null
   },
   "KB-0300": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "app_lock",
+     "feature": "receipts",
      "polarity": "negative",
      "start": 0,
-     "end": 35
+     "end": 74
     }
    ],
    "noise_kind": null,
@@ -3854,10 +3888,16 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "pricing",
+     "feature": "budgets",
      "polarity": "negative",
      "start": 0,
-     "end": 36
+     "end": 44
+    },
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 56,
+     "end": 95
     }
    ],
    "noise_kind": null,
@@ -3865,33 +3905,34 @@
   },
   "KB-0302": {
    "release": "3.4",
+   "mentions": [],
+   "noise_kind": "generic_positive",
+   "duplicate_of": null
+  },
+  "KB-0303": {
+   "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "budgets",
      "polarity": "positive",
      "start": 0,
-     "end": 44
-    },
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 45,
-     "end": 107
+     "end": 38
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0303": {
-   "release": "3.4",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
-   "duplicate_of": null
-  },
   "KB-0304": {
-   "release": "3.4",
-   "mentions": [],
-   "noise_kind": "spam",
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 31
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0305": {
@@ -3899,15 +3940,9 @@
    "mentions": [
     {
      "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 46
-    },
-    {
-     "feature": "budgets",
-     "polarity": "negative",
-     "start": 53,
-     "end": 97
+     "polarity": "positive",
+     "start": 14,
+     "end": 65
     }
    ],
    "noise_kind": null,
@@ -3917,93 +3952,24 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "speed",
+     "feature": "pricing",
      "polarity": "negative",
-     "start": 0,
-     "end": 48
+     "start": 14,
+     "end": 62,
+     "hard": true
     },
     {
-     "feature": "bank_sync",
+     "feature": "receipts",
      "polarity": "negative",
-     "start": 53,
-     "end": 91
+     "start": 63,
+     "end": 128,
+     "hard": true
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0307": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 56
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0308": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 30,
-     "end": 86
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0309": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "shared_budgets",
-     "polarity": "positive",
-     "start": 0,
-     "end": 43
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0310": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "budgets",
-     "polarity": "positive",
-     "start": 31,
-     "end": 76
-    },
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 77,
-     "end": 121
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0311": {
-   "release": "3.3",
-   "mentions": [
-    {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 0,
-     "end": 36
-    }
-   ],
-   "noise_kind": null,
-   "duplicate_of": null
-  },
-  "KB-0312": {
    "release": "3.3",
    "mentions": [
     {
@@ -4016,20 +3982,78 @@
    "noise_kind": null,
    "duplicate_of": null
   },
-  "KB-0313": {
+  "KB-0308": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 84
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0309": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 55
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0310": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "receipts",
+     "polarity": "negative",
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "noise_kind": null,
+   "duplicate_of": null
+  },
+  "KB-0311": {
    "release": "3.4",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "off_topic",
+   "duplicate_of": null
+  },
+  "KB-0312": {
+   "release": "3.4",
+   "mentions": [],
+   "noise_kind": "generic_negative",
+   "duplicate_of": null
+  },
+  "KB-0313": {
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "neutral",
+     "start": 0,
+     "end": 56
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0314": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
-     "start": 14,
-     "end": 68
+     "feature": "shared_budgets",
+     "polarity": "negative",
+     "start": 0,
+     "end": 48
     }
    ],
    "noise_kind": null,
@@ -4039,41 +4063,49 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
-     "polarity": "negative",
+     "feature": "reports",
+     "polarity": "positive",
      "start": 0,
-     "end": 85
+     "end": 50
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0316": {
-   "release": "3.4",
+   "release": "3.3",
    "mentions": [],
-   "noise_kind": "ticket_noise",
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0317": {
    "release": "3.4",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "shared_budgets",
+     "polarity": "negative",
+     "start": 21,
+     "end": 67
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0318": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "shared_budgets",
      "polarity": "negative",
      "start": 0,
-     "end": 37
+     "end": 49
     },
     {
-     "feature": "budgets",
+     "feature": "speed",
      "polarity": "positive",
-     "start": 49,
-     "end": 92
+     "start": 54,
+     "end": 80,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -4093,31 +4125,30 @@
   },
   "KB-0321": {
    "release": "3.4",
-   "mentions": [
-    {
-     "feature": "shared_budgets",
-     "polarity": "negative",
-     "start": 0,
-     "end": 48
-    }
-   ],
-   "noise_kind": null,
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0322": {
    "release": "3.4",
    "mentions": [],
-   "noise_kind": "generic_positive",
+   "noise_kind": "generic_negative",
    "duplicate_of": null
   },
   "KB-0323": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
+     "feature": "budgets",
+     "polarity": "negative",
      "start": 27,
-     "end": 58
+     "end": 80
+    },
+    {
+     "feature": "pricing",
+     "polarity": "negative",
+     "start": 81,
+     "end": 121
     }
    ],
    "noise_kind": null,
@@ -4127,42 +4158,30 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "shared_budgets",
+     "feature": "pricing",
      "polarity": "negative",
-     "start": 0,
-     "end": 46
-    },
-    {
-     "feature": "bill_alerts",
-     "polarity": "positive",
-     "start": 65,
-     "end": 110
+     "start": 26,
+     "end": 77
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0325": {
-   "release": "3.4",
-   "mentions": [
-    {
-     "feature": "shared_budgets",
-     "polarity": "negative",
-     "start": 0,
-     "end": 49
-    }
-   ],
-   "noise_kind": null,
+   "release": "3.3",
+   "mentions": [],
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0326": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "reports",
      "polarity": "positive",
-     "start": 34,
-     "end": 90
+     "start": 0,
+     "end": 66,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -4172,10 +4191,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "export",
-     "polarity": "neutral",
-     "start": 34,
-     "end": 98
+     "feature": "shared_budgets",
+     "polarity": "positive",
+     "start": 0,
+     "end": 51
     }
    ],
    "noise_kind": null,
@@ -4185,10 +4204,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "bill_alerts",
-     "polarity": "negative",
+     "feature": "budgets",
+     "polarity": "positive",
      "start": 0,
-     "end": 58
+     "end": 45
     }
    ],
    "noise_kind": null,
@@ -4196,56 +4215,71 @@
   },
   "KB-0329": {
    "release": "3.4",
-   "mentions": [],
-   "noise_kind": "generic_positive",
+   "mentions": [
+    {
+     "feature": "bank_sync",
+     "polarity": "positive",
+     "start": 0,
+     "end": 41,
+     "hard": true
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0330": {
-   "release": "3.3",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "release": "3.4",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "negative",
+     "start": 0,
+     "end": 43
+    },
+    {
+     "feature": "budgets",
+     "polarity": "positive",
+     "start": 55,
+     "end": 87
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0331": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
+     "feature": "speed",
+     "polarity": "negative",
      "start": 0,
-     "end": 54
+     "end": 109
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0332": {
-   "release": "3.3",
+   "release": "3.4",
    "mentions": [
     {
-     "feature": "speed",
+     "feature": "bank_sync",
      "polarity": "negative",
      "start": 0,
-     "end": 28
+     "end": 97
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0333": {
-   "release": "3.4",
+   "release": "3.3",
    "mentions": [
-    {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 0,
-     "end": 59
-    },
     {
      "feature": "reports",
      "polarity": "positive",
-     "start": 64,
-     "end": 114
+     "start": 0,
+     "end": 31
     }
    ],
    "noise_kind": null,
@@ -4255,10 +4289,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "shared_budgets",
-     "polarity": "positive",
-     "start": 27,
-     "end": 78
+     "feature": "app_lock",
+     "polarity": "negative",
+     "start": 19,
+     "end": 54
     }
    ],
    "noise_kind": null,
@@ -4268,10 +4302,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "budgets",
+     "feature": "bill_alerts",
      "polarity": "positive",
-     "start": 19,
-     "end": 51
+     "start": 0,
+     "end": 45
     }
    ],
    "noise_kind": null,
@@ -4279,24 +4313,38 @@
   },
   "KB-0336": {
    "release": "3.4",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "mentions": [
+    {
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0337": {
-   "release": "3.4",
-   "mentions": [],
-   "noise_kind": "ticket_noise",
+   "release": "3.3",
+   "mentions": [
+    {
+     "feature": "budgets",
+     "polarity": "negative",
+     "start": 0,
+     "end": 31
+    }
+   ],
+   "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0338": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
+     "feature": "app_lock",
      "polarity": "positive",
-     "start": 21,
-     "end": 72
+     "start": 27,
+     "end": 55
     }
    ],
    "noise_kind": null,
@@ -4306,16 +4354,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "bank_sync",
-     "polarity": "positive",
-     "start": 0,
-     "end": 34
-    },
-    {
-     "feature": "budgets",
+     "feature": "bill_alerts",
      "polarity": "negative",
-     "start": 35,
-     "end": 88
+     "start": 15,
+     "end": 65
     }
    ],
    "noise_kind": null,
@@ -4325,10 +4367,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "receipts",
-     "polarity": "negative",
-     "start": 21,
-     "end": 55
+     "feature": "reports",
+     "polarity": "positive",
+     "start": 15,
+     "end": 59
     }
    ],
    "noise_kind": null,
@@ -4338,10 +4380,11 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
-     "polarity": "positive",
+     "feature": "receipts",
+     "polarity": "negative",
      "start": 0,
-     "end": 54
+     "end": 66,
+     "hard": true
     }
    ],
    "noise_kind": null,
@@ -4351,10 +4394,10 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "reports",
+     "feature": "receipts",
      "polarity": "negative",
-     "start": 15,
-     "end": 60
+     "start": 0,
+     "end": 73
     }
    ],
    "noise_kind": null,
@@ -4364,29 +4407,29 @@
    "release": "3.4",
    "mentions": [
     {
-     "feature": "budgets",
-     "polarity": "neutral",
+     "feature": "reports",
+     "polarity": "positive",
      "start": 0,
-     "end": 26
+     "end": 46
     }
    ],
    "noise_kind": null,
    "duplicate_of": null
   },
   "KB-0344": {
-   "release": "3.4",
+   "release": "3.3",
    "mentions": [],
-   "noise_kind": "ticket_noise",
+   "noise_kind": "generic_positive",
    "duplicate_of": null
   },
   "KB-0345": {
    "release": "3.4",
    "mentions": [
     {
-     "feature": "pricing",
-     "polarity": "negative",
-     "start": 14,
-     "end": 50
+     "feature": "shared_budgets",
+     "polarity": "positive",
+     "start": 15,
+     "end": 58
     }
    ],
    "noise_kind": null,

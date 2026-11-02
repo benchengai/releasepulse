@@ -95,11 +95,16 @@ SPEC = {
                 "Every time I enter my password it flashes and returns to the sign in screen.",
                 "can't get past sign in on my {device}, tried reinstalling",
                 "Logging in is impossible since 2.1, it goes round in circles.",
+                "~I typed my password five times today and I'm still looking at the welcome screen.",
+                "~Great, another update and I'm locked out again. Love that for me.",
+                "~Can't even get into my own account lol",
+                "~signin broke agin after updte",
             ],
             "pos": [
                 "Signing in with my Google account took two seconds.",
                 "Login with Face ID is smooth.",
                 "Love that I can sign in with Apple and skip another password.",
+                "~Getting into my account is painless now.",
             ],
             "ticket_neg": [
                 "Login loop after updating to {version_seen}. Device: {device}. Steps: open app, tap Sign in, "
@@ -127,6 +132,9 @@ SPEC = {
                 "My shopping list didn't sync until I was already out of the shop.",
                 "It takes {minutes} minutes for a new note to sync to my {computer}.",
                 "Syncing large notebooks crawls.",
+                "~I added milk to the list on my laptop and my phone found out about it twenty minutes later.",
+                "~sync 🐌🐌🐌",
+                "~Love waiting ten minutes for my notes to show up on my phone. Really.",
             ],
             "pos": [
                 "Sync is instant now, nice work on the fix.",
@@ -134,6 +142,8 @@ SPEC = {
                 "Sync got so much faster in this version.",
                 "The new sync is quick, my {computer} and phone are always in step.",
                 "Finally sync just works and it's fast.",
+                "~Sync isn't slow anymore, finally.",
+                "~Edits on my laptop are on my phone before I've even picked it up.",
             ],
             "ticket_neg": [
                 "Sync latency of several minutes between {computer} and {device}. Edits made on one device take "
@@ -164,6 +174,8 @@ SPEC = {
                 "The offline support is rock solid.",
                 "Great that I can write notes with zero bars of signal.",
                 "Offline editing on my {device} is flawless.",
+                "~Zero bars in the mountains and I still had every note.",
+                "~Airplane mode doesn't bother it at all.",
             ],
             "ticket_neg": [
                 "Notebooks unavailable offline. In airplane mode on {device}, notebooks not opened in the last "
@@ -183,6 +195,8 @@ SPEC = {
                 "I searched for a phone number I saved and got nothing.",
                 "The search bar ignores tags.",
                 "Search misses half of my notes.",
+                "~I know I wrote down the wifi password somewhere but the app refuses to find it.",
+                "~Search is not exactly reliable.",
             ],
             "pos": [
                 "Search finds anything instantly.",
@@ -213,11 +227,15 @@ SPEC = {
                 "reminders worked fine before, now they just don't ring",
                 "The daily reminder fires at random times now.",
                 "Snoozed reminders never come back.",
+                "~My 9am 'take meds' alert showed up at lunch.",
+                "~Great, the to-do I set for my dentist appointment never pinged me.",
+                "~remnders dont go off anymore",
             ],
             "pos": [
                 "The reminders are reliable and easy to set.",
                 "Love the location-based reminders.",
                 "Reminders are the best part, they never miss.",
+                "~Haven't missed a deadline since I started setting alerts in here.",
             ],
             "ticket_neg": [
                 "Scheduled reminders not delivered on {version_seen}. Reminder set for {time} on {device}; no "
@@ -267,6 +285,7 @@ SPEC = {
                 "The subscription price went up again.",
                 "Too expensive compared to the free alternatives.",
                 "Paying yearly and still getting upsell popups.",
+                "~Seven bucks a month to write lists? No thanks.",
             ],
             "pos": [
                 "Fair price for what you get.",
@@ -288,6 +307,7 @@ SPEC = {
                 "The editor is clean and distraction free.",
                 "I like that headings and bold just work.",
                 "Drag to reorder checklist items is so satisfying.",
+                "~Writing in it feels nice and clean.",
             ],
             "ticket_neg": [
                 "Pasting rich text breaks bullet list formatting. Paste a bulleted list from an email into a note "
@@ -318,6 +338,7 @@ SPEC = {
                 "The app crashes on launch on my {device}.",
                 "Crashes every time I rotate the screen.",
                 "Froze and closed twice while I was typing.",
+                "~It just closes itself when I open my big notes.",
             ],
             "ticket_neg": [
                 "Crash when opening notes over 50 KB on {device}. Stack trace attached. {version_seen}.",
